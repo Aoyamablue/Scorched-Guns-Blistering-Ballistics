@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: scguns_bb
+Specification-Vendor: Blumountain
+Specification-Version: 1
+Implementation-Title: Scorched-Guns-Blistering-Ballistics
+Implementation-Version: 1.0
+Implementation-Vendor: Blumountain
+Implementation-Timestamp: 2025-10-22T13:29:20-0300
+
