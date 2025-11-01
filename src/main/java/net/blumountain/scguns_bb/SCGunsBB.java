@@ -32,7 +32,6 @@ public class SCGunsBB
     {
         IEventBus modEventBus = context.getModEventBus();
 
-
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 

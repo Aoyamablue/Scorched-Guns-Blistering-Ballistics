@@ -18,7 +18,7 @@ public enum BBSpecialModels {
     STRUMM88_NO_SIGHTS("strumm88/no_sights"),
     STRUMM88_BOLT("strumm88/bolt"),
     STRUMM88_STOCK_LIGHT("strumm88/light_stock"),
-    STRUMM88_STOCK_HEAVY("strumm88/stock_weighted"),
+    STRUMM88_STOCK_HEAVY("strumm88/heavy_stock"),
     STRUMM88_STOCK_WOODEN("strumm88/wooden_stock"),
     STRUMM88_SILENCER("strumm88/silencer"),
     STRUMM88_ADVANCED_SILENCER("strumm88/advanced_silencer"),
