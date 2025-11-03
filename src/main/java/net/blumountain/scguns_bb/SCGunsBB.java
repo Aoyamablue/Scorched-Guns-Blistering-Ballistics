@@ -15,7 +15,6 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
-import top.ribs.scguns.common.ProjectileManager;
 import net.blumountain.scguns_bb.registries.ModItems;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -31,6 +30,10 @@ public class SCGunsBB
     public SCGunsBB(FMLJavaModLoadingContext context)
     {
         IEventBus modEventBus = context.getModEventBus();
+
+
+        //modEventBus.addListener(this::commonSetup);
+
 
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);

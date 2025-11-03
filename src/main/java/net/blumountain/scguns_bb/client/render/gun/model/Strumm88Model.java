@@ -1,7 +1,7 @@
 package net.blumountain.scguns_bb.client.render.gun.model;
 
 import com.mojang.blaze3d.vertex.PoseStack;
-import net.blumountain.scguns_bb.events.client.BBSpecialModels;
+import net.blumountain.scguns_bb.client.BBSpecialModels;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.world.entity.LivingEntity;
@@ -78,8 +78,6 @@ public class Strumm88Model implements IOverrideModel {
                 RenderUtil.renderModel(BBSpecialModels.STRUMM88_EXTENDED_MAG.getModel(), stack, matrixStack, buffer, light, overlay);
             if (Gun.getAttachment(IAttachment.Type.MAGAZINE, stack).getItem() == ModItems.SPEED_MAG.get())
                 RenderUtil.renderModel(BBSpecialModels.STRUMM88_SPEED_MAG.getModel(), stack, matrixStack, buffer, light, overlay);
-            if (Gun.getAttachment(IAttachment.Type.MAGAZINE, stack).getItem() == ModItems.PLUS_P_MAG.get())
-                RenderUtil.renderModel(BBSpecialModels.STRUMM88_EXTENDED_MAG.getModel(), stack, matrixStack, buffer, light, overlay);
         } else {
             RenderUtil.renderModel(BBSpecialModels.STRUMM88_STANDARD_MAG.getModel(), stack, matrixStack, buffer, light, overlay);
         }
