@@ -1,5 +1,5 @@
 {
-	"format_version": "1.21.20",
+	"format_version": "1.12.0",
 	"minecraft:geometry": [
 		{
 			"description": {
@@ -12,13 +12,8 @@
 			},
 			"bones": [
 				{
-					"name": "gun_body2",
-					"pivot": [8, -8.9, -11.2]
-				},
-				{
 					"name": "gun_body",
-					"parent": "gun_body2",
-					"pivot": [0, 0, 0],
+					"pivot": [8, -8.9, -11.2],
 					"cubes": [
 						{
 							"origin": [-0.25, -3.8, 4.95],
@@ -244,14 +239,9 @@
 					"pivot": [0, 0, 0]
 				},
 				{
-					"name": "stan_mag",
+					"name": "default_mag",
 					"parent": "Magazine",
-					"pivot": [0, -0.5, 0]
-				},
-				{
-					"name": "group3",
-					"parent": "stan_mag",
-					"pivot": [0.125, -9.675, 1.7494],
+					"pivot": [0, -0.5, 0],
 					"cubes": [
 						{
 							"origin": [1.075, -5.3, -1.625],
@@ -282,12 +272,7 @@
 				{
 					"name": "speed_mag",
 					"parent": "Magazine",
-					"pivot": [0, -0.5, 0]
-				},
-				{
-					"name": "speedmag",
-					"parent": "speed_mag",
-					"pivot": [0.08947, -10.8125, 3.86719],
+					"pivot": [0, -0.5, 0],
 					"cubes": [
 						{
 							"origin": [7.5, -4.801, -1.875],
@@ -327,14 +312,9 @@
 					]
 				},
 				{
-					"name": "ext_mag",
+					"name": "extended_mag",
 					"parent": "Magazine",
-					"pivot": [0, -0.5, 0]
-				},
-				{
-					"name": "group",
-					"parent": "ext_mag",
-					"pivot": [0, -9.15, 1.8744],
+					"pivot": [0, -0.5, 0],
 					"cubes": [
 						{
 							"origin": [4.81226, -5.475, -1.775],
@@ -427,7 +407,7 @@
 					"pivot": [0, 0, 0]
 				},
 				{
-					"name": "barrel",
+					"name": "standard_barrel",
 					"parent": "Barrels",
 					"pivot": [0, -0.5, 0],
 					"cubes": [
@@ -609,7 +589,7 @@
 					]
 				},
 				{
-					"name": "ext_barrel",
+					"name": "extended_barrel",
 					"parent": "Barrels",
 					"pivot": [0, -0.5, 0],
 					"cubes": [
@@ -819,7 +799,7 @@
 					"pivot": [0, 0, 0]
 				},
 				{
-					"name": "stock_light",
+					"name": "light_stock",
 					"parent": "stocks",
 					"pivot": [0, -0.5, 0],
 					"cubes": [
@@ -876,7 +856,7 @@
 					]
 				},
 				{
-					"name": "stock_weighted",
+					"name": "weighted_stock",
 					"parent": "stocks",
 					"pivot": [0, -0.5, 0],
 					"cubes": [
@@ -987,7 +967,7 @@
 					]
 				},
 				{
-					"name": "stock_wooden",
+					"name": "wooden_stock",
 					"parent": "stocks",
 					"pivot": [0, -0.5, 0],
 					"cubes": [

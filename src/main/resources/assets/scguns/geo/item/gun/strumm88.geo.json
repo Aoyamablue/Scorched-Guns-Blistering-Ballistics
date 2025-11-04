@@ -6,7 +6,7 @@
 				"identifier": "geometry.stg44_채색 - Converted",
 				"texture_width": 64,
 				"texture_height": 64,
-				"visible_bounds_width": 3,
+				"visible_bounds_width": 4,
 				"visible_bounds_height": 2,
 				"visible_bounds_offset": [0, 0, 0]
 			},
@@ -475,7 +475,7 @@
 					"pivot": [0, 8, 0]
 				},
 				{
-					"name": "stock_light",
+					"name": "light_stock",
 					"parent": "stocks",
 					"pivot": [0, 8, 0],
 					"cubes": [
@@ -534,7 +534,7 @@
 					]
 				},
 				{
-					"name": "stock_weighted",
+					"name": "weighted_stock",
 					"parent": "stocks",
 					"pivot": [0, 8, 0],
 					"cubes": [
@@ -647,7 +647,7 @@
 					]
 				},
 				{
-					"name": "stock_wooden",
+					"name": "wooden_stock",
 					"parent": "stocks",
 					"pivot": [0, 8, 0],
 					"cubes": [
@@ -1271,7 +1271,7 @@
 					"pivot": [0, 8, 0]
 				},
 				{
-					"name": "stan_barrel",
+					"name": "standard_barrel",
 					"parent": "barrels",
 					"pivot": [0, 8, 0],
 					"cubes": [
@@ -1306,7 +1306,7 @@
 					]
 				},
 				{
-					"name": "ext_barrel",
+					"name": "extended_barrel",
 					"parent": "barrels",
 					"pivot": [0, 8, 0],
 					"cubes": [
@@ -1634,7 +1634,7 @@
 					]
 				},
 				{
-					"name": "stan_mag",
+					"name": "default_mag",
 					"parent": "magazine",
 					"pivot": [0, 8, 0],
 					"cubes": [
@@ -1697,7 +1697,7 @@
 					]
 				},
 				{
-					"name": "ext_mag",
+					"name": "extended_mag",
 					"parent": "magazine",
 					"pivot": [0, 8, 0],
 					"cubes": [

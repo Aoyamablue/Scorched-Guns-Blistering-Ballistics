@@ -15,7 +15,7 @@ import top.ribs.scguns.init.ModItems;
 import top.ribs.scguns.item.attachment.IAttachment;
 
 
-public class Strumm88Model implements IOverrideModel {
+public class PipegunModel implements IOverrideModel {
     @SuppressWarnings("resource")
     @Override
     public void render(float partialTicks, ItemDisplayContext transformType, ItemStack stack, ItemStack parent, LivingEntity entity, PoseStack matrixStack, MultiBufferSource buffer, int light, int overlay) {
@@ -44,13 +44,13 @@ public class Strumm88Model implements IOverrideModel {
     private void renderStockAttachments(ItemStack stack, PoseStack matrixStack, MultiBufferSource buffer, int light, int overlay) {
         if (Gun.hasAttachmentEquipped(stack, IAttachment.Type.STOCK)) {
             if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WOODEN_STOCK.get())
-                RenderUtil.renderModel(BBSpecialModels.STRUMM88_STOCK_WOODEN.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.PIPEGUN_STOCK_WOODEN.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.LIGHT_STOCK.get())
-                RenderUtil.renderModel(BBSpecialModels.STRUMM88_STOCK_LIGHT.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.PIPEGUN_STOCK_LIGHT.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WEIGHTED_STOCK.get())
-                RenderUtil.renderModel(BBSpecialModels.STRUMM88_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.PIPEGUN_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.BUMP_STOCK.get())
-                RenderUtil.renderModel(BBSpecialModels.STRUMM88_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.PIPEGUN_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
 
         }
     }
@@ -58,28 +58,28 @@ public class Strumm88Model implements IOverrideModel {
     private void renderUnderBarrelAttachments(ItemStack stack, PoseStack matrixStack, MultiBufferSource buffer, int light, int overlay) {
         if (Gun.hasAttachmentEquipped(stack, IAttachment.Type.UNDER_BARREL)) {
             if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.VERTICAL_GRIP.get())
-                RenderUtil.renderModel(BBSpecialModels.STRUMM88_STOCK_LIGHT.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.PIPEGUN_STOCK_LIGHT.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.LIGHT_GRIP.get())
-                RenderUtil.renderModel(BBSpecialModels.STRUMM88_GRIP_LIGHT.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.PIPEGUN_GRIP_LIGHT.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.IRON_BAYONET.get())
-                RenderUtil.renderModel(BBSpecialModels.STRUMM88_IRON_BAYONET.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.PIPEGUN_IRON_BAYONET.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.ANTHRALITE_BAYONET.get())
-                RenderUtil.renderModel(BBSpecialModels.STRUMM88_ANTHRALITE_BAYONET.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.PIPEGUN_ANTHRALITE_BAYONET.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.DIAMOND_BAYONET.get())
-                RenderUtil.renderModel(BBSpecialModels.STRUMM88_DIAMOND_BAYONET.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.PIPEGUN_DIAMOND_BAYONET.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.NETHERITE_BAYONET.get())
-                RenderUtil.renderModel(BBSpecialModels.STRUMM88_NETHERITE_BAYONET.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.PIPEGUN_NETHERITE_BAYONET.getModel(), stack, matrixStack, buffer, light, overlay);
         }
     }
 
     private void renderMagazineAttachments(ItemStack stack, PoseStack matrixStack, MultiBufferSource buffer, int light, int overlay) {
         if (Gun.hasAttachmentEquipped(stack, IAttachment.Type.MAGAZINE)) {
             if (Gun.getAttachment(IAttachment.Type.MAGAZINE, stack).getItem() == ModItems.EXTENDED_MAG.get())
-                RenderUtil.renderModel(BBSpecialModels.STRUMM88_EXTENDED_MAG.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.PIPEGUN_EXTENDED_MAG.getModel(), stack, matrixStack, buffer, light, overlay);
             if (Gun.getAttachment(IAttachment.Type.MAGAZINE, stack).getItem() == ModItems.SPEED_MAG.get())
-                RenderUtil.renderModel(BBSpecialModels.STRUMM88_SPEED_MAG.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.PIPEGUN_SPEED_MAG.getModel(), stack, matrixStack, buffer, light, overlay);
         } else {
-            RenderUtil.renderModel(BBSpecialModels.STRUMM88_STANDARD_MAG.getModel(), stack, matrixStack, buffer, light, overlay);
+            RenderUtil.renderModel(BBSpecialModels.PIPEGUN_STANDARD_MAG.getModel(), stack, matrixStack, buffer, light, overlay);
         }
     }
 
@@ -88,17 +88,17 @@ public class Strumm88Model implements IOverrideModel {
 
         if (Gun.hasAttachmentEquipped(stack, IAttachment.Type.BARREL)) {
             if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItems.EXTENDED_BARREL.get()) {
-                RenderUtil.renderModel(BBSpecialModels.STRUMM88_EXT_BARREL.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.PIPEGUN_EXT_BARREL.getModel(), stack, matrixStack, buffer, light, overlay);
                 hasExtendedBarrel = true;
             } else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItems.SILENCER.get())
-                RenderUtil.renderModel(BBSpecialModels.STRUMM88_SILENCER.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.PIPEGUN_SILENCER.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItems.ADVANCED_SILENCER.get())
-                RenderUtil.renderModel(BBSpecialModels.STRUMM88_ADVANCED_SILENCER.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.PIPEGUN_ADVANCED_SILENCER.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItems.MUZZLE_BRAKE.get())
-                RenderUtil.renderModel(BBSpecialModels.STRUMM88_MUZZLE_BRAKE.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.PIPEGUN_MUZZLE_BRAKE.getModel(), stack, matrixStack, buffer, light, overlay);
         }
         if (!hasExtendedBarrel) {
-            RenderUtil.renderModel(BBSpecialModels.STRUMM88_STAN_BARREL.getModel(), stack, matrixStack, buffer, light, overlay);
+            RenderUtil.renderModel(BBSpecialModels.PIPEGUN_STAN_BARREL.getModel(), stack, matrixStack, buffer, light, overlay);
         }
     }
 

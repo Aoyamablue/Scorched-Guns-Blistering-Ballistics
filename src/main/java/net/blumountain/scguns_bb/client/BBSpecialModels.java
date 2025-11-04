@@ -35,6 +35,29 @@ public enum BBSpecialModels {
     STRUMM88_SPEED_MAG("strumm88/speed_mag"),
     STRUMM88_STAN_BARREL("strumm88/stan_barrel"),
     STRUMM88_EXT_BARREL("strumm88/ext_barrel"),
+
+    //Pipegun
+    PIPEGUN_MAIN("pipegun/main"),
+    PIPEGUN_SIGHTS("pipegun/sights"),
+    PIPEGUN_NO_SIGHTS("pipegun/no_sights"),
+    PIPEGUN_BOLT("pipegun/bolt"),
+    PIPEGUN_STOCK_LIGHT("pipegun/light_stock"),
+    PIPEGUN_STOCK_HEAVY("pipegun/heavy_stock"),
+    PIPEGUN_STOCK_WOODEN("pipegun/wooden_stock"),
+    PIPEGUN_SILENCER("pipegun/silencer"),
+    PIPEGUN_ADVANCED_SILENCER("pipegun/advanced_silencer"),
+    PIPEGUN_MUZZLE_BRAKE("pipegun/muzzle_brake"),
+    PIPEGUN_GRIP_LIGHT("pipegun/light_grip"),
+    PIPEGUN_GRIP_VERTICAL("pipegun/tact_grip"),
+    PIPEGUN_IRON_BAYONET("pipegun/iron_bayonet"),
+    PIPEGUN_ANTHRALITE_BAYONET("pipegun/anthralite_bayonet"),
+    PIPEGUN_DIAMOND_BAYONET("pipegun/diamond_bayonet"),
+    PIPEGUN_NETHERITE_BAYONET("pipegun/netherite_bayonet"),
+    PIPEGUN_STANDARD_MAG("pipegun/stan_mag"),
+    PIPEGUN_EXTENDED_MAG("pipegun/ext_mag"),
+    PIPEGUN_SPEED_MAG("pipegun/speed_mag"),
+    PIPEGUN_STAN_BARREL("pipegun/stan_barrel"),
+    PIPEGUN_EXT_BARREL("pipegun/ext_barrel"),
     ;
 
     /**

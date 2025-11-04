@@ -18,6 +18,7 @@ public class ModCreativeTabs {
 
     public static final RegistryObject<CreativeModeTab> SCGUNS_BB_TAB = CREATIVE_MODE_TABS.register("scguns_bb_tab", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.STRUMM88.get())).title(Component.translatable("creativetab.scguns_bb_tab")).displayItems((pParameters, pOutput) -> {
         addItemWithFullAmmo(pOutput, ModItems.STRUMM88.get());
+        addItemWithFullAmmo(pOutput, ModItems.PIPEGUN.get());
 
     }).build());
 
