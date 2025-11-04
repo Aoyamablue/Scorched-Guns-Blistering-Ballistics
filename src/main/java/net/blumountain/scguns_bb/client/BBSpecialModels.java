@@ -1,3 +1,4 @@
+
 package net.blumountain.scguns_bb.client;
 
 import net.minecraft.client.Minecraft;
@@ -7,7 +8,6 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.ModelEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import top.ribs.scguns.Reference;
 
 import static net.blumountain.scguns_bb.SCGunsBB.MOD_ID;
 

@@ -1,3 +1,4 @@
+
 package net.blumountain.scguns_bb;
 
 import com.mojang.logging.LogUtils;

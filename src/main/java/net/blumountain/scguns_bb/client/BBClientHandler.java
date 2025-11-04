@@ -28,6 +28,7 @@ public class BBClientHandler {
 
     private static void registerModelOverrides() {
         ModelOverrides.register(ModItems.STRUMM88.get(), new Strumm88Model());
+        ModelOverrides.register(ModItems.PIPEGUN.get(), new PipegunModel());
 
 
     }}
