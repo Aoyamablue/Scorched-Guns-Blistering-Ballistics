@@ -25,7 +25,7 @@
   "modules": {
     "attachments": {
       "barrel": {
-        "yOffset": 4.9,
+        "yOffset": 4.3,
         "zOffset": -10.0
       },
       "scope": {
