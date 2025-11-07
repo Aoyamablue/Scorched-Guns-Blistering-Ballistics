@@ -227,13 +227,13 @@
 					"pivot": [0, 0, 0]
 				},
 				{
-					"name": "bolt2",
+					"name": "no_sights",
 					"parent": "body",
-					"pivot": [-0.125, -1.57733, -1.84767]
+					"pivot": [0, 8, 0]
 				},
 				{
 					"name": "Bolt",
-					"parent": "bolt2",
+					"parent": "body",
 					"pivot": [0.125, -1.57733, -1.84767],
 					"cubes": [
 						{
@@ -419,13 +419,13 @@
 					]
 				},
 				{
-					"name": "tact_grip",
+					"name": "vertical_grip",
 					"parent": "Bolt",
 					"pivot": [0, 8, 0]
 				},
 				{
 					"name": "TactGrip",
-					"parent": "tact_grip",
+					"parent": "vertical_grip",
 					"pivot": [-0.00947, 0.335, -0.02625],
 					"cubes": [
 						{
@@ -481,11 +481,6 @@
 							}
 						}
 					]
-				},
-				{
-					"name": "no_sights",
-					"parent": "body",
-					"pivot": [0, 8, 0]
 				},
 				{
 					"name": "grips",
@@ -686,7 +681,7 @@
 					"pivot": [0, 0, 0]
 				},
 				{
-					"name": "ext_barrel",
+					"name": "extended_barrel",
 					"parent": "barrels",
 					"pivot": [0, 8, 0],
 					"cubes": [
@@ -775,13 +770,69 @@
 					]
 				},
 				{
-					"name": "silencer2",
+					"name": "advanced_silencer",
 					"parent": "barrels",
 					"pivot": [0, 8, 0]
 				},
 				{
+					"name": "advancedSilencer",
+					"parent": "advanced_silencer",
+					"pivot": [-0.22981, 4.8, -11.05],
+					"cubes": [
+						{
+							"origin": [-0.85303, -6.725, -12.6625],
+							"size": [1.5, 1.5, 4.575],
+							"pivot": [-0.05303, -6.1, -11.15],
+							"rotation": [0, 0, 45],
+							"uv": {
+								"north": {"uv": [29, 23], "uv_size": [1.5, 1.5]},
+								"east": {"uv": [17, 10], "uv_size": [4.5, 1.5]},
+								"south": {"uv": [2, 30], "uv_size": [1.5, 1.5]},
+								"west": {"uv": [17, 12], "uv_size": [4.5, 1.5]},
+								"up": {"uv": [16, 17], "uv_size": [1.5, 4.5]},
+								"down": {"uv": [18, 21.5], "uv_size": [1.5, -4.5]}
+							}
+						},
+						{
+							"origin": [-0.67981, -6.375, -8.0875],
+							"size": [1.15, 1.15, 0.5],
+							"pivot": [-0.22981, -6, -10.65],
+							"rotation": [0, 0, 45],
+							"uv": {
+								"north": {"uv": [15, 36], "uv_size": [1, 1]},
+								"east": {"uv": [39, 4], "uv_size": [0.5, 1]},
+								"south": {"uv": [16, 36], "uv_size": [1, 1]},
+								"west": {"uv": [5, 39], "uv_size": [0.5, 1]},
+								"up": {"uv": [39, 5], "uv_size": [1, 0.5]},
+								"down": {"uv": [6, 39.5], "uv_size": [1, -0.5]}
+							}
+						}
+					]
+				},
+				{
+					"name": "standard_barrel",
+					"parent": "barrels",
+					"pivot": [0, 8, 0],
+					"cubes": [
+						{
+							"origin": [-0.21967, -5.96845, -8.2],
+							"size": [0.75, 0.75, 11.75],
+							"pivot": [0.53033, -5.96845, -4.14767],
+							"rotation": [0, 0, -45],
+							"uv": {
+								"north": {"uv": [36, 16], "uv_size": [1, 1]},
+								"east": {"uv": [2, 10], "uv_size": [12, 1]},
+								"south": {"uv": [17, 36], "uv_size": [1, 1]},
+								"west": {"uv": [11, 0], "uv_size": [12, 1]},
+								"up": {"uv": [2, 11], "uv_size": [1, 12]},
+								"down": {"uv": [3, 23], "uv_size": [1, -12]}
+							}
+						}
+					]
+				},
+				{
 					"name": "Silencer",
-					"parent": "silencer2",
+					"parent": "barrels",
 					"pivot": [-2.25303, 3.875, -11.55],
 					"cubes": [
 						{
@@ -839,79 +890,18 @@
 					]
 				},
 				{
-					"name": "advanced_silencer",
-					"parent": "barrels",
-					"pivot": [0, 8, 0]
-				},
-				{
-					"name": "advancedSilencer",
-					"parent": "advanced_silencer",
-					"pivot": [-0.22981, 4.8, -11.05],
-					"cubes": [
-						{
-							"origin": [-0.85303, -6.725, -12.6625],
-							"size": [1.5, 1.5, 4.575],
-							"pivot": [-0.05303, -6.1, -11.15],
-							"rotation": [0, 0, 45],
-							"uv": {
-								"north": {"uv": [29, 23], "uv_size": [1.5, 1.5]},
-								"east": {"uv": [17, 10], "uv_size": [4.5, 1.5]},
-								"south": {"uv": [2, 30], "uv_size": [1.5, 1.5]},
-								"west": {"uv": [17, 12], "uv_size": [4.5, 1.5]},
-								"up": {"uv": [16, 17], "uv_size": [1.5, 4.5]},
-								"down": {"uv": [18, 21.5], "uv_size": [1.5, -4.5]}
-							}
-						},
-						{
-							"origin": [-0.67981, -6.375, -8.0875],
-							"size": [1.15, 1.15, 0.5],
-							"pivot": [-0.22981, -6, -10.65],
-							"rotation": [0, 0, 45],
-							"uv": {
-								"north": {"uv": [15, 36], "uv_size": [1, 1]},
-								"east": {"uv": [39, 4], "uv_size": [0.5, 1]},
-								"south": {"uv": [16, 36], "uv_size": [1, 1]},
-								"west": {"uv": [5, 39], "uv_size": [0.5, 1]},
-								"up": {"uv": [39, 5], "uv_size": [1, 0.5]},
-								"down": {"uv": [6, 39.5], "uv_size": [1, -0.5]}
-							}
-						}
-					]
-				},
-				{
-					"name": "stan_barrel",
-					"parent": "barrels",
-					"pivot": [0, 8, 0],
-					"cubes": [
-						{
-							"origin": [-0.21967, -5.96845, -8.2],
-							"size": [0.75, 0.75, 11.75],
-							"pivot": [0.53033, -5.96845, -4.14767],
-							"rotation": [0, 0, -45],
-							"uv": {
-								"north": {"uv": [36, 16], "uv_size": [1, 1]},
-								"east": {"uv": [2, 10], "uv_size": [12, 1]},
-								"south": {"uv": [17, 36], "uv_size": [1, 1]},
-								"west": {"uv": [11, 0], "uv_size": [12, 1]},
-								"up": {"uv": [2, 11], "uv_size": [1, 12]},
-								"down": {"uv": [3, 23], "uv_size": [1, -12]}
-							}
-						}
-					]
-				},
-				{
 					"name": "stocks",
 					"parent": "gun_body",
 					"pivot": [0, 0, 0]
 				},
 				{
-					"name": "heavy_stock",
+					"name": "weighted_stock",
 					"parent": "stocks",
 					"pivot": [0, 8, 0]
 				},
 				{
 					"name": "HeavyStock",
-					"parent": "heavy_stock",
+					"parent": "weighted_stock",
 					"pivot": [-0.05, 1.825, 9.55],
 					"cubes": [
 						{

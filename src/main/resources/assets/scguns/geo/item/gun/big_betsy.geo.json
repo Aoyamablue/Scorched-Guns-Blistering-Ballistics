@@ -495,7 +495,7 @@
 					"pivot": [0, 0, 0]
 				},
 				{
-					"name": "stan_barrel",
+					"name": "standard_barrel",
 					"parent": "barrels",
 					"pivot": [0, 8, 0],
 					"cubes": [
@@ -621,13 +621,13 @@
 					]
 				},
 				{
-					"name": "heavy_stock",
+					"name": "weighted_stock",
 					"parent": "stocks",
 					"pivot": [0, 8, 0]
 				},
 				{
 					"name": "HeavyStock",
-					"parent": "heavy_stock",
+					"parent": "weighted_stock",
 					"pivot": [0.12973, 8, 0],
 					"cubes": [
 						{
@@ -867,17 +867,17 @@
 					]
 				},
 				{
-					"name": "magazine",
+					"name": "attachment_bone",
 					"parent": "gun_body",
-					"pivot": [0, 0, 0]
+					"pivot": [-0.47688, -7.07875, 3.24059]
 				},
 				{
-					"name": "left_arm",
-					"parent": "magazine",
-					"pivot": [5.525, -2.4432, 6.00305],
+					"name": "right_arm",
+					"parent": "gun_body",
+					"pivot": [-6.475, -4.4432, 6.00305],
 					"cubes": [
 						{
-							"origin": [4.275, -8.2432, 4.75305],
+							"origin": [-7.725, -8.2432, 4.75305],
 							"size": [2.5, 10, 2.5],
 							"uv": {
 								"north": {"uv": [0, 0], "uv_size": [0.5, 0.5]},
@@ -891,17 +891,12 @@
 					]
 				},
 				{
-					"name": "attachment_bone",
+					"name": "left_arm",
 					"parent": "gun_body",
-					"pivot": [-0.47688, -7.07875, 3.24059]
-				},
-				{
-					"name": "right_arm",
-					"parent": "gun_body",
-					"pivot": [-6.475, -4.4432, 6.00305],
+					"pivot": [5.525, -2.4432, 6.00305],
 					"cubes": [
 						{
-							"origin": [-7.725, -8.2432, 4.75305],
+							"origin": [4.275, -8.2432, 4.75305],
 							"size": [2.5, 10, 2.5],
 							"uv": {
 								"north": {"uv": [0, 0], "uv_size": [0.5, 0.5]},

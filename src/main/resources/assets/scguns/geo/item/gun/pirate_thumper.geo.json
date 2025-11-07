@@ -839,7 +839,7 @@
 					"pivot": [8, 0, -8]
 				},
 				{
-					"name": "heavy_stock",
+					"name": "weighted_stock",
 					"parent": "stocks",
 					"pivot": [0, 8, 0],
 					"cubes": [

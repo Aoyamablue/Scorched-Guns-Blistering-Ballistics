@@ -788,60 +788,6 @@
 					"pivot": [0, 0, 0]
 				},
 				{
-					"name": "stan_barrel",
-					"parent": "barrels",
-					"pivot": [0, 8, 0]
-				},
-				{
-					"name": "standard_barrel",
-					"parent": "stan_barrel",
-					"pivot": [8.21213, -3.05233, -20.94767],
-					"cubes": [
-						{
-							"origin": [0.11553, -5.3, -12.5],
-							"size": [1, 1, 11.85],
-							"pivot": [-0.00947, -4.175, -12.375],
-							"rotation": [0, 0, 45],
-							"uv": {
-								"north": {"uv": [35, 39], "uv_size": [1, 1]},
-								"east": {"uv": [12, 6], "uv_size": [12, 1]},
-								"south": {"uv": [36, 39], "uv_size": [1, 1]},
-								"west": {"uv": [12, 7], "uv_size": [12, 1]},
-								"up": {"uv": [1, 12], "uv_size": [1, 12]},
-								"down": {"uv": [2, 24], "uv_size": [1, -12]}
-							}
-						},
-						{
-							"origin": [-0.70769, -6.175, -0.75],
-							"size": [1.5, 1.5, 0.5],
-							"pivot": [0.16731, -5.3, -6.5],
-							"rotation": [0, 0, 45],
-							"uv": {
-								"north": {"uv": [34, 27], "uv_size": [1.5, 1.5]},
-								"east": {"uv": [41, 32], "uv_size": [0.5, 1.5]},
-								"south": {"uv": [34, 29], "uv_size": [1.5, 1.5]},
-								"west": {"uv": [33, 41], "uv_size": [0.5, 1.5]},
-								"up": {"uv": [34, 41], "uv_size": [1.5, 0.5]},
-								"down": {"uv": [41, 34.5], "uv_size": [1.5, -0.5]}
-							}
-						},
-						{
-							"origin": [-0.40769, -5.725, -14.55],
-							"size": [1.2, 1.2, 2.05],
-							"pivot": [0.16731, -4.85, -16],
-							"rotation": [0, 0, 45],
-							"uv": {
-								"north": {"uv": [37, 39], "uv_size": [1, 1]},
-								"east": {"uv": [34, 12], "uv_size": [2, 1]},
-								"south": {"uv": [38, 39], "uv_size": [1, 1]},
-								"west": {"uv": [35, 25], "uv_size": [2, 1]},
-								"up": {"uv": [24, 6], "uv_size": [1, 2]},
-								"down": {"uv": [25, 38], "uv_size": [1, -2]}
-							}
-						}
-					]
-				},
-				{
 					"name": "advanced_silencer",
 					"parent": "barrels",
 					"pivot": [0, 8, 0]
@@ -882,7 +828,7 @@
 					]
 				},
 				{
-					"name": "ext_barrel",
+					"name": "extended_barrel",
 					"parent": "barrels",
 					"pivot": [0, 8, 0],
 					"cubes": [
@@ -1415,13 +1361,13 @@
 					]
 				},
 				{
-					"name": "tact_grip",
+					"name": "vertical_grip",
 					"parent": "barrels",
 					"pivot": [0, 8, 0]
 				},
 				{
 					"name": "TactGrip",
-					"parent": "tact_grip",
+					"parent": "vertical_grip",
 					"pivot": [-0.00947, 1.335, 1.49875],
 					"cubes": [
 						{
@@ -1469,18 +1415,67 @@
 					]
 				},
 				{
+					"name": "standard_barrel",
+					"parent": "barrels",
+					"pivot": [8.21213, -3.05233, -20.94767],
+					"cubes": [
+						{
+							"origin": [0.11553, -5.3, -12.5],
+							"size": [1, 1, 11.85],
+							"pivot": [-0.00947, -4.175, -12.375],
+							"rotation": [0, 0, 45],
+							"uv": {
+								"north": {"uv": [35, 39], "uv_size": [1, 1]},
+								"east": {"uv": [12, 6], "uv_size": [12, 1]},
+								"south": {"uv": [36, 39], "uv_size": [1, 1]},
+								"west": {"uv": [12, 7], "uv_size": [12, 1]},
+								"up": {"uv": [1, 12], "uv_size": [1, 12]},
+								"down": {"uv": [2, 24], "uv_size": [1, -12]}
+							}
+						},
+						{
+							"origin": [-0.70769, -6.175, -0.75],
+							"size": [1.5, 1.5, 0.5],
+							"pivot": [0.16731, -5.3, -6.5],
+							"rotation": [0, 0, 45],
+							"uv": {
+								"north": {"uv": [34, 27], "uv_size": [1.5, 1.5]},
+								"east": {"uv": [41, 32], "uv_size": [0.5, 1.5]},
+								"south": {"uv": [34, 29], "uv_size": [1.5, 1.5]},
+								"west": {"uv": [33, 41], "uv_size": [0.5, 1.5]},
+								"up": {"uv": [34, 41], "uv_size": [1.5, 0.5]},
+								"down": {"uv": [41, 34.5], "uv_size": [1.5, -0.5]}
+							}
+						},
+						{
+							"origin": [-0.40769, -5.725, -14.55],
+							"size": [1.2, 1.2, 2.05],
+							"pivot": [0.16731, -4.85, -16],
+							"rotation": [0, 0, 45],
+							"uv": {
+								"north": {"uv": [37, 39], "uv_size": [1, 1]},
+								"east": {"uv": [34, 12], "uv_size": [2, 1]},
+								"south": {"uv": [38, 39], "uv_size": [1, 1]},
+								"west": {"uv": [35, 25], "uv_size": [2, 1]},
+								"up": {"uv": [24, 6], "uv_size": [1, 2]},
+								"down": {"uv": [25, 38], "uv_size": [1, -2]}
+							}
+						}
+					]
+				},
+				{
 					"name": "stocks",
 					"parent": "gun_body",
 					"pivot": [0, 0, 0]
 				},
 				{
-					"name": "heavy_stock",
+					"name": "weighted_stock",
 					"parent": "stocks",
 					"pivot": [0, 8, 0]
 				},
 				{
 					"name": "HeavyStock",
-					"parent": "heavy_stock",
+					"parent": "weighted_stock",
 					"pivot": [7.2, -0.59696, -8.16812],
 					"cubes": [
 						{
@@ -1968,13 +1963,13 @@
 					]
 				},
 				{
-					"name": "stan_mag",
+					"name": "default_mag",
 					"parent": "magazine",
 					"pivot": [0, 8, 0]
 				},
 				{
 					"name": "StanMag",
-					"parent": "stan_mag",
+					"parent": "default_mag",
 					"pivot": [0.325, -1.85233, 3.45233],
 					"cubes": [
 						{
@@ -2006,13 +2001,13 @@
 					]
 				},
 				{
-					"name": "ext_mag",
+					"name": "extended_mag",
 					"parent": "magazine",
 					"pivot": [0, 8, 0]
 				},
 				{
 					"name": "ExtMag",
-					"parent": "ext_mag",
+					"parent": "extended_mag",
 					"pivot": [-0.475, 0.56813, 3.45064],
 					"cubes": [
 						{

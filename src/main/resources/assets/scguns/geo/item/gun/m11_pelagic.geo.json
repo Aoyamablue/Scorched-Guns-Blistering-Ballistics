@@ -1,5 +1,5 @@
 {
-	"format_version": "1.12.0",
+	"format_version": "1.21.0",
 	"minecraft:geometry": [
 		{
 			"description": {
@@ -936,7 +936,7 @@
 					]
 				},
 				{
-					"name": "tact_grip",
+					"name": "vertical_grip",
 					"parent": "grips",
 					"pivot": [0, 8, 0],
 					"cubes": [
@@ -1018,46 +1018,6 @@
 								"west": {"uv": [31, 37], "uv_size": [0.5, 1]},
 								"up": {"uv": [32, 37], "uv_size": [1, 0.5]},
 								"down": {"uv": [37, 32.5], "uv_size": [1, -0.5]}
-							}
-						}
-					]
-				},
-				{
-					"name": "ext_barrel2",
-					"parent": "barrels",
-					"pivot": [0, 8, 0]
-				},
-				{
-					"name": "ext_barrel",
-					"parent": "ext_barrel2",
-					"pivot": [0, 8, 0],
-					"cubes": [
-						{
-							"origin": [-0.28787, -5.72733, -4.19767],
-							"size": [0.6, 0.6, 5.7],
-							"pivot": [-0.03787, -5.37733, -2.09767],
-							"rotation": [0, 0, -45],
-							"uv": {
-								"north": {"uv": [39, 28], "uv_size": [0.5, 0.5]},
-								"east": {"uv": [24, 18], "uv_size": [5.5, 0.5]},
-								"south": {"uv": [29, 39], "uv_size": [0.5, 0.5]},
-								"west": {"uv": [19, 24], "uv_size": [5.5, 0.5]},
-								"up": {"uv": [25, 0], "uv_size": [0.5, 5.5]},
-								"down": {"uv": [3, 30.5], "uv_size": [0.5, -5.5]}
-							}
-						},
-						{
-							"origin": [-0.23787, -6.00233, -8.74767],
-							"size": [0.4, 0.4, 4.25],
-							"pivot": [-0.18787, -5.65233, -3.34767],
-							"rotation": [0, 0, -45],
-							"uv": {
-								"north": {"uv": [39, 29], "uv_size": [0.5, 0.5]},
-								"east": {"uv": [24, 29], "uv_size": [4, 0.5]},
-								"south": {"uv": [30, 39], "uv_size": [0.5, 0.5]},
-								"west": {"uv": [28, 29], "uv_size": [4, 0.5]},
-								"up": {"uv": [2, 28], "uv_size": [0.5, 4]},
-								"down": {"uv": [0, 34], "uv_size": [0.5, -4]}
 							}
 						}
 					]
@@ -1269,7 +1229,7 @@
 					]
 				},
 				{
-					"name": "stan_barrel",
+					"name": "standard_barrel",
 					"parent": "barrels",
 					"pivot": [0, 8, 0],
 					"cubes": [
@@ -1304,12 +1264,47 @@
 					]
 				},
 				{
+					"name": "extended_barrel",
+					"parent": "barrels",
+					"pivot": [0, 8, 0],
+					"cubes": [
+						{
+							"origin": [-0.28787, -5.72733, -4.19767],
+							"size": [0.6, 0.6, 5.7],
+							"pivot": [-0.03787, -5.37733, -2.09767],
+							"rotation": [0, 0, -45],
+							"uv": {
+								"north": {"uv": [39, 28], "uv_size": [0.5, 0.5]},
+								"east": {"uv": [24, 18], "uv_size": [5.5, 0.5]},
+								"south": {"uv": [29, 39], "uv_size": [0.5, 0.5]},
+								"west": {"uv": [19, 24], "uv_size": [5.5, 0.5]},
+								"up": {"uv": [25, 0], "uv_size": [0.5, 5.5]},
+								"down": {"uv": [3, 30.5], "uv_size": [0.5, -5.5]}
+							}
+						},
+						{
+							"origin": [-0.23787, -6.00233, -8.74767],
+							"size": [0.4, 0.4, 4.25],
+							"pivot": [-0.18787, -5.65233, -3.34767],
+							"rotation": [0, 0, -45],
+							"uv": {
+								"north": {"uv": [39, 29], "uv_size": [0.5, 0.5]},
+								"east": {"uv": [24, 29], "uv_size": [4, 0.5]},
+								"south": {"uv": [30, 39], "uv_size": [0.5, 0.5]},
+								"west": {"uv": [28, 29], "uv_size": [4, 0.5]},
+								"up": {"uv": [2, 28], "uv_size": [0.5, 4]},
+								"down": {"uv": [0, 34], "uv_size": [0.5, -4]}
+							}
+						}
+					]
+				},
+				{
 					"name": "stocks",
 					"parent": "gun_body",
 					"pivot": [0, 0, 0]
 				},
 				{
-					"name": "heavy_stock",
+					"name": "weighted_stock",
 					"parent": "stocks",
 					"pivot": [0, 8, 0],
 					"cubes": [
@@ -1798,7 +1793,7 @@
 					]
 				},
 				{
-					"name": "ext_mag",
+					"name": "extended_mag",
 					"parent": "magazine",
 					"pivot": [0, 8, 0],
 					"cubes": [
@@ -1912,7 +1907,7 @@
 					]
 				},
 				{
-					"name": "stan_mag",
+					"name": "default_mag",
 					"parent": "magazine",
 					"pivot": [0, 8, 0],
 					"cubes": [

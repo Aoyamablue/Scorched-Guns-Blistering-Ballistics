@@ -437,7 +437,7 @@
 					]
 				},
 				{
-					"name": "ext_barrel",
+					"name": "extended_barrel",
 					"parent": "barrels",
 					"pivot": [0, 8, 0],
 					"cubes": [
@@ -776,7 +776,7 @@
 					]
 				},
 				{
-					"name": "stan_barrel",
+					"name": "standard_barrel",
 					"parent": "barrels",
 					"pivot": [0, 8, 0],
 					"cubes": [
@@ -802,7 +802,7 @@
 					"pivot": [0, 0, 0]
 				},
 				{
-					"name": "heavy_stock",
+					"name": "weighted_stock",
 					"parent": "stocks",
 					"pivot": [0, 8, 0],
 					"cubes": [
@@ -1217,7 +1217,7 @@
 					]
 				},
 				{
-					"name": "stan_mag",
+					"name": "default_mag",
 					"parent": "magazine",
 					"pivot": [0, 8, 0],
 					"cubes": [
@@ -1290,7 +1290,7 @@
 					]
 				},
 				{
-					"name": "ext_mag",
+					"name": "extended_mag",
 					"parent": "magazine",
 					"pivot": [0, 8, 0],
 					"cubes": [
