@@ -19,7 +19,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        simpleItem(ModItems.GRAVEKEEPER_BLUEPRINT);
+        //simpleItem(ModItems.GRAVEKEEPER_BLUEPRINT);
         //simpleItem(ModItems.THE_HUNGER);
 
 

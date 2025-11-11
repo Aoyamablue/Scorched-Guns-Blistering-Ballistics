@@ -1,6 +1,89 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
+		"aim_shoot": {
+			"loop": true,
+			"animation_length": 0.375,
+			"bones": {
+				"right_arm": {
+					"rotation": {
+						"0.0": {
+							"post": {
+								"vector": [90, 0, -180]
+							},
+							"lerp_mode": "catmullrom"
+						}
+					},
+					"position": {
+						"0.0": {
+							"post": {
+								"vector": [6.2, -2.75, 5]
+							},
+							"lerp_mode": "catmullrom"
+						}
+					}
+				},
+				"left_arm": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"gun_body": {
+					"rotation": {
+						"0.0": {
+							"vector": [-1.5, 0, 0]
+						},
+						"0.0833": {
+							"vector": [-1, 0, 0]
+						},
+						"0.375": {
+							"vector": [0, 0, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0.175, 1.25]
+						},
+						"0.0833": {
+							"vector": [0, 0, 0.5]
+						},
+						"0.25": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"magazine": {
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"magazine_2": {
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"gun_body2": {
+					"position": {
+						"vector": [0, 0, -0.7]
+					}
+				},
+				"receiver": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 1.75]
+						},
+						"0.125": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "eject_casing"
+				}
+			}
+		},
 		"shoot": {
 			"loop": true,
 			"animation_length": 0.375,
@@ -17,7 +100,7 @@
 					"position": {
 						"0.0": {
 							"post": {
-								"vector": [6.2, -2.95, 5]
+								"vector": [6.2, -2.75, 5]
 							},
 							"lerp_mode": "catmullrom"
 						}
@@ -415,7 +498,7 @@
 					"position": {
 						"0.0": {
 							"post": {
-								"vector": [6.2, -2.95, 5]
+								"vector": [6.2, -2.75, 5]
 							},
 							"lerp_mode": "catmullrom"
 						}
@@ -500,7 +583,7 @@
 					"position": {
 						"0.0": {
 							"post": {
-								"vector": [6.2, -2.95, 5]
+								"vector": [6.2, -2.75, 5]
 							},
 							"lerp_mode": "catmullrom"
 						}
@@ -1312,13 +1395,13 @@
 					"position": {
 						"0.0": {
 							"post": {
-								"vector": [6.2, -2.95, 5]
+								"vector": [6.2, -2.75, 5]
 							},
 							"lerp_mode": "catmullrom"
 						},
 						"2.0": {
 							"post": {
-								"vector": [6.2, -2.95, 5]
+								"vector": [6.2, -2.75, 5]
 							},
 							"lerp_mode": "catmullrom"
 						}
@@ -1468,7 +1551,7 @@
 					"position": {
 						"0.0": {
 							"post": {
-								"vector": [6.2, -2.95, 5]
+								"vector": [6.2, -2.75, 5]
 							},
 							"lerp_mode": "catmullrom"
 						}
@@ -1488,89 +1571,6 @@
 					"position": {
 						"vector": [0, 0, -0.7]
 					}
-				}
-			}
-		},
-		"aim_shoot": {
-			"loop": true,
-			"animation_length": 0.375,
-			"bones": {
-				"right_arm": {
-					"rotation": {
-						"0.0": {
-							"post": {
-								"vector": [90, 0, -180]
-							},
-							"lerp_mode": "catmullrom"
-						}
-					},
-					"position": {
-						"0.0": {
-							"post": {
-								"vector": [6.2, -2.95, 5]
-							},
-							"lerp_mode": "catmullrom"
-						}
-					}
-				},
-				"left_arm": {
-					"scale": {
-						"vector": [0, 0, 0]
-					}
-				},
-				"gun_body": {
-					"rotation": {
-						"0.0": {
-							"vector": [-1.5, 0, 0]
-						},
-						"0.0833": {
-							"vector": [-1, 0, 0]
-						},
-						"0.375": {
-							"vector": [0, 0, 0]
-						}
-					},
-					"position": {
-						"0.0": {
-							"vector": [0, 0.175, 1.25]
-						},
-						"0.0833": {
-							"vector": [0, 0, 0.5]
-						},
-						"0.25": {
-							"vector": [0, 0, 0]
-						}
-					}
-				},
-				"magazine": {
-					"scale": {
-						"vector": [1, 1, 1]
-					}
-				},
-				"magazine_2": {
-					"scale": {
-						"vector": [0, 0, 0]
-					}
-				},
-				"gun_body2": {
-					"position": {
-						"vector": [0, 0, -0.7]
-					}
-				},
-				"receiver": {
-					"position": {
-						"0.0": {
-							"vector": [0, 0, 1.75]
-						},
-						"0.125": {
-							"vector": [0, 0, 0]
-						}
-					}
-				}
-			},
-			"particle_effects": {
-				"0.0": {
-					"effect": "eject_casing"
 				}
 			}
 		}

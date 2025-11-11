@@ -8,7 +8,6 @@
     }
   },
   "general": {
-    "weaponType": "lmg",
     "alwaysSpread": false,
     "fireMode": "scguns:automatic",
     "gripType": "scguns:two_handed",
@@ -45,14 +44,13 @@
     },
     "zoom": {
       "fovModifier": 0.6,
-      "yOffset": 6.4,
+      "yOffset": 6.2,
       "zOffset": 0.75
     }
   },
   "projectile": {
     "advantage": "scguns:bot",
     "damage": 10.0,
-    "armorPen": 2.0,
     "ejectsCasing": true,
     "gravity": false,
     "item": "scguns:advanced_round",
