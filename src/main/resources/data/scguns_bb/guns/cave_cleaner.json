@@ -1,0 +1,82 @@
+{
+  "display": {
+    "flash": {
+      "size": 1.5,
+      "yOffset": 1.5,
+      "zOffset": -9.5,
+      "textureLocation": "muzzle_flash_1"
+    }
+  },
+  "general": {
+    "weaponType": "heavy",
+    "fireMode": "scguns:semi_automatic",
+    "gripType": "scguns:bazooka",
+    "baseGripType": "scguns:bazooka",
+    "rate": 13,
+
+    "meleeDamage": 3.5,
+    "meleeCooldownTicks": 25,
+    "hotBarrelRate": 18,
+    "speedModifier": 0.95
+  },
+  "modules": {
+    "attachments": {
+    },
+    "zoom": {
+      "fovModifier": 0.6,
+      "yOffset": 5.5,
+      "zOffset": 0.75
+    }
+  },
+  "projectile": {
+    "alwaysSpread": false,
+    "recoilAngle": 6.7,
+    "recoilKick": 2.22,
+    "spread": 3.0,
+    "criticalChance": 0.05,
+    "visible": true,
+    "advantage": "scguns:none",
+    "damage": 28.0,
+    "ejectsCasing": false,
+    "gravity": true,
+    "item": "scguns:rocket",
+    "life": 55,
+    "size": 0.05,
+    "speed": 6.0,
+    "trailLengthMultiplier": 2.0
+  },
+  "projectile_1": {
+    "alwaysSpread": false,
+    "recoilAngle": 5.0,
+    "recoilKick": 2.0,
+    "spread": 1.0,
+    "criticalChance": 0.05,
+    "advantage": "scguns:fire",
+    "damageFalloffStart": 28.0,
+    "damageFalloffEnd": 65.0,
+    "damageFalloffMinMultiplier": 0.75,
+    "damage": 17.5,
+    "ejectsCasing": true,
+    "visible": true,
+    "gravity": false,
+    "item": "scguns:frog_dart",
+    "casingType": "scguns:small_iron_casing",
+    "life": 45,
+    "size": 0.05,
+    "speed": 3.0,
+    "trailLengthMultiplier": 2.0
+  },
+  "reloads": {
+    "emptyMagTimer": 30,
+    "maxAmmo": 1,
+    "reloadItem": "scguns:rocket",
+    "reloadTimer": 34,
+    "reloadType": "scguns:mag_fed"
+  },
+  "sounds": {
+    "cock": "scguns:item.pistol.cock",
+    "enchantedFire": "scguns:item.rocket.fire",
+    "fire": "scguns:item.rocket.fire",
+    "reload": "scguns:item.gauss.reload"
+  }
+}
