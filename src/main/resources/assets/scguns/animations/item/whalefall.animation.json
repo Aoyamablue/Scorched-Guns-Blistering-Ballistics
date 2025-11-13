@@ -697,7 +697,6 @@
 			}
 		},
 		"reload": {
-			"loop": true,
 			"animation_length": 2.25,
 			"bones": {
 				"right_arm": {
@@ -1031,6 +1030,22 @@
 							"vector": [1, 1, 1]
 						}
 					}
+				}
+			},
+			"sound_effects": {
+				"0.0417": {
+					"effect": "gun_rustle"
+				},
+				"0.4583": {
+					"effect": "bolt_release"
+				},
+				"1.75": {
+					"effect": "reload_mag_in"
+				}
+			},
+			"particle_effects": {
+				"2.24": {
+					"effect": "loaded"
 				}
 			}
 		}
