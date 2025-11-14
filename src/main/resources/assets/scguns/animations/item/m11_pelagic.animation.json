@@ -1,6 +1,114 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
+		"aim_shoot": {
+			"loop": true,
+			"animation_length": 0.375,
+			"bones": {
+				"right_arm": {
+					"rotation": {
+						"vector": [90, 3, -180]
+					},
+					"position": {
+						"vector": [5.55, -3.7, 5.5]
+					}
+				},
+				"left_arm": {
+					"rotation": {
+						"0.0": {
+							"vector": [73.95054, -26.20116, -129.71317]
+						},
+						"0.3333": {
+							"vector": [73.95054, -26.20116, -129.71317]
+						},
+						"0.375": {
+							"vector": [73.95054, -26.20116, -129.71317]
+						}
+					},
+					"position": {
+						"vector": [-1.27836, -6.39368, -4.24263]
+					}
+				},
+				"gun_body": {
+					"rotation": {
+						"0.0": {
+							"vector": [-2.75, 0, 0]
+						},
+						"0.0833": {
+							"vector": [-1, 0, 0]
+						},
+						"0.3333": {
+							"vector": [0, 0, 0]
+						},
+						"0.375": {
+							"vector": [0, 0, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0.3, 1.425]
+						},
+						"0.0833": {
+							"vector": [0, 0, 0.5]
+						},
+						"0.25": {
+							"vector": [0, 0, 0]
+						},
+						"0.3333": {
+							"vector": [0, 0, 0]
+						},
+						"0.375": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"bolt": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 1.05]
+						},
+						"0.125": {
+							"vector": [0, 0, 0]
+						},
+						"0.375": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"magazine": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"magazine_2": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"vector": [0, 0, 0]
+					},
+					"scale": {
+						"vector": [0, 0, 0]
+					}
+				},
+				"bolt_cover": {
+					"position": {
+						"vector": [0, 0, 0.275]
+					}
+				}
+			},
+			"particle_effects": {
+				"0.0": {
+					"effect": "eject_casing"
+				}
+			}
+		},
 		"shoot": {
 			"loop": true,
 			"animation_length": 0.375,
@@ -96,108 +204,10 @@
 					"scale": {
 						"vector": [0, 0, 0]
 					}
-				}
-			},
-			"particle_effects": {
-				"0.0": {
-					"effect": "eject_casing"
-				}
-			}
-		},
-		"aim_shoot": {
-			"loop": true,
-			"animation_length": 0.375,
-			"bones": {
-				"right_arm": {
-					"rotation": {
-						"vector": [90, 3, -180]
-					},
-					"position": {
-						"vector": [5.55, -3.7, 5.5]
-					}
 				},
-				"left_arm": {
-					"rotation": {
-						"0.0": {
-							"vector": [73.95054, -26.20116, -129.71317]
-						},
-						"0.3333": {
-							"vector": [73.95054, -26.20116, -129.71317]
-						},
-						"0.375": {
-							"vector": [73.95054, -26.20116, -129.71317]
-						}
-					},
+				"bolt_cover": {
 					"position": {
-						"vector": [-1.27836, -6.39368, -4.24263]
-					}
-				},
-				"gun_body": {
-					"rotation": {
-						"0.0": {
-							"vector": [-2.75, 0, 0]
-						},
-						"0.0833": {
-							"vector": [-1, 0, 0]
-						},
-						"0.3333": {
-							"vector": [0, 0, 0]
-						},
-						"0.375": {
-							"vector": [0, 0, 0]
-						}
-					},
-					"position": {
-						"0.0": {
-							"vector": [0, 0.3, 1.425]
-						},
-						"0.0833": {
-							"vector": [0, 0, 0.5]
-						},
-						"0.25": {
-							"vector": [0, 0, 0]
-						},
-						"0.3333": {
-							"vector": [0, 0, 0]
-						},
-						"0.375": {
-							"vector": [0, 0, 0]
-						}
-					}
-				},
-				"bolt": {
-					"position": {
-						"0.0": {
-							"vector": [0, 0, 1.25]
-						},
-						"0.125": {
-							"vector": [0, 0, 0]
-						},
-						"0.375": {
-							"vector": [0, 0, 0]
-						}
-					}
-				},
-				"magazine": {
-					"rotation": {
-						"vector": [0, 0, 0]
-					},
-					"position": {
-						"vector": [0, 0, 0]
-					},
-					"scale": {
-						"vector": [1, 1, 1]
-					}
-				},
-				"magazine_2": {
-					"rotation": {
-						"vector": [0, 0, 0]
-					},
-					"position": {
-						"vector": [0, 0, 0]
-					},
-					"scale": {
-						"vector": [0, 0, 0]
+						"vector": [0, 0, 0.275]
 					}
 				}
 			},

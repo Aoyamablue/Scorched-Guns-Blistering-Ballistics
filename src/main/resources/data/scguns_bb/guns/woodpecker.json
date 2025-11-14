@@ -30,10 +30,9 @@
       "magazine": {
         "scale": 0.0
       },
-      "scope": {
-        "size": 0.85,
-        "yOffset": 6.85,
-        "zOffset": 4.5
+      "underBarrel": {
+        "yOffset": 5.5,
+        "zOffset": -2.5
       }
     },
     "zoom": {

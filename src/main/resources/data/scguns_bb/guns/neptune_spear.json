@@ -21,19 +21,23 @@
   "modules": {
     "attachments": {
       "barrel": {
+        "yOffset": 5.2,
+        "zOffset": -9.0
+      },
+      "scope": {
+        "size": 0.85,
+        "yOffset": 6.85,
+        "zOffset": 4.5
+      },
+      "underBarrel": {
         "yOffset": 5.5,
-        "zOffset": -6.2
+        "zOffset": -2.5
       },
       "stock": {
         "scale": 0.0
       },
       "magazine": {
         "scale": 0.0
-      },
-      "scope": {
-        "size": 0.85,
-        "yOffset": 6.85,
-        "zOffset": 4.5
       }
     },
     "zoom": {

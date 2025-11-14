@@ -2,8 +2,8 @@
   "display": {
     "flash": {
       "size": 1.0,
-      "yOffset": 4.2,
-      "zOffset": -2.5,
+      "yOffset": 5.2,
+      "zOffset": -7.0,
       "textureLocation": "muzzle_flash_1"
     }
   },
@@ -12,22 +12,25 @@
     "fireMode": "scguns:automatic",
     "gripType": "scguns:two_handed",
     "baseGripType": "scguns:two_handed",
-    "rate": 3,
+    "rate": 2,
     "meleeDamage": 2.5,
     "meleeCooldownTicks": 15,
-    "meleeReach": 2.5,
-    "hotBarrelRate": 6
+    "hotBarrelRate": 5
   },
   "modules": {
     "attachments": {
       "barrel": {
-        "yOffset": 4.2,
-        "zOffset": -3.7
+        "yOffset": 5.2,
+        "zOffset": -9.0
       },
       "scope": {
-        "size": 0.7,
-        "yOffset": 5.6,
-        "zOffset": 5.5
+        "size": 0.85,
+        "yOffset": 6.85,
+        "zOffset": 4.5
+      },
+      "underBarrel": {
+        "yOffset": 5.5,
+        "zOffset": -2.5
       },
       "stock": {
         "scale": 0.0
@@ -38,8 +41,8 @@
     },
     "zoom": {
       "fovModifier": 0.6,
-      "yOffset": 5.9,
-      "zOffset": -1.25
+      "yOffset": 6.3,
+      "zOffset": 0.75
     }
   },
   "projectile": {
@@ -72,8 +75,9 @@
   "sounds": {
     "cock": "scguns:item.pistol.cock",
     "enchantedFire": "scguns:item.rusty_gnat.fire",
-    "fire": "scguns:item.rusty_gnat.fire",
+    "fire": "scguns:item.greaser_smg.fire",
     "reload": "scguns:item.gauss.reload",
-    "silencedFire": "scguns:item.rusty_gnat.silenced_fire"
+    "silencedFire": "scguns:item.makeshift_rifle.silenced_fire",
+    "flyby": "scguns:bullet.flyby1"
   }
 }
