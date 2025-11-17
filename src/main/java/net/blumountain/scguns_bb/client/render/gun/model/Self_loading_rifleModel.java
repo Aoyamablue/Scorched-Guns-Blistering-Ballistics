@@ -1,13 +1,13 @@
 package net.blumountain.scguns_bb.client.render.gun.model;
 
 import com.mojang.blaze3d.vertex.PoseStack;
-import net.blumountain.scguns_bb.client.BBSpecialModels;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemCooldowns;
 import net.minecraft.world.item.ItemDisplayContext;
 import net.minecraft.world.item.ItemStack;
+import net.blumountain.scguns_bb.client.BBSpecialModels;
 import top.ribs.scguns.client.render.gun.IOverrideModel;
 import top.ribs.scguns.client.util.RenderUtil;
 import top.ribs.scguns.common.Gun;
@@ -23,57 +23,68 @@ public class Self_loading_rifleModel implements IOverrideModel {
     @SuppressWarnings("resource")
     @Override
     public void render(float partialTicks, ItemDisplayContext transformType, ItemStack stack, ItemStack parent, LivingEntity entity, PoseStack matrixStack, MultiBufferSource buffer, int light, int overlay) {
-        RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_MAIN.getModel(), stack, matrixStack, buffer, light, overlay);
+        RenderUtil.renderModel(BBSpecialModels.SELF_LOADING_RIFLE_MAIN.getModel(), stack, matrixStack, buffer, light, overlay);
+        if ((Gun.getScope(stack) == null))
+            RenderUtil.renderModel(BBSpecialModels.SELF_LOADING_RIFLE_SIGHTS.getModel(), stack, matrixStack, buffer, light, overlay);
+        else
+            RenderUtil.renderModel(BBSpecialModels.SELF_LOADING_RIFLE_NO_SIGHTS.getModel(), stack, matrixStack, buffer, light, overlay);
+        boolean extendedBarrelAttached = false;
 
         if (Gun.hasAttachmentEquipped(stack, IAttachment.Type.BARREL)) {
             if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItems.EXTENDED_BARREL.get()) {
-                RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_EXT_BARREL.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.SELF_LOADING_RIFLE_EXT_BARREL.getModel(), stack, matrixStack, buffer, light, overlay);
+                extendedBarrelAttached = true;
             } else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItems.SILENCER.get())
-                RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_SILENCER.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.SELF_LOADING_RIFLE_SILENCER.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItems.MUZZLE_BRAKE.get())
-                RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_MUZZLE_BRAKE.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.SELF_LOADING_RIFLE_MUZZLE_BRAKE.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItems.ADVANCED_SILENCER.get())
-                RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_ADVANCED_SILENCER.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.SELF_LOADING_RIFLE_ADVANCED_SILENCER.getModel(), stack, matrixStack, buffer, light, overlay);
         }
 
         // Render the standard barrel if no extended barrel is attached
-            RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_STAN_BARREL.getModel(), stack, matrixStack, buffer, light, overlay);
+        if (!extendedBarrelAttached) {
+            RenderUtil.renderModel(BBSpecialModels.SELF_LOADING_RIFLE_STAN_BARREL.getModel(), stack, matrixStack, buffer, light, overlay);
+        }
 
         if (Gun.hasAttachmentEquipped(stack, IAttachment.Type.STOCK)) {
             if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WOODEN_STOCK.get())
-                RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_STOCK_WOODEN.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.SELF_LOADING_RIFLE_STOCK_WOODEN.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.LIGHT_STOCK.get())
-                RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_STOCK_LIGHT.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.SELF_LOADING_RIFLE_STOCK_LIGHT.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WEIGHTED_STOCK.get())
-                RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.SELF_LOADING_RIFLE_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
+            else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.BUMP_STOCK.get())
+                RenderUtil.renderModel(BBSpecialModels.SELF_LOADING_RIFLE_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
+
         }
 
         if (Gun.hasAttachmentEquipped(stack, IAttachment.Type.UNDER_BARREL)) {
             if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.VERTICAL_GRIP.get())
-                RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_GRIP_VERTICAL.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.SELF_LOADING_RIFLE_GRIP_VERTICAL.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.LIGHT_GRIP.get())
-                RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_GRIP_LIGHT.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.SELF_LOADING_RIFLE_GRIP_LIGHT.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.IRON_BAYONET.get())
-                RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_IRON_BAYONET.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.SELF_LOADING_RIFLE_IRON_BAYONET.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.ANTHRALITE_BAYONET.get())
-                RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_ANTHRALITE_BAYONET.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.SELF_LOADING_RIFLE_ANTHRALITE_BAYONET.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.DIAMOND_BAYONET.get())
-                RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_DIAMOND_BAYONET.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.SELF_LOADING_RIFLE_DIAMOND_BAYONET.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.NETHERITE_BAYONET.get())
-                RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_NETHERITE_BAYONET.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.SELF_LOADING_RIFLE_NETHERITE_BAYONET.getModel(), stack, matrixStack, buffer, light, overlay);
         }
 
         if ((Gun.hasAttachmentEquipped(stack, IAttachment.Type.MAGAZINE)))
         {
             if (Gun.getAttachment(IAttachment.Type.MAGAZINE, stack).getItem() == ModItems.EXTENDED_MAG.get())
-                RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_EXTENDED_MAG.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.SELF_LOADING_RIFLE_EXTENDED_MAG.getModel(), stack, matrixStack, buffer, light, overlay);
             if (Gun.getAttachment(IAttachment.Type.MAGAZINE, stack).getItem() == ModItems.PLUS_P_MAG.get())
-                RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_EXTENDED_MAG.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.SELF_LOADING_RIFLE_EXTENDED_MAG.getModel(), stack, matrixStack, buffer, light, overlay);
             if (Gun.getAttachment(IAttachment.Type.MAGAZINE, stack).getItem() == ModItems.SPEED_MAG.get())
-                RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_SPEED_MAG.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.SELF_LOADING_RIFLE_SPEED_MAG.getModel(), stack, matrixStack, buffer, light, overlay);
         }
         else
-            RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_STANDARD_MAG.getModel(), stack, matrixStack, buffer, light, overlay);
+            RenderUtil.renderModel(BBSpecialModels.SELF_LOADING_RIFLE_STANDARD_MAG.getModel(), stack, matrixStack, buffer, light, overlay);
 
         if (entity.equals(Minecraft.getInstance().player)) {
             //Always push.
@@ -92,7 +103,7 @@ public class Self_loading_rifleModel implements IOverrideModel {
             matrixStack.translate(0, 0, cooldown / 8);
             matrixStack.translate(0, 5.8 * 0.0625, 0);
             //Renders the moving part of the gun.
-            RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_BOLT.getModel(), stack, matrixStack, buffer, light, overlay);
+            RenderUtil.renderModel(BBSpecialModels.SELF_LOADING_RIFLE_BOLT.getModel(), stack, matrixStack, buffer, light, overlay);
             //Always pop
             matrixStack.popPose();
         }

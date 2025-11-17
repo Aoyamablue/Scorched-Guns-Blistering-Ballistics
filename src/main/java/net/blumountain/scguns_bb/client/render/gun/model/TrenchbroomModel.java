@@ -8,6 +8,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemCooldowns;
 import net.minecraft.world.item.ItemDisplayContext;
 import net.minecraft.world.item.ItemStack;
+import top.ribs.scguns.client.SpecialModels;
 import top.ribs.scguns.client.render.gun.IOverrideModel;
 import top.ribs.scguns.client.util.RenderUtil;
 import top.ribs.scguns.common.Gun;
@@ -51,6 +52,9 @@ public class TrenchbroomModel implements IOverrideModel {
                 RenderUtil.renderModel(BBSpecialModels.TRENCHBROOM_STOCK_LIGHT.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WEIGHTED_STOCK.get())
                 RenderUtil.renderModel(BBSpecialModels.TRENCHBROOM_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
+        }
+        else {
+            RenderUtil.renderModel(BBSpecialModels.TRENCHBROOM_STAN_GRIP.getModel(), stack, matrixStack, buffer, light, overlay);
         }
     }
 

@@ -59,7 +59,7 @@ public class Strumm88Model implements IOverrideModel {
     private void renderUnderBarrelAttachments(ItemStack stack, PoseStack matrixStack, MultiBufferSource buffer, int light, int overlay) {
         if (Gun.hasAttachmentEquipped(stack, IAttachment.Type.UNDER_BARREL)) {
             if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.VERTICAL_GRIP.get())
-                RenderUtil.renderModel(BBSpecialModels.STRUMM88_GRIP_LIGHT.getModel(), stack, matrixStack, buffer, light, overlay);
+                RenderUtil.renderModel(BBSpecialModels.STRUMM88_GRIP_VERTICAL.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.LIGHT_GRIP.get())
                 RenderUtil.renderModel(BBSpecialModels.STRUMM88_GRIP_LIGHT.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.UNDER_BARREL, stack).getItem() == ModItems.IRON_BAYONET.get())

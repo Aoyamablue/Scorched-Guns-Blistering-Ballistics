@@ -7,19 +7,17 @@
       "textureLocation": "muzzle_flash_1"
     }
   },
-  "general": {
-    "weaponType": "special",
-    "fireMode": "scguns:semi_automatic",
-    "gripType": "scguns:mini_gun_3",
-    "baseGripType": "scguns:mini_gun_3",
-    "rate": 6,
-    "meleeDamage": 9.5,
-    "meleeCooldownTicks": 20,
-    "meleeReach": 4.5,
-    "hotBarrelRate": 100,
-    "speedModifier": 1.1,
-    "usesCustomMeleeAnimation": true,
-    "allowAmmoChange": true
+    "general": {
+      "weaponType": "heavy",
+      "fireMode": "scguns:semi_automatic",
+      "gripType": "scguns:bazooka",
+      "baseGripType": "scguns:bazooka",
+      "rate": 13,
+      "meleeDamage": 3.5,
+      "meleeCooldownTicks": 25,
+      "hotBarrelRate": 18,
+      "isRevolver": true,
+      "speedModifier": 0.95
   },
   "modules": {
     "attachments": {

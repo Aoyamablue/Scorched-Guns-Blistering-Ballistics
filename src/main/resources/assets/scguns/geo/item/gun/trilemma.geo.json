@@ -440,7 +440,7 @@
 					"pivot": [0, 8, -2.125]
 				},
 				{
-					"name": "Sights",
+					"name": "sights",
 					"parent": "body",
 					"pivot": [0, 6.25, 5.05],
 					"cubes": [

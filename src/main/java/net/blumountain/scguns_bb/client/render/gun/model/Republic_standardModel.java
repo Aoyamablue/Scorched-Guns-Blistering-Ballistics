@@ -46,6 +46,9 @@ public class Republic_standardModel implements IOverrideModel {
                 RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_STOCK_LIGHT.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WEIGHTED_STOCK.get())
                 RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
+            else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.BUMP_STOCK.get())
+                RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
+
         }
 
         if (Gun.hasAttachmentEquipped(stack, IAttachment.Type.UNDER_BARREL)) {
@@ -92,7 +95,6 @@ public class Republic_standardModel implements IOverrideModel {
             matrixStack.translate(0, 0, cooldown / 8);
             matrixStack.translate(0, 5.8 * 0.0625, 0);
             //Renders the moving part of the gun.
-            RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_BOLT.getModel(), stack, matrixStack, buffer, light, overlay);
             //Always pop
             matrixStack.popPose();
         }
