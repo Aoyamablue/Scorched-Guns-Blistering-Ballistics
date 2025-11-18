@@ -86,13 +86,15 @@ public class WoodpeckerModel implements IOverrideModel {
     }
     private void renderStockAttachments(ItemStack stack, PoseStack matrixStack, MultiBufferSource buffer, int light, int overlay) {
         if (Gun.hasAttachmentEquipped(stack, IAttachment.Type.STOCK)) {
-            if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WEIGHTED_STOCK.get()) {
-                RenderUtil.renderModel(BBSpecialModels.WOODPECKER_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
-            } else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.LIGHT_STOCK.get()) {
-                RenderUtil.renderModel(BBSpecialModels.WOODPECKER_STOCK_LIGHT.getModel(), stack, matrixStack, buffer, light, overlay);
-            } else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WOODEN_STOCK.get()) {
+            if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WOODEN_STOCK.get())
                 RenderUtil.renderModel(BBSpecialModels.WOODPECKER_STOCK_WOODEN.getModel(), stack, matrixStack, buffer, light, overlay);
-            }
+            else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.LIGHT_STOCK.get())
+                RenderUtil.renderModel(BBSpecialModels.WOODPECKER_STOCK_LIGHT.getModel(), stack, matrixStack, buffer, light, overlay);
+            else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WEIGHTED_STOCK.get())
+                RenderUtil.renderModel(BBSpecialModels.WOODPECKER_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
+            else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.BUMP_STOCK.get())
+                RenderUtil.renderModel(BBSpecialModels.WOODPECKER_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
+
         }
     }
     private void renderAnimatedParts(ItemStack stack, PoseStack matrixStack, MultiBufferSource buffer, int light, int overlay) {

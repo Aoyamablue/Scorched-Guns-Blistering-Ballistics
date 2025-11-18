@@ -51,6 +51,11 @@ public class Pest_control_shotgunModel implements IOverrideModel {
                 RenderUtil.renderModel(BBSpecialModels.PEST_CONTROL_SHOTGUN_STOCK_LIGHT.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WEIGHTED_STOCK.get())
                 RenderUtil.renderModel(BBSpecialModels.PEST_CONTROL_SHOTGUN_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
+            else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.BUMP_STOCK.get())
+                RenderUtil.renderModel(BBSpecialModels.PEST_CONTROL_SHOTGUN_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
+        }
+        else {
+            RenderUtil.renderModel(BBSpecialModels.PEST_CONTROL_SHOTGUN_STAN_GRIP.getModel(), stack, matrixStack, buffer, light, overlay);
         }
     }
 

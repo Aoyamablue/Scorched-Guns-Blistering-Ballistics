@@ -52,6 +52,8 @@ public class TrenchbroomModel implements IOverrideModel {
                 RenderUtil.renderModel(BBSpecialModels.TRENCHBROOM_STOCK_LIGHT.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WEIGHTED_STOCK.get())
                 RenderUtil.renderModel(BBSpecialModels.TRENCHBROOM_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
+            else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.BUMP_STOCK.get())
+                RenderUtil.renderModel(BBSpecialModels.TRENCHBROOM_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
         }
         else {
             RenderUtil.renderModel(BBSpecialModels.TRENCHBROOM_STAN_GRIP.getModel(), stack, matrixStack, buffer, light, overlay);

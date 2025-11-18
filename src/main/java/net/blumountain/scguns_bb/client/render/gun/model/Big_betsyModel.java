@@ -48,6 +48,9 @@ public class Big_betsyModel implements IOverrideModel {
                 RenderUtil.renderModel(BBSpecialModels.BIG_BETSY_STOCK_LIGHT.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WEIGHTED_STOCK.get())
                 RenderUtil.renderModel(BBSpecialModels.BIG_BETSY_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
+            else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.BUMP_STOCK.get())
+                RenderUtil.renderModel(BBSpecialModels.BIG_BETSY_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
+
         }
     }
 
