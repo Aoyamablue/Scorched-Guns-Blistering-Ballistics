@@ -1,0 +1,150 @@
+{
+	"credit": "Made with Blockbench",
+	"loader": "framework:open_model",
+	"texture_size": [64, 64],
+	"textures": {
+		"m922_barrage": "scguns_bb:item/m922_barrage"
+	},
+	"components": [
+		{
+			"from": [5.125, 7.2, 7.65],
+			"to": [5.625, 7.45, 8.4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1.625, 3.7, -1.5]},
+			"faces": {
+				"north": {"uv": [7.75, 8.25, 7.875, 8.375], "texture": "#m922_barrage"},
+				"east": {"uv": [0, 8.25, 0.25, 8.375], "texture": "#m922_barrage"},
+				"south": {"uv": [8.25, 7.75, 8.375, 7.875], "texture": "#m922_barrage", "cullface": "south"},
+				"west": {"uv": [0.25, 8.25, 0.5, 8.375], "texture": "#m922_barrage"},
+				"up": {"uv": [8.375, 1, 8.25, 0.75], "texture": "#m922_barrage"},
+				"down": {"uv": [1.125, 8.25, 1, 8.5], "texture": "#m922_barrage"}
+			}
+		},
+		{
+			"from": [4.125, 7.2, 7.65],
+			"to": [4.625, 7.45, 8.4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-2.625, 3.7, -1.5]},
+			"faces": {
+				"north": {"uv": [8, 8.25, 8.125, 8.375], "texture": "#m922_barrage"},
+				"east": {"uv": [1.5, 8.25, 1.75, 8.375], "texture": "#m922_barrage"},
+				"south": {"uv": [8.25, 8, 8.375, 8.125], "texture": "#m922_barrage", "cullface": "south"},
+				"west": {"uv": [1.75, 8.25, 2, 8.375], "texture": "#m922_barrage"},
+				"up": {"uv": [2.125, 8.5, 2, 8.25], "texture": "#m922_barrage"},
+				"down": {"uv": [8.375, 2, 8.25, 2.25], "texture": "#m922_barrage"}
+			}
+		},
+		{
+			"from": [5.125, 7.2, 5.15],
+			"to": [5.625, 7.45, 5.9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1.625, 3.7, -4]},
+			"faces": {
+				"north": {"uv": [8.25, 8.25, 8.375, 8.375], "texture": "#m922_barrage"},
+				"east": {"uv": [8.25, 2.25, 8.5, 2.375], "texture": "#m922_barrage"},
+				"south": {"uv": [0, 8.5, 0.125, 8.625], "texture": "#m922_barrage", "cullface": "south"},
+				"west": {"uv": [2.75, 8.25, 3, 8.375], "texture": "#m922_barrage"},
+				"up": {"uv": [8.375, 3, 8.25, 2.75], "texture": "#m922_barrage"},
+				"down": {"uv": [8.375, 3, 8.25, 3.25], "texture": "#m922_barrage"}
+			}
+		},
+		{
+			"from": [4.125, 7.2, 5.15],
+			"to": [4.625, 7.45, 5.9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-2.625, 3.7, -4]},
+			"faces": {
+				"north": {"uv": [8.5, 0, 8.625, 0.125], "texture": "#m922_barrage"},
+				"east": {"uv": [4, 8.25, 4.25, 8.375], "texture": "#m922_barrage"},
+				"south": {"uv": [0.25, 8.5, 0.375, 8.625], "texture": "#m922_barrage", "cullface": "south"},
+				"west": {"uv": [4.25, 8.25, 4.5, 8.375], "texture": "#m922_barrage"},
+				"up": {"uv": [4.625, 8.5, 4.5, 8.25], "texture": "#m922_barrage"},
+				"down": {"uv": [4.875, 8.25, 4.75, 8.5], "texture": "#m922_barrage"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 5.25, 3],
+			"scale": [1.3, 1.3, 1.3]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 5.25, 3],
+			"scale": [1.3, 1.3, 1.3]
+		},
+		"firstperson_righthand": {
+			"translation": [-4.25, 8.5, 7.5]
+		},
+		"firstperson_lefthand": {
+			"translation": [-4.25, 8.5, 7.5]
+		},
+		"ground": {
+			"translation": [0, 9.5, -3.75],
+			"scale": [1.3, 1.3, 1.3]
+		},
+		"gui": {
+			"rotation": [74.02, -53.34, 70.48],
+			"translation": [-4.5, 5.25, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"fixed": {
+			"rotation": [90, 55, -90],
+			"translation": [0.5, 8.75, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	},
+	"groups": [
+		"69bd83cd-4df2-11bf-a389-a8d84411de5c",
+		"cc5e86b7-1413-b331-e65b-3dc3cd83d097",
+		"9ec75727-1508-d0e7-d179-2dcce4b5a29c",
+		"e17997f1-ebdf-b06a-9d15-1c4b52b1c1a7",
+		"a3740f16-97ba-02a6-566e-6fc92bb40c7e",
+		"f593edc1-ad6d-010c-04a6-547a4fa63ead",
+		"4106916d-b376-a1bb-217d-d05cf1d7aaa8",
+		"9b3edb35-1d22-70c7-ecc9-92aff257a8ea",
+		"89dced0f-20e2-f4f0-cb83-58e05ac6839b",
+		"c1ddf265-0e80-56fe-67f3-5bbde61e79f4",
+		"70b86074-9141-7b9a-2346-9e488e2689de",
+		"d916c4a7-2f1d-a80d-9dd9-c21231126a32",
+		"dfd2bc8f-1635-3576-05ef-c44c6dab1cd5",
+		"f0d73066-4504-a31f-9986-004353807ce9",
+		"54a32ce9-e1b4-46c3-582c-160366f52f25",
+		"7accc79b-a34d-b310-e537-547f1e04daee",
+		"4146a864-43d2-c9a2-3f57-da4faa141755",
+		"df125230-c944-cd34-f85d-44e6a83a7d7e",
+		"9b0b2446-5a09-875e-5939-366e2f57c087",
+		"f2e74b8c-0b0c-b256-55a4-554dc9b19780",
+		"045b0ce3-05dc-e44d-2cb1-c3d5d0320712",
+		"dc910f11-2208-6788-7ff7-4c1d5969a722",
+		"185c8d50-4758-e133-6e12-857748aa5f65",
+		"c3e068fb-eeb9-cc8f-28f2-58a523435821",
+		"9003550d-d253-ca90-71b2-db5f32fc88bc",
+		"d0fc21b2-5719-4033-729d-c31b43d7bb2f",
+		"e09c4b15-6ba6-52a0-e287-56b245784754",
+		"3b0d3d0a-3960-e865-65cd-dcff75e4ed4d",
+		"1d6766ab-01dc-cb7a-27e5-3b334cf99876",
+		"75da3335-3ff2-dfd6-05c8-03ebb91acfac",
+		"cdcbf136-48be-d5f2-67f5-fb45c80776d8",
+		"a38c5ab4-2d6e-f01c-3ad6-d779d99f3f5e",
+		"ded34b07-5dc4-4c8f-9fc5-a4d22238f532",
+		"2c29e220-6eca-0e9d-5f57-4efb937c05c2",
+		"0b019d0b-3f13-985f-1a48-59e30ff1cf84",
+		{
+			"uuid": "aaa4f65e-5d01-c700-2762-def1e8e181a7",
+			"isOpen": true,
+			"children": [
+				"3009672d-a765-a82a-8119-a4bac0486d3d",
+				"342261de-ee8c-ee47-5734-b0a7d3bd6d10",
+				"4e0332fa-9a67-b71b-281a-90bb08725f65",
+				"cfaf7090-7240-a7df-6ed5-f02653451cfa"
+			]
+		},
+		{
+			"uuid": "8116b26c-7594-49bd-4249-21b93bcd2aad",
+			"isOpen": true,
+			"children": [
+				"dbde581e-4f56-4bda-3477-b872e536ed0d",
+				"8d296381-e208-ef06-a01f-8ede9851aed1",
+				"7660b313-c078-3185-1850-dd4644335ba4",
+				"81fac1f0-f0f7-edbe-1075-0b3e281acf18",
+				"df4049ad-d311-04af-1307-10701cb3cc10"
+			]
+		}
+	]
+}

@@ -1,0 +1,308 @@
+{
+	"credit": "Made with Blockbench",
+	"loader": "framework:open_model",
+	"texture_size": [64, 64],
+	"textures": {
+		"warthog": "scguns_bb:item/warthog"
+	},
+	"components": [
+		{
+			"from": [1.9, 2.31447, 11.49],
+			"to": [6.9, 5.31447, 14.51],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4.4, 3.35, 13.715]},
+			"faces": {
+				"north": {"uv": [3, 1.25, 4.25, 2], "texture": "#warthog"},
+				"east": {"uv": [6.5, 4.75, 7.25, 5.5], "texture": "#warthog"},
+				"south": {"uv": [0, 3.5, 1.25, 4.25], "texture": "#warthog"},
+				"west": {"uv": [6.5, 5.5, 7.25, 6.25], "texture": "#warthog"},
+				"up": {"uv": [4.75, 3.5, 3.5, 2.75], "texture": "#warthog"},
+				"down": {"uv": [4.75, 3.5, 3.5, 4.25], "texture": "#warthog"}
+			}
+		},
+		{
+			"from": [1.825, 2.06447, 11.365],
+			"to": [7.075, 2.56447, 14.635],
+			"rotation": {"angle": 0, "axis": "y", "origin": [4.325, 1.6, 13.59]},
+			"faces": {
+				"north": {"uv": [9.25, 8.25, 10.625, 8.375], "texture": "#warthog"},
+				"east": {"uv": [10, 10, 10.875, 10.125], "texture": "#warthog"},
+				"south": {"uv": [9.25, 8.5, 10.625, 8.625], "texture": "#warthog"},
+				"west": {"uv": [0, 10.25, 0.875, 10.375], "texture": "#warthog"},
+				"up": {"uv": [1.375, 0.875, 0, 0], "texture": "#warthog"},
+				"down": {"uv": [1.375, 1, 0, 1.875], "texture": "#warthog"}
+			}
+		},
+		{
+			"from": [6.1, 4.9, 11.9],
+			"to": [7.8, 5.4, 13.925],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [5.6, 4.2, 11.5]},
+			"faces": {
+				"north": {"uv": [6.25, 10.75, 6.625, 10.875], "texture": "#warthog"},
+				"east": {"uv": [10.5, 6.25, 11, 6.375], "texture": "#warthog"},
+				"south": {"uv": [6.75, 10.75, 7.125, 10.875], "texture": "#warthog"},
+				"west": {"uv": [10.5, 6.5, 11, 6.625], "texture": "#warthog"},
+				"up": {"uv": [9.375, 1.5, 9, 1], "texture": "#warthog"},
+				"down": {"uv": [9.375, 3.5, 9, 4], "texture": "#warthog"}
+			}
+		},
+		{
+			"from": [6.73776, 6.07783, 11.7125],
+			"to": [7.23776, 6.32783, 14.3125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6.13776, 5.07783, 15.0125]},
+			"faces": {
+				"north": {"uv": [4, 11.5, 4.125, 11.625], "texture": "#warthog"},
+				"east": {"uv": [9.75, 10.25, 10.375, 10.375], "texture": "#warthog"},
+				"south": {"uv": [11.5, 4, 11.625, 4.125], "texture": "#warthog"},
+				"west": {"uv": [0, 10.5, 0.625, 10.625], "texture": "#warthog"},
+				"up": {"uv": [10.625, 1.125, 10.5, 0.5], "texture": "#warthog"},
+				"down": {"uv": [0.875, 10.5, 0.75, 11.125], "texture": "#warthog"}
+			}
+		},
+		{
+			"from": [1.78744, 5.30653, 11.24],
+			"to": [5.63744, 5.80653, 14.51],
+			"rotation": {"angle": 0, "axis": "y", "origin": [2.88744, 4.84206, 13.465]},
+			"faces": {
+				"north": {"uv": [8.75, 9.25, 10.125, 9.375], "texture": "#warthog"},
+				"east": {"uv": [10.25, 0, 11.125, 0.125], "texture": "#warthog"},
+				"south": {"uv": [9.25, 8.75, 10.625, 8.875], "texture": "#warthog"},
+				"west": {"uv": [10.25, 0.25, 11.125, 0.375], "texture": "#warthog"},
+				"up": {"uv": [2.875, 0.875, 1.5, 0], "texture": "#warthog"},
+				"down": {"uv": [2.875, 1, 1.5, 1.875], "texture": "#warthog"}
+			}
+		},
+		{
+			"from": [3.79406, 5.23806, 11.925],
+			"to": [5.79406, 5.53806, 13.925],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3.79406, 3.43806, 11.925]},
+			"faces": {
+				"north": {"uv": [6.75, 10.5, 7.25, 10.625], "texture": "#warthog"},
+				"east": {"uv": [7.5, 10.5, 8, 10.625], "texture": "#warthog"},
+				"south": {"uv": [10.5, 7.75, 11, 7.875], "texture": "#warthog"},
+				"west": {"uv": [8, 10.5, 8.5, 10.625], "texture": "#warthog"},
+				"up": {"uv": [9, 3.75, 8.5, 3.25], "texture": "#warthog"},
+				"down": {"uv": [4.25, 8.5, 3.75, 9], "texture": "#warthog"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 5.5, -5.75]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 5.5, -5.75]
+		},
+		"firstperson_righthand": {
+			"translation": [-4.25, 8.5, -2.5]
+		},
+		"firstperson_lefthand": {
+			"translation": [-4.25, 8.5, -2.5]
+		},
+		"ground": {
+			"translation": [0, 9.5, -3.75],
+			"scale": [1.3, 1.3, 1.3]
+		},
+		"gui": {
+			"rotation": [74.02, -53.34, 70.48],
+			"translation": [-4.5, 5.25, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"fixed": {
+			"rotation": [90, 55, -90],
+			"translation": [0.5, 8.75, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	},
+	"groups": [
+		{
+			"uuid": "63f2aee1-9f48-2bf9-2304-8b2b2024369c",
+			"isOpen": true,
+			"children": [
+				"dc1610ca-f823-c5c1-3713-2700c1c29b41",
+				"6d1ff46c-7053-6a65-7d87-b3d7550eb24c",
+				"e536a218-8bbf-9fc5-8ccb-b15b4542fc9e",
+				"b54baedd-9fe1-67ce-3eac-2b524e65aabd",
+				"6d8a5e93-5d59-5fa4-de91-0b3613151f5c",
+				"cb9f382c-ad3e-d39b-b8cd-0046b0d8f07c",
+				"745f56a8-8d66-dc05-c780-f671a76839ca",
+				"a2876d6d-1b43-36ab-3359-31014edbb86c",
+				"b510186b-4274-e44f-b212-958ef8e69d5b",
+				"59ae72f3-8bc0-3b11-8539-5a0c611eb910",
+				"f4113e4c-e7fc-a94d-bdc1-40665b002910",
+				"1e520fe7-0b63-17b0-7947-7cd933f0ed27",
+				"71bb5b28-9134-e50f-3f03-738cfd21b2f0",
+				"3a08f834-46c2-c43a-d863-099c39154aa7",
+				"b382d78a-2a2b-dd12-195c-637267281ee5",
+				"e8d136c3-0eb4-b893-cac4-7ad887240947",
+				"0ef6a61e-a22c-25ce-cc28-7c4da94bcccf",
+				"b6363ada-f5f3-2ec2-38d7-d057fd7b060f",
+				"27a1b0fd-2987-2af9-21f7-e0813b471914",
+				"c5ac61e3-15cd-c8da-a3b4-d487a1648437",
+				"4aad1f9d-0a51-f9df-0068-18814ca20a0a",
+				"4f50597d-a1ad-2754-cc39-ca9d27730f74",
+				"2fcaa662-adb5-9338-d467-88da66320402",
+				"de33dae6-4854-4997-e101-e29ce3f04859",
+				"79feb1ea-68a2-f3c9-dfdb-183303ba09dd",
+				"5de592c9-7bf0-8e5a-0eeb-920b0c6e903a",
+				"910cac41-ed37-be12-2e12-3c42b1238103",
+				"8a3097ad-8fc1-f235-fd15-052edc5ad5c2",
+				"01b4e723-794b-bddc-ed5b-5af24eeb2007",
+				"3078d7b7-861a-e552-d9f4-33024dd1d728",
+				"ed7b817b-6ee3-fef3-c35c-ff236edf77ec",
+				"4f4bc59f-eaae-2a76-79d5-92829d3ddd19",
+				"c51b60e7-ba5c-343c-003a-c5a1411797f2",
+				"76bf0124-48b0-8320-56dd-1c281044c79b",
+				"061873c0-a423-a414-58b8-f6a6d4f34168",
+				"3881112c-e823-8f7a-0103-67c0299e75eb",
+				"569a74eb-e016-e456-9f0b-a0f5eb0ee55d",
+				"09a188ca-5e99-2e03-0153-ab13ded86401",
+				"282c3aa5-016d-44ef-405e-0079283c599e",
+				"025ea3c5-d478-d677-7d9d-d0a9ed54749a",
+				"bfa50345-962c-f84c-5e11-4c8656b64a99",
+				{
+					"uuid": "e5f32fa5-7550-6b49-ba1a-0f00376bf070",
+					"isOpen": true,
+					"children": [
+						{
+							"uuid": "76e2a42c-2715-8546-ae36-5c62695ae591",
+							"isOpen": true,
+							"children": ["b9190341-f836-c0a9-6e18-695acc426071", "32d6641c-7822-e1da-e81c-d69bcef72968"]
+						}
+					]
+				},
+				{
+					"uuid": "4436f950-f7f2-60cd-2f4d-7ecd51bdf4c2",
+					"isOpen": true,
+					"children": [
+						{
+							"uuid": "2899310e-9373-f17e-5ac4-ffe3620abdc5",
+							"isOpen": true,
+							"children": ["733f19e0-e27e-1653-a756-03c731da7255", "07b8e0e7-13c5-7ae4-cd56-1755c8f3c72c", "9dd840cb-c41c-f930-8cf1-6346c824092b"]
+						}
+					]
+				},
+				{
+					"uuid": "35c7c387-6f98-3f6c-7119-bbbba83db79a",
+					"isOpen": true,
+					"children": [
+						"37009a2e-194b-8e10-ba0c-ce7c95b3d7b1",
+						"4e5c6103-e224-542e-24d0-9b67e529e5b8",
+						"ae08bd83-e303-22ec-ff3a-9be256d24325",
+						"b65c0bf0-227c-13e0-ca90-6d091b4da064",
+						"c95b7fce-77bd-dec5-3ec3-ef0a14e0bcbd",
+						"bc0e1818-8e6b-2957-5789-84e58e0dfafe"
+					]
+				},
+				{
+					"uuid": "f160732d-8875-c65e-ac36-fad2a4a32143",
+					"isOpen": true,
+					"children": [
+						{
+							"uuid": "5830b5ed-9bde-f394-457b-f2dbb04e41e4",
+							"isOpen": true,
+							"children": [
+								"a76fe648-6a56-f054-5ce2-92c92865f4cf",
+								"d50073e3-011b-d919-51e2-8216032b240f",
+								"5568013d-f4ad-a6c3-8d64-e66c2114236a",
+								"abe5b43f-693e-dd35-dcc3-d15ff4f2c66e",
+								"c8a2fec6-861a-a6db-04d5-e744b2332de4",
+								"1e863a24-b633-fe48-da50-ff6e7db42a47",
+								"4fe38d27-306a-e59b-e283-f77367612225",
+								"ab55e442-839e-31ed-8269-a1a0f8460057",
+								"8036c3ca-7fa3-93cd-3237-8a1891e1efec",
+								"896b8bc1-22be-36e1-a88a-6f4154cc88ea",
+								"9a9155da-3da1-58a1-8ac7-206f5cfe2859"
+							]
+						}
+					]
+				},
+				{
+					"uuid": "93443249-ae6f-11d5-4071-9469e3a2f5ce",
+					"isOpen": true,
+					"children": ["d939f650-15d5-c04b-2fc3-a1834a0d5815"]
+				},
+				{
+					"uuid": "53afcbe9-6bfe-4f9e-dae4-78d4a9ee5642",
+					"isOpen": true,
+					"children": [
+						{
+							"uuid": "b21badc6-248d-47a4-d64e-f338faf74d76",
+							"isOpen": true,
+							"children": [
+								"9c55ece0-6bc9-76db-7ffc-19c411ff5d5d",
+								"029144ec-58b3-fc5c-e927-170ec15a5038",
+								"5f7ed279-0edd-4b2e-7d65-cd25a9cf6105",
+								"993ee157-6c19-5c16-ba22-2cdd468f9e39"
+							]
+						}
+					]
+				},
+				{
+					"uuid": "125cf787-5297-e7e6-1f5c-fc83d679b5c2",
+					"isOpen": true,
+					"children": [
+						"f5c1963c-9cc0-6767-695e-8d442b23c375",
+						"945f6277-b3a2-bc22-1b37-b13a2a249f79",
+						"c19715c1-29f5-19ac-9e06-1a0601fa47e2",
+						"e7eb4641-e9fd-68a5-6567-480037348cb7",
+						"3a569b3a-8515-93b8-540f-a43f75cf541b",
+						"00c99e1a-65a1-ccb1-d539-80326cbd93fb",
+						"4640e101-af43-54a4-1218-9d1d3dfd2a11",
+						"b1e3c8ce-8568-c2ee-78a3-7bb64484310b"
+					]
+				},
+				{
+					"uuid": "898c0baa-dd03-d39e-50dd-73c48091b9a2",
+					"isOpen": true,
+					"children": [
+						"a72d332c-7909-f341-bfaa-583f2be1848d",
+						"023730e2-0e0e-ca35-1e0d-98d8724b5788",
+						"8490d1ab-1f15-276f-bf13-d722cdb4faf1",
+						"9dd81732-93a4-8ae5-a991-1ea275663139",
+						"9325fb2d-79a7-c7b2-f5a3-f2e6928e4169",
+						"3a894214-eab0-2752-d04c-ecb2358e8467"
+					]
+				},
+				{
+					"uuid": "3f5ce9c6-8a0e-03c6-3b77-0cc2ab237f3e",
+					"isOpen": true,
+					"children": [
+						"57b9b24f-d170-dc4d-5e9d-76dd42595e10",
+						"5c4e9f6c-1cd9-7ff2-1818-94b19cee34cc",
+						"9a03c78c-043d-bfee-5992-4bdb28bd78d2",
+						"1eb3e1cc-3fbe-83fd-4f5b-a8a51ffaebbd",
+						"c2e4a2df-28d2-e60d-c778-a313e5a0774a",
+						"eb526679-1acf-641e-f163-2829cdc3206f"
+					]
+				},
+				{
+					"uuid": "bf4c225d-07fd-185c-48a4-490a0cf132b8",
+					"isOpen": true,
+					"children": [
+						"04a8710f-18bd-880e-66a8-de6d2b855d10",
+						"12a08c9c-48d9-8a96-205a-abe35684d0d2",
+						"483586ba-5e6f-f92c-adfc-8f3c8694e9ba",
+						"bbdc575d-d1fe-6c3d-094d-6b7bb7d65909",
+						"09ac133b-0750-ee53-6b83-8ecb4f534467",
+						"90757dfd-dc59-eedd-cd5a-26fd6e1e020f",
+						"94a6213b-804e-ef85-7c52-392fb83e9918"
+					]
+				},
+				{
+					"uuid": "1eb3b0cc-ee35-6dd3-0f3d-414c96698dfb",
+					"isOpen": true,
+					"children": [
+						"724c8028-3cba-fbe8-65a4-b12f8fd76663",
+						"a30129ac-0aa9-ad46-fb7c-d98fe9562330",
+						"fb6cc978-ca2e-c0f5-f0a8-c1cba6d92f16",
+						"c18aa300-a368-cca0-57d4-61320c858d0c",
+						"d0b0565c-adc1-62d4-4c69-1579fe9c28ba",
+						"836fd4d7-1d3a-444c-3adf-273d4f2e5ee1",
+						"07b79441-dba5-32da-4915-04a09c507ea0",
+						"b65e9360-ab10-a034-1c6f-a5c344ab4de2"
+					]
+				}
+			]
+		}
+	]
+}
