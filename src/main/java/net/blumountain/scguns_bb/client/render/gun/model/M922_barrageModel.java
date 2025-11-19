@@ -24,6 +24,11 @@ public class M922_barrageModel implements IOverrideModel {
     @Override
     public void render(float partialTicks, ItemDisplayContext transformType, ItemStack stack, ItemStack parent, LivingEntity entity, PoseStack matrixStack, MultiBufferSource buffer, int light, int overlay) {
         RenderUtil.renderModel(BBSpecialModels.M922_BARRAGE_MAIN.getModel(), stack, matrixStack, buffer, light, overlay);
+        if ((Gun.getScope(stack) == null))
+            RenderUtil.renderModel(BBSpecialModels.M922_BARRAGE_SIGHTS.getModel(), stack, matrixStack, buffer, light, overlay);
+        else
+            RenderUtil.renderModel(BBSpecialModels.M922_BARRAGE_NO_SIGHTS.getModel(), stack, matrixStack, buffer, light, overlay);
+
         if (entity.equals(Minecraft.getInstance().player)) {
             matrixStack.pushPose();
             matrixStack.translate(0, -5.8 * 0.0625, 0);
@@ -32,13 +37,8 @@ public class M922_barrageModel implements IOverrideModel {
             cooldown = (float) ease(cooldown);
             matrixStack.translate(0, 0, cooldown / 12);
             matrixStack.translate(0, 5.8 * 0.0625, 0);
-            renderBarrelAndAttachments(stack, matrixStack, buffer, light, overlay);
             matrixStack.popPose();
         }
-    }
-
-    private void renderBarrelAndAttachments(ItemStack stack, PoseStack matrixStack, MultiBufferSource buffer, int light, int overlay) {
-        RenderUtil.renderModel(BBSpecialModels.M922_BARRAGE_MAIN.getModel(), stack, matrixStack, buffer, light, overlay);
     }
 
     private double ease(double x) {

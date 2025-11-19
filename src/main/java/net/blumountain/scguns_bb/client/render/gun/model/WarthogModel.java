@@ -1,13 +1,13 @@
 package net.blumountain.scguns_bb.client.render.gun.model;
 
 import com.mojang.blaze3d.vertex.PoseStack;
-import net.blumountain.scguns_bb.client.BBSpecialModels;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemCooldowns;
 import net.minecraft.world.item.ItemDisplayContext;
 import net.minecraft.world.item.ItemStack;
+import net.blumountain.scguns_bb.client.BBSpecialModels;
 import top.ribs.scguns.client.render.gun.IOverrideModel;
 import top.ribs.scguns.client.util.RenderUtil;
 import top.ribs.scguns.common.Gun;
@@ -24,10 +24,16 @@ public class WarthogModel implements IOverrideModel {
     @Override
     public void render(float partialTicks, ItemDisplayContext transformType, ItemStack stack, ItemStack parent, LivingEntity entity, PoseStack matrixStack, MultiBufferSource buffer, int light, int overlay) {
         RenderUtil.renderModel(BBSpecialModels.WARTHOG_MAIN.getModel(), stack, matrixStack, buffer, light, overlay);
+        if ((Gun.getScope(stack) == null))
+            RenderUtil.renderModel(BBSpecialModels.WARTHOG_SIGHTS.getModel(), stack, matrixStack, buffer, light, overlay);
+        else
+            RenderUtil.renderModel(BBSpecialModels.WARTHOG_NO_SIGHTS.getModel(), stack, matrixStack, buffer, light, overlay);
+        boolean extendedBarrelAttached = false;
 
         if (Gun.hasAttachmentEquipped(stack, IAttachment.Type.BARREL)) {
             if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItems.EXTENDED_BARREL.get()) {
                 RenderUtil.renderModel(BBSpecialModels.WARTHOG_EXT_BARREL.getModel(), stack, matrixStack, buffer, light, overlay);
+                extendedBarrelAttached = true;
             } else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItems.SILENCER.get())
                 RenderUtil.renderModel(BBSpecialModels.WARTHOG_SILENCER.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.BARREL, stack).getItem() == ModItems.MUZZLE_BRAKE.get())
@@ -37,18 +43,9 @@ public class WarthogModel implements IOverrideModel {
         }
 
         // Render the standard barrel if no extended barrel is attached
+        if (!extendedBarrelAttached) {
             RenderUtil.renderModel(BBSpecialModels.WARTHOG_STAN_BARREL.getModel(), stack, matrixStack, buffer, light, overlay);
-
-
-        if (Gun.hasAttachmentEquipped(stack, IAttachment.Type.STOCK)) {
-            if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WOODEN_STOCK.get())
-                RenderUtil.renderModel(BBSpecialModels.WARTHOG_STOCK_WOODEN.getModel(), stack, matrixStack, buffer, light, overlay);
-            else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.LIGHT_STOCK.get())
-                RenderUtil.renderModel(BBSpecialModels.WARTHOG_STOCK_LIGHT.getModel(), stack, matrixStack, buffer, light, overlay);
-            else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WEIGHTED_STOCK.get())
-                RenderUtil.renderModel(BBSpecialModels.WARTHOG_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
         }
-
         if ((Gun.hasAttachmentEquipped(stack, IAttachment.Type.MAGAZINE)))
         {
             if (Gun.getAttachment(IAttachment.Type.MAGAZINE, stack).getItem() == ModItems.EXTENDED_MAG.get())

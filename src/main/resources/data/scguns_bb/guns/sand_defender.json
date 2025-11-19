@@ -8,17 +8,14 @@
     }
   },
   "general": {
+    "weaponType": "pistol",
     "fireMode": "scguns:semi_automatic",
     "gripType": "scguns:one_handed",
-    "rate": 4,
-    "recoilAngle": 2.5,
-    "recoilKick": 1.5,
-    "spread": 1.5,
+    "rate": 3,
     "meleeDamage": 2.5,
     "meleeReach": 2.5,
     "meleeCooldownTicks": 10,
-    "hotBarrelRate": 14,
-    "criticalChance": 0.08
+    "hotBarrelRate": 14
   },
   "modules": {
     "attachments": {
@@ -27,7 +24,7 @@
         "zOffset": -4.2
       },
       "scope": {
-        "size": 0.7,
+        "size": 0.65,
         "yOffset": 5.8,
         "zOffset": 4.5
       },
@@ -42,8 +39,16 @@
     }
   },
   "projectile": {
+    "recoilAngle": 2.5,
+    "recoilKick": 1.5,
+    "spread": 1.5,
+    "criticalChance": 0.08,
     "advantage": "scguns:none",
+    "damageFalloffStart": 12.0,
+    "damageFalloffEnd": 30.0,
+    "damageFalloffMinMultiplier": 0.45,
     "damage": 8.5,
+    "armorPen": 1.0,
     "gravity": false,
     "item": "scguns:compact_advanced_round",
     "ejectsCasing": true,

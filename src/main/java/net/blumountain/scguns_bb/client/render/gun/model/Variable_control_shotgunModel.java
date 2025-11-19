@@ -26,6 +26,11 @@ public class Variable_control_shotgunModel implements IOverrideModel {
     public void render(float partialTicks, ItemDisplayContext transformType, ItemStack stack, ItemStack parent, LivingEntity entity, PoseStack matrixStack, MultiBufferSource buffer, int light, int overlay) {
 
         RenderUtil.renderModel(BBSpecialModels.VARIABLE_CONTROL_SHOTGUN_MAIN.getModel(), stack, matrixStack, buffer, light, overlay);
+        if ((Gun.getScope(stack) == null))
+            RenderUtil.renderModel(BBSpecialModels.VARIABLE_CONTROL_SHOTGUN_SIGHTS.getModel(), stack, matrixStack, buffer, light, overlay);
+        else
+            RenderUtil.renderModel(BBSpecialModels.VARIABLE_CONTROL_SHOTGUN_NO_SIGHTS.getModel(), stack, matrixStack, buffer, light, overlay);
+        boolean extendedBarrelAttached = false;
 
         renderStockAttachments(stack, matrixStack, buffer, light, overlay);
         renderUnderBarrelAttachments(stack, matrixStack, buffer, light, overlay);
@@ -50,6 +55,8 @@ public class Variable_control_shotgunModel implements IOverrideModel {
             else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.LIGHT_STOCK.get())
                 RenderUtil.renderModel(BBSpecialModels.VARIABLE_CONTROL_SHOTGUN_STOCK_LIGHT.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WEIGHTED_STOCK.get())
+                RenderUtil.renderModel(BBSpecialModels.VARIABLE_CONTROL_SHOTGUN_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
+            else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.BUMP_STOCK.get())
                 RenderUtil.renderModel(BBSpecialModels.VARIABLE_CONTROL_SHOTGUN_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
         }
     }

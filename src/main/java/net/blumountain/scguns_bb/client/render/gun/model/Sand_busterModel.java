@@ -51,6 +51,8 @@ public class Sand_busterModel implements IOverrideModel {
                 RenderUtil.renderModel(BBSpecialModels.SAND_BUSTER_STOCK_LIGHT.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WEIGHTED_STOCK.get())
                 RenderUtil.renderModel(BBSpecialModels.SAND_BUSTER_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
+            else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.BUMP_STOCK.get())
+                RenderUtil.renderModel(BBSpecialModels.SAND_BUSTER_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
         }
     }
 

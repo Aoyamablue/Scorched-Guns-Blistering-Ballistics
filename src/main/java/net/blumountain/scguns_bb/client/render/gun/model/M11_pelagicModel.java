@@ -46,6 +46,8 @@ public class M11_pelagicModel implements IOverrideModel {
                 RenderUtil.renderModel(BBSpecialModels.M11_PELAGIC_STOCK_LIGHT.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WEIGHTED_STOCK.get())
                 RenderUtil.renderModel(BBSpecialModels.M11_PELAGIC_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
+            else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.BUMP_STOCK.get())
+                RenderUtil.renderModel(BBSpecialModels.M11_PELAGIC_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
         }
 
         if (Gun.hasAttachmentEquipped(stack, IAttachment.Type.UNDER_BARREL)) {
