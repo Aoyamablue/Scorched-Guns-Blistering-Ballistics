@@ -25,6 +25,11 @@ public class M8_benthModel implements IOverrideModel {
     public void render(float partialTicks, ItemDisplayContext transformType, ItemStack stack, ItemStack parent, LivingEntity entity, PoseStack matrixStack, MultiBufferSource buffer, int light, int overlay) {
 
         RenderUtil.renderModel(BBSpecialModels.M8_BENTH_MAIN.getModel(), stack, matrixStack, buffer, light, overlay);
+        if ((Gun.getScope(stack) == null))
+            RenderUtil.renderModel(BBSpecialModels.M8_BENTH_SIGHTS.getModel(), stack, matrixStack, buffer, light, overlay);
+        else
+            RenderUtil.renderModel(BBSpecialModels.M8_BENTH_NO_SIGHTS.getModel(), stack, matrixStack, buffer, light, overlay);
+        boolean extendedBarrelAttached = false;
 
         renderStockAttachments(stack, matrixStack, buffer, light, overlay);
         renderUnderBarrelAttachments(stack, matrixStack, buffer, light, overlay);

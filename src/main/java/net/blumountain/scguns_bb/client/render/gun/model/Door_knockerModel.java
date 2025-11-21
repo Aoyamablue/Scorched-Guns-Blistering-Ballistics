@@ -26,7 +26,7 @@ public class Door_knockerModel implements IOverrideModel {
 
         //Renders the static parts of the model.
         RenderUtil.renderModel(BBSpecialModels.DOOR_KNOCKER_MAIN.getModel(), stack, matrixStack, buffer, light, overlay);
-        
+
         if (Gun.hasAttachmentEquipped(stack, IAttachment.Type.STOCK)) {
             if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WOODEN_STOCK.get())
                 RenderUtil.renderModel(BBSpecialModels.DOOR_KNOCKER_STOCK_WOODEN.getModel(), stack, matrixStack, buffer, light, overlay);
@@ -36,6 +36,9 @@ public class Door_knockerModel implements IOverrideModel {
                 RenderUtil.renderModel(BBSpecialModels.DOOR_KNOCKER_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
             else if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.BUMP_STOCK.get())
                 RenderUtil.renderModel(BBSpecialModels.DOOR_KNOCKER_STOCK_HEAVY.getModel(), stack, matrixStack, buffer, light, overlay);
+        }
+        else {
+            RenderUtil.renderModel(BBSpecialModels.DOOR_KNOCKER_STAN_GRIP.getModel(), stack, matrixStack, buffer, light, overlay);
         }
     }
 }

@@ -10,8 +10,8 @@
   "general": {
     "weaponType": "heavy",
     "fireMode": "scguns:semi_automatic",
-    "gripType": "scguns:bazooka",
-    "baseGripType": "scguns:bazooka",
+    "gripType": "scguns:two_handed",
+    "baseGripType": "scguns:two_handed",
     "rate": 13,
 
     "meleeDamage": 3.5,

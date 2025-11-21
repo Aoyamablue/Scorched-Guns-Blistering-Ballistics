@@ -8,18 +8,16 @@
     }
   },
   "general": {
-    "weaponType": "special",
+    "weaponType": "heavy",
     "fireMode": "scguns:semi_automatic",
-    "gripType": "scguns:mini_gun_3",
-    "baseGripType": "scguns:mini_gun_3",
-    "rate": 6,
-    "meleeDamage": 9.5,
-    "meleeCooldownTicks": 20,
-    "meleeReach": 4.5,
-    "hotBarrelRate": 100,
-    "speedModifier": 1.1,
-    "usesCustomMeleeAnimation": true,
-    "allowAmmoChange": true
+    "gripType": "scguns:bazooka",
+    "baseGripType": "scguns:bazooka",
+    "rate": 13,
+
+    "meleeDamage": 3.5,
+    "meleeCooldownTicks": 25,
+    "hotBarrelRate": 18,
+    "speedModifier": 0.95
   },
   "modules": {
     "attachments": {
@@ -32,6 +30,23 @@
   },
   "projectile": {
     "alwaysSpread": false,
+    "recoilAngle": 6.7,
+    "recoilKick": 2.22,
+    "spread": 3.0,
+    "criticalChance": 0.05,
+    "visible": true,
+    "advantage": "scguns:none",
+    "damage": 28.0,
+    "ejectsCasing": false,
+    "gravity": true,
+    "item": "scguns:rocket",
+    "life": 55,
+    "size": 0.05,
+    "speed": 6.0,
+    "trailLengthMultiplier": 2.0
+  },
+  "projectile_1": {
+    "alwaysSpread": false,
     "recoilAngle": 5.0,
     "recoilKick": 2.0,
     "spread": 1.0,
@@ -42,28 +57,26 @@
     "damageFalloffMinMultiplier": 0.75,
     "damage": 17.5,
     "ejectsCasing": true,
-    "gravity": false,
     "visible": true,
-    "item": "scguns:microjet",
+    "gravity": false,
+    "item": "scguns:frog_dart",
     "casingType": "scguns:small_iron_casing",
-    "ejectDuringReload": true,
     "life": 45,
     "size": 0.05,
     "speed": 3.0,
     "trailLengthMultiplier": 2.0
   },
   "reloads": {
-    "emptyMagTimer": 10,
-    "maxAmmo": 1  ,
-    "reloadItem": "scguns:microjet",
-    "reloadTimer": 40,
+    "emptyMagTimer": 30,
+    "maxAmmo": 1,
+    "reloadItem": "scguns:rocket",
+    "reloadTimer": 34,
     "reloadType": "scguns:mag_fed"
   },
   "sounds": {
     "cock": "scguns:item.pistol.cock",
-    "enchantedFire": "scguns:item.gyrojet.fire",
-    "fire": "scguns:item.gyrojet.fire",
-    "reload": "scguns:item.gauss.reload",
-    "silencedFire": "scguns:item.makeshift_rifle.silenced_fire"
+    "enchantedFire": "scguns:item.rocket.fire",
+    "fire": "scguns:item.rocket.fire",
+    "reload": "scguns:item.gauss.reload"
   }
 }

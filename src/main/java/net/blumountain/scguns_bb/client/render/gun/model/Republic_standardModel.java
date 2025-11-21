@@ -37,7 +37,7 @@ public class Republic_standardModel implements IOverrideModel {
         }
 
         // Render the standard barrel if no extended barrel is attached
-            RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_STAN_BARREL.getModel(), stack, matrixStack, buffer, light, overlay);
+        RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_STAN_BARREL.getModel(), stack, matrixStack, buffer, light, overlay);
 
         if (Gun.hasAttachmentEquipped(stack, IAttachment.Type.STOCK)) {
             if (Gun.getAttachment(IAttachment.Type.STOCK, stack).getItem() == ModItems.WOODEN_STOCK.get())
@@ -66,16 +66,14 @@ public class Republic_standardModel implements IOverrideModel {
                 RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_NETHERITE_BAYONET.getModel(), stack, matrixStack, buffer, light, overlay);
         }
 
-        if ((Gun.hasAttachmentEquipped(stack, IAttachment.Type.MAGAZINE)))
-        {
+        if ((Gun.hasAttachmentEquipped(stack, IAttachment.Type.MAGAZINE))) {
             if (Gun.getAttachment(IAttachment.Type.MAGAZINE, stack).getItem() == ModItems.EXTENDED_MAG.get())
                 RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_EXTENDED_MAG.getModel(), stack, matrixStack, buffer, light, overlay);
             if (Gun.getAttachment(IAttachment.Type.MAGAZINE, stack).getItem() == ModItems.PLUS_P_MAG.get())
                 RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_EXTENDED_MAG.getModel(), stack, matrixStack, buffer, light, overlay);
             if (Gun.getAttachment(IAttachment.Type.MAGAZINE, stack).getItem() == ModItems.SPEED_MAG.get())
                 RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_SPEED_MAG.getModel(), stack, matrixStack, buffer, light, overlay);
-        }
-        else
+        } else
             RenderUtil.renderModel(BBSpecialModels.REPUBLIC_STANDARD_STANDARD_MAG.getModel(), stack, matrixStack, buffer, light, overlay);
 
         if (entity.equals(Minecraft.getInstance().player)) {

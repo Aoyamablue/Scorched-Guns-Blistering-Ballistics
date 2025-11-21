@@ -94,7 +94,6 @@ public class Neptune_spearModel implements IOverrideModel {
             matrixStack.translate(0, 0, cooldown / 8);
             matrixStack.translate(0, 5.8 * 0.0625, 0);
             //Renders the moving part of the gun.
-            RenderUtil.renderModel(BBSpecialModels.NEPTUNE_SPEAR_BOLT.getModel(), stack, matrixStack, buffer, light, overlay);
             //Always pop
             matrixStack.popPose();
         }
