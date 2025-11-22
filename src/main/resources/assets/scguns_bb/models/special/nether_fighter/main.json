@@ -1,0 +1,482 @@
+{
+	"credit": "Made with Blockbench",
+	"loader": "framework:open_model",
+	"texture_size": [32, 32],
+	"textures": {
+		"nether_fighter": "scguns_bb:item/nether_fighter"
+	},
+	"components": [
+		{
+			"from": [8, 3.875, 15.5],
+			"to": [8, 4.825, 16.45],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 4, 15.75]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0.5], "texture": "#nether_fighter"},
+				"east": {"uv": [10.5, 5.5, 11, 6], "texture": "#nether_fighter"},
+				"south": {"uv": [0, 0, 0, 0.5], "texture": "#nether_fighter"},
+				"west": {"uv": [6, 10.5, 6.5, 11], "texture": "#nether_fighter"},
+				"up": {"uv": [0, 0.5, 0, 0], "texture": "#nether_fighter"},
+				"down": {"uv": [0, 0, 0, 0.5], "texture": "#nether_fighter"}
+			}
+		},
+		{
+			"from": [7.58, -0.1, 14.15],
+			"to": [8.41, 4, 16.1],
+			"rotation": {"angle": -20, "axis": "x", "origin": [8.39, 0.3, 15.6]},
+			"faces": {
+				"north": {"uv": [3, 5.5, 3.5, 7.5], "texture": "#nether_fighter"},
+				"east": {"uv": [0, 0, 1, 2], "texture": "#nether_fighter"},
+				"south": {"uv": [3.5, 5.5, 4, 7.5], "texture": "#nether_fighter"},
+				"west": {"uv": [1, 0, 2, 2], "texture": "#nether_fighter"},
+				"up": {"uv": [3.5, 4.5, 3, 3.5], "texture": "#nether_fighter"},
+				"down": {"uv": [4.5, 1.5, 4, 2.5], "texture": "#nether_fighter"}
+			}
+		},
+		{
+			"from": [8.01, 1.85, 11.7],
+			"to": [8.01, 3.3, 13.7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1.15, 16.1]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0.75], "texture": "#nether_fighter"},
+				"east": {"uv": [6.5, 2.5, 7.5, 3.25], "texture": "#nether_fighter"},
+				"south": {"uv": [0, 0, 0, 0.75], "texture": "#nether_fighter"},
+				"up": {"uv": [0, 1, 0, 0], "texture": "#nether_fighter"},
+				"down": {"uv": [0, 0, 0, 1], "texture": "#nether_fighter"}
+			}
+		},
+		{
+			"from": [7.595, 3.33331, 13.22121],
+			"to": [8.405, 4.15831, 14.34621],
+			"rotation": {"angle": 45, "axis": "x", "origin": [7.905, 2.18331, 14.42121]},
+			"faces": {
+				"north": {"uv": [6.5, 7.5, 7, 8], "texture": "#nether_fighter"},
+				"east": {"uv": [6, 9, 6.5, 9.5], "texture": "#nether_fighter"},
+				"south": {"uv": [9, 6, 9.5, 6.5], "texture": "#nether_fighter"},
+				"west": {"uv": [6.5, 9, 7, 9.5], "texture": "#nether_fighter"},
+				"up": {"uv": [9.5, 7, 9, 6.5], "texture": "#nether_fighter"},
+				"down": {"uv": [9.5, 7, 9, 7.5], "texture": "#nether_fighter"}
+			}
+		},
+		{
+			"from": [7.525, 3.25, 11.05],
+			"to": [8.475, 4.2, 14.85],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.375, -0.3, 0.3]},
+			"faces": {
+				"north": {"uv": [8, 9, 8.5, 9.5], "texture": "#nether_fighter"},
+				"east": {"uv": [2, 1.5, 4, 2], "texture": "#nether_fighter"},
+				"south": {"uv": [8.5, 9, 9, 9.5], "texture": "#nether_fighter"},
+				"west": {"uv": [4, 5.5, 6, 6], "texture": "#nether_fighter"},
+				"up": {"uv": [1.5, 8, 1, 6], "texture": "#nether_fighter"},
+				"down": {"uv": [2, 6, 1.5, 8], "texture": "#nether_fighter"}
+			}
+		},
+		{
+			"from": [7.8, 3.5, 6.95],
+			"to": [8.2, 4.2, 8.85],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.6, 0.6, -2.35]},
+			"faces": {
+				"north": {"uv": [12.5, 11.5, 12.75, 11.75], "texture": "#nether_fighter"},
+				"east": {"uv": [9, 9, 10, 9.25], "texture": "#nether_fighter"},
+				"south": {"uv": [12, 12.5, 12.25, 12.75], "texture": "#nether_fighter"},
+				"west": {"uv": [9.5, 4, 10.5, 4.25], "texture": "#nether_fighter"},
+				"up": {"uv": [9.75, 5.5, 9.5, 4.5], "texture": "#nether_fighter"},
+				"down": {"uv": [6.25, 9.5, 6, 10.5], "texture": "#nether_fighter"}
+			}
+		},
+		{
+			"from": [7.38, 0.15, 14.35],
+			"to": [8.61, 4.15, 15.8],
+			"rotation": {"angle": -20, "axis": "x", "origin": [8.39, 0.55, 15.5]},
+			"faces": {
+				"north": {"uv": [2, 6, 2.5, 8], "texture": "#nether_fighter"},
+				"east": {"uv": [3.5, 2.5, 4.25, 4.5], "texture": "#nether_fighter"},
+				"south": {"uv": [2.5, 6, 3, 8], "texture": "#nether_fighter"},
+				"west": {"uv": [4.5, 0.5, 5.25, 2.5], "texture": "#nether_fighter"},
+				"up": {"uv": [7.5, 9.25, 7, 8.5], "texture": "#nether_fighter"},
+				"down": {"uv": [8, 8.5, 7.5, 9.25], "texture": "#nether_fighter"}
+			}
+		},
+		{
+			"from": [8.10467, 9.79411, 6.95],
+			"to": [8.40467, 10.19411, 8.85],
+			"rotation": {"angle": -45, "axis": "z", "origin": [0.70467, 6.89411, -2.35]},
+			"faces": {
+				"north": {"uv": [12.5, 12, 12.75, 12.25], "texture": "#nether_fighter"},
+				"east": {"uv": [9.5, 6, 10.5, 6.25], "texture": "#nether_fighter"},
+				"south": {"uv": [12.5, 12.5, 12.75, 12.75], "texture": "#nether_fighter"},
+				"west": {"uv": [6.5, 9.5, 7.5, 9.75], "texture": "#nether_fighter"},
+				"up": {"uv": [9.75, 7.5, 9.5, 6.5], "texture": "#nether_fighter"},
+				"down": {"uv": [7.75, 9.5, 7.5, 10.5], "texture": "#nether_fighter"}
+			}
+		},
+		{
+			"from": [11.95944, -0.74178, 6.95],
+			"to": [12.25944, -0.34178, 8.85],
+			"rotation": {"angle": 45, "axis": "z", "origin": [4.75944, -3.64178, -2.35]},
+			"faces": {
+				"north": {"uv": [0, 13, 0.25, 13.25], "texture": "#nether_fighter"},
+				"east": {"uv": [8, 9.5, 9, 9.75], "texture": "#nether_fighter"},
+				"south": {"uv": [13, 0, 13.25, 0.25], "texture": "#nether_fighter"},
+				"west": {"uv": [9.5, 8.5, 10.5, 8.75], "texture": "#nether_fighter"},
+				"up": {"uv": [9.25, 10.5, 9, 9.5], "texture": "#nether_fighter"},
+				"down": {"uv": [9.75, 9.5, 9.5, 10.5], "texture": "#nether_fighter"}
+			}
+		},
+		{
+			"from": [8.18284, 3.78284, 6.95],
+			"to": [8.48284, 4.18284, 8.85],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.78284, 0.88284, -2.35]},
+			"faces": {
+				"north": {"uv": [0.5, 13, 0.75, 13.25], "texture": "#nether_fighter"},
+				"east": {"uv": [10, 0, 11, 0.25], "texture": "#nether_fighter"},
+				"south": {"uv": [13, 0.5, 13.25, 0.75], "texture": "#nether_fighter"},
+				"west": {"uv": [10, 3.5, 11, 3.75], "texture": "#nether_fighter"},
+				"up": {"uv": [4.25, 11, 4, 10], "texture": "#nether_fighter"},
+				"down": {"uv": [4.75, 10, 4.5, 11], "texture": "#nether_fighter"}
+			}
+		},
+		{
+			"from": [7.51716, 3.78284, 6.95],
+			"to": [7.81716, 4.18284, 8.85],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.31716, 0.88284, -2.35]},
+			"faces": {
+				"north": {"uv": [1, 13, 1.25, 13.25], "texture": "#nether_fighter"},
+				"east": {"uv": [10, 4.5, 11, 4.75], "texture": "#nether_fighter"},
+				"south": {"uv": [13, 1, 13.25, 1.25], "texture": "#nether_fighter"},
+				"west": {"uv": [5, 10, 6, 10.25], "texture": "#nether_fighter"},
+				"up": {"uv": [6.75, 11, 6.5, 10], "texture": "#nether_fighter"},
+				"down": {"uv": [10.25, 6.5, 10, 7.5], "texture": "#nether_fighter"}
+			}
+		},
+		{
+			"from": [8.28284, 3.58284, 8.8],
+			"to": [8.58284, 4.18284, 11.05],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.88284, 0.88284, -0.55]},
+			"faces": {
+				"north": {"uv": [1.5, 13, 1.75, 13.25], "texture": "#nether_fighter"},
+				"east": {"uv": [10, 5, 11, 5.25], "texture": "#nether_fighter"},
+				"south": {"uv": [13, 1.5, 13.25, 1.75], "texture": "#nether_fighter"},
+				"west": {"uv": [10, 7.5, 11, 7.75], "texture": "#nether_fighter"},
+				"up": {"uv": [7.25, 11, 7, 10], "texture": "#nether_fighter"},
+				"down": {"uv": [8.25, 10, 8, 11], "texture": "#nether_fighter"}
+			}
+		},
+		{
+			"from": [7.41716, 3.58284, 8.8],
+			"to": [7.71716, 4.13284, 11.05],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.21716, 0.88284, -0.55]},
+			"faces": {
+				"north": {"uv": [2, 13, 2.25, 13.25], "texture": "#nether_fighter"},
+				"east": {"uv": [10, 8, 11, 8.25], "texture": "#nether_fighter"},
+				"south": {"uv": [13, 2, 13.25, 2.25], "texture": "#nether_fighter"},
+				"west": {"uv": [10, 9, 11, 9.25], "texture": "#nether_fighter"},
+				"up": {"uv": [8.75, 11, 8.5, 10], "texture": "#nether_fighter"},
+				"down": {"uv": [10.25, 9.5, 10, 10.5], "texture": "#nether_fighter"}
+			}
+		},
+		{
+			"from": [7.7, 3.3, 8.8],
+			"to": [8.3, 3.9, 11.05],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0.6, 0.4, -0.55]},
+			"faces": {
+				"north": {"uv": [2.5, 13, 2.75, 13.25], "texture": "#nether_fighter"},
+				"east": {"uv": [0, 10.5, 1, 10.75], "texture": "#nether_fighter"},
+				"south": {"uv": [13, 2.5, 13.25, 2.75], "texture": "#nether_fighter"},
+				"west": {"uv": [10.5, 0.5, 11.5, 0.75], "texture": "#nether_fighter"},
+				"up": {"uv": [1.25, 11.5, 1, 10.5], "texture": "#nether_fighter"},
+				"down": {"uv": [10.75, 1, 10.5, 2], "texture": "#nether_fighter"}
+			}
+		},
+		{
+			"from": [8.20467, 9.59411, 8.8],
+			"to": [8.50467, 9.99411, 11.05],
+			"rotation": {"angle": -45, "axis": "z", "origin": [0.80467, 6.69411, -0.55]},
+			"faces": {
+				"north": {"uv": [3, 13, 3.25, 13.25], "texture": "#nether_fighter"},
+				"east": {"uv": [1.5, 10.5, 2.5, 10.75], "texture": "#nether_fighter"},
+				"south": {"uv": [13, 3, 13.25, 3.25], "texture": "#nether_fighter"},
+				"west": {"uv": [10.5, 2, 11.5, 2.25], "texture": "#nether_fighter"},
+				"up": {"uv": [2.75, 11.5, 2.5, 10.5], "texture": "#nether_fighter"},
+				"down": {"uv": [10.75, 2.5, 10.5, 3.5], "texture": "#nether_fighter"}
+			}
+		},
+		{
+			"from": [11.85944, -0.94178, 8.8],
+			"to": [12.15944, -0.54178, 11.05],
+			"rotation": {"angle": 45, "axis": "z", "origin": [4.65944, -3.84178, -0.55]},
+			"faces": {
+				"north": {"uv": [3.5, 13, 3.75, 13.25], "texture": "#nether_fighter"},
+				"east": {"uv": [3, 10.5, 4, 10.75], "texture": "#nether_fighter"},
+				"south": {"uv": [13, 3.5, 13.25, 3.75], "texture": "#nether_fighter"},
+				"west": {"uv": [10.5, 4, 11.5, 4.25], "texture": "#nether_fighter"},
+				"up": {"uv": [5.25, 11.5, 5, 10.5], "texture": "#nether_fighter"},
+				"down": {"uv": [5.75, 10.5, 5.5, 11.5], "texture": "#nether_fighter"}
+			}
+		},
+		{
+			"from": [7.795, 3.37479, 15.10692],
+			"to": [8.225, 4.27479, 15.55692],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.445, -0.72521, 7.10692]},
+			"faces": {
+				"north": {"uv": [3, 12, 3.25, 12.5], "texture": "#nether_fighter"},
+				"east": {"uv": [3.5, 12, 3.75, 12.5], "texture": "#nether_fighter"},
+				"south": {"uv": [4, 12, 4.25, 12.5], "texture": "#nether_fighter"},
+				"west": {"uv": [4.5, 12, 4.75, 12.5], "texture": "#nether_fighter"},
+				"up": {"uv": [4.25, 13.25, 4, 13], "texture": "#nether_fighter"},
+				"down": {"uv": [13.25, 4, 13, 4.25], "texture": "#nether_fighter"}
+			}
+		},
+		{
+			"from": [7.83, 2.23995, 11.73716],
+			"to": [8.23, 3.28995, 12.08716],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.63, 0.38995, 11.93716]},
+			"faces": {
+				"north": {"uv": [12.5, 2.5, 12.75, 3], "texture": "#nether_fighter"},
+				"east": {"uv": [3, 12.5, 3.25, 13], "texture": "#nether_fighter"},
+				"south": {"uv": [12.5, 3, 12.75, 3.5], "texture": "#nether_fighter"},
+				"west": {"uv": [3.5, 12.5, 3.75, 13], "texture": "#nether_fighter"},
+				"up": {"uv": [1.75, 14.25, 1.5, 14], "texture": "#nether_fighter"},
+				"down": {"uv": [14.25, 1.5, 14, 1.75], "texture": "#nether_fighter"}
+			}
+		},
+		{
+			"from": [7.36784, 3.71716, 11.05],
+			"to": [7.51784, 4.11716, 13.45],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.36784, 2.11716, 11.4]},
+			"faces": {
+				"north": {"uv": [1, 14, 1.25, 14.25], "texture": "#nether_fighter"},
+				"east": {"uv": [8.5, 8, 9.75, 8.25], "texture": "#nether_fighter"},
+				"south": {"uv": [14, 1, 14.25, 1.25], "texture": "#nether_fighter"},
+				"west": {"uv": [9, 2.5, 10.25, 2.75], "texture": "#nether_fighter"},
+				"up": {"uv": [3.75, 10.25, 3.5, 9], "texture": "#nether_fighter"},
+				"down": {"uv": [9.25, 4, 9, 5.25], "texture": "#nether_fighter"}
+			}
+		},
+		{
+			"from": [7.6, 1.37426, 12.51863],
+			"to": [8.4, 1.72426, 12.86863],
+			"rotation": {"angle": -45, "axis": "x", "origin": [7.5, 2.82426, 12.01863]},
+			"faces": {
+				"north": {"uv": [12.5, 1, 13, 1.25], "texture": "#nether_fighter"},
+				"east": {"uv": [0.5, 14, 0.75, 14.25], "texture": "#nether_fighter"},
+				"south": {"uv": [12.5, 1.5, 13, 1.75], "texture": "#nether_fighter"},
+				"west": {"uv": [14, 0.5, 14.25, 0.75], "texture": "#nether_fighter"},
+				"up": {"uv": [13, 2.25, 12.5, 2], "texture": "#nether_fighter"},
+				"down": {"uv": [3, 12.5, 2.5, 12.75], "texture": "#nether_fighter"}
+			}
+		},
+		{
+			"from": [7.6, 2.12574, 12.76716],
+			"to": [8.4, 2.62574, 13.76716],
+			"rotation": {"angle": 45, "axis": "x", "origin": [7.5, 1.62574, 12.86716]},
+			"faces": {
+				"north": {"uv": [0, 12.5, 0.5, 12.75], "texture": "#nether_fighter"},
+				"east": {"uv": [0.5, 12.5, 1, 12.75], "texture": "#nether_fighter"},
+				"south": {"uv": [12.5, 0.5, 13, 0.75], "texture": "#nether_fighter"},
+				"west": {"uv": [1, 12.5, 1.5, 12.75], "texture": "#nether_fighter"},
+				"up": {"uv": [11.5, 4, 11, 3.5], "texture": "#nether_fighter"},
+				"down": {"uv": [11.5, 5.5, 11, 6], "texture": "#nether_fighter"}
+			}
+		},
+		{
+			"from": [7.8, 2.05, 12.05],
+			"to": [8.25, 2.4, 13.15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 1.4, 12.5]},
+			"faces": {
+				"north": {"uv": [0, 14, 0.25, 14.25], "texture": "#nether_fighter"},
+				"east": {"uv": [11, 12, 11.5, 12.25], "texture": "#nether_fighter"},
+				"south": {"uv": [14, 0, 14.25, 0.25], "texture": "#nether_fighter"},
+				"west": {"uv": [12, 11, 12.5, 11.25], "texture": "#nether_fighter"},
+				"up": {"uv": [12.25, 12, 12, 11.5], "texture": "#nether_fighter"},
+				"down": {"uv": [12.25, 12, 12, 12.5], "texture": "#nether_fighter"}
+			}
+		},
+		{
+			"from": [7.6, 2.05, 13.15],
+			"to": [8.4, 2.4, 13.65],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.5, 1.4, 13]},
+			"faces": {
+				"north": {"uv": [9.5, 12, 10, 12.25], "texture": "#nether_fighter"},
+				"east": {"uv": [13.5, 13, 13.75, 13.25], "texture": "#nether_fighter"},
+				"south": {"uv": [10, 12, 10.5, 12.25], "texture": "#nether_fighter"},
+				"west": {"uv": [13.5, 13.5, 13.75, 13.75], "texture": "#nether_fighter"},
+				"up": {"uv": [11, 12.25, 10.5, 12], "texture": "#nether_fighter"},
+				"down": {"uv": [12.5, 10.5, 12, 10.75], "texture": "#nether_fighter"}
+			}
+		},
+		{
+			"from": [7.68, 0.45, 15.8],
+			"to": [8.31, 2.95, 16.25],
+			"rotation": {"angle": -25, "axis": "x", "origin": [8.39, 0.85, 16.45]},
+			"faces": {
+				"north": {"uv": [1.5, 9, 1.75, 10.25], "texture": "#nether_fighter"},
+				"east": {"uv": [2, 9, 2.25, 10.25], "texture": "#nether_fighter"},
+				"south": {"uv": [2.5, 9, 2.75, 10.25], "texture": "#nether_fighter"},
+				"west": {"uv": [3, 9, 3.25, 10.25], "texture": "#nether_fighter"},
+				"up": {"uv": [13.75, 12.75, 13.5, 12.5], "texture": "#nether_fighter"},
+				"down": {"uv": [13.25, 13.5, 13, 13.75], "texture": "#nether_fighter"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 5, -5.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 5, -5.5]
+		},
+		"firstperson_righthand": {
+			"translation": [-4.75, 9, -1.75]
+		},
+		"firstperson_lefthand": {
+			"translation": [-4.75, 9, -1.75]
+		},
+		"ground": {
+			"translation": [0, 9.5, -3.75],
+			"scale": [1.3, 1.3, 1.3]
+		},
+		"gui": {
+			"rotation": [74.02, -53.34, 70.48],
+			"translation": [0, 6.75, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"fixed": {
+			"rotation": [90, 55, -90],
+			"translation": [0.25, 8.75, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	},
+	"groups": [
+		{
+			"uuid": "c3bbb870-56c1-8736-9963-87225f070baa",
+			"isOpen": true,
+			"children": [
+				"97ec734e-e3e5-39eb-deb6-ac5c1f27556f",
+				"ccfb7ace-5ff1-38cf-3e0a-1e55d78a4625",
+				"0fa6de73-52d0-e89c-9a44-07286dd4bd1a",
+				"0b2e083d-a16a-f27f-f9b5-f91e96690c58",
+				"e1e9a333-c851-4071-e82d-366c3376e56f",
+				"1ba24694-2444-59b7-bc2d-e5b2357d3379",
+				"87eb3447-0c5a-4ed0-fdfb-3ad88d808650",
+				"9a6fbb58-ec64-dbc7-f07a-a3cd3008e53d",
+				"024a940a-fe9b-0536-f80f-e2ae7a9e564b",
+				"9e56501d-0795-ce70-9bd3-76af605785d2",
+				"360754fa-3b3e-b4a7-8e72-5cfbf31adf5d",
+				"d364674a-7cc7-6a4c-9751-98be3769d87e",
+				"fffade36-6685-2d84-8738-b3a95673387e",
+				"9c155f3d-4115-8fe8-2793-ad0a7506e3ee",
+				"f8f2ca78-de1d-bc24-d065-705793c438e4",
+				"319e0768-1100-41f0-54c7-48623a964a42",
+				"396844fb-94c4-b9c4-feb8-747a3724ce05",
+				"063bc94e-1b47-f49f-21cf-4c2dffc55643",
+				"2292ff9d-481b-33c0-ccc4-6ab18fd0d072",
+				"2ca8334a-b1a0-02b5-6b0e-0445651afc61",
+				"bafa4475-5447-0cb1-9a61-fe04e8851c34",
+				"4cd3cea7-12bc-ce25-d561-41667bbc06e6",
+				"1dbba046-047d-ab5a-18c8-951b3a648609",
+				"a94ce68a-8559-dd99-4705-9f688e0befa3",
+				{
+					"uuid": "031988d0-60fc-cbb9-1d29-002bc700fdc2",
+					"isOpen": true,
+					"children": [
+						{
+							"uuid": "c40daaa8-ba30-2e45-d294-061afca05639",
+							"isOpen": true,
+							"children": [
+								"70bf4add-6c92-5de4-615a-e0f40f1b829a",
+								"f1783999-8e29-b6c8-fc19-edec69c3383d",
+								"0ebe4a01-c627-8f54-4970-deea0c7aa523",
+								"226abe6a-7b3e-37ec-f7d2-ca9eeb60ac73",
+								"23c45c0e-525d-dd81-3e4f-3dec09f4fdb2",
+								"711cae05-6c60-bf78-e667-36d1630f7aeb",
+								"87754e89-2c16-060c-42a3-810f8b3228df",
+								"301ff85e-580d-c355-8a0c-1e989faf8f48",
+								"559872f7-3bf5-2adc-ba65-9da22e28a406",
+								"4971aaac-556a-80c3-1712-773e2038e88b",
+								"7ac08c24-263d-8360-e852-3765216faa3d",
+								"c855edee-ac7f-64a0-df95-69da93cad40b",
+								"237b30ba-df30-b799-bdaa-84fdd468510b",
+								"c9fd75b9-a5ce-0a10-3e32-7890eac084de",
+								"6cb2eac0-e287-0803-c7f6-18d78f6202d9"
+							]
+						}
+					]
+				},
+				{
+					"uuid": "06b7d0a0-77fd-b688-057d-3bdfee80c958",
+					"isOpen": true,
+					"children": ["fbf275f8-f10b-d4fc-647f-9e60a7969788", "11384acb-3e4b-f651-fbe4-44c42aa3eb3b", "dcf9c201-a4b9-e659-756a-c54a7ec6f63c"]
+				},
+				{
+					"uuid": "f901ae61-9621-5b8b-afc6-1e21916e52c9",
+					"isOpen": true,
+					"children": [
+						"648bdc8f-7582-027b-01f5-7bbe22e9cd38",
+						"5a75f301-1dca-56f3-3b95-341c1944a098",
+						"9de92b68-6489-e412-1489-4bbd60560c21",
+						"c9e0d788-421a-8188-25da-8e9dd542f0c3",
+						"fe8ab344-7622-cd68-2a66-6dc026554f92"
+					]
+				},
+				{
+					"uuid": "ca951da8-b3c5-00aa-4e49-aab7f5ff602b",
+					"isOpen": true,
+					"children": ["434e2506-8533-f6ff-b69a-16e61da6225f"]
+				},
+				{
+					"uuid": "1fcbc988-7e2b-1c3b-683d-1fcab00b81af",
+					"isOpen": true,
+					"children": ["2b85929b-e1d8-8428-9629-90b1a3b539cc", "256a710d-e0a4-b288-98d0-7d283744c812"]
+				},
+				{
+					"uuid": "3433eac8-045c-43b5-6267-a6fa90ab610d",
+					"isOpen": true,
+					"children": ["8fee76ec-0fbe-2d38-2e31-488dbb8dd652", "b49aa3a9-f636-931c-0187-eda291e6f93c"]
+				},
+				{
+					"uuid": "6d576361-7c75-112b-0973-1c3f60bdf334",
+					"isOpen": true,
+					"children": [
+						"85c5d9f2-d0fa-e1a5-b0ac-29d233d03b3d",
+						"0478b8e5-0a43-1265-69ac-11d529ca4dd0",
+						"6c06c094-5a47-0c30-6bd0-95ea9108a7bf",
+						"0270b299-345f-c77e-9537-f7141590ac50",
+						"4a74bb4b-ccc4-0cf9-4e05-9f66010ab2d1",
+						"7043923c-eed2-66b1-196a-ab2a3258214c",
+						"fb79958a-c8c3-91ba-d8db-dfb243d6bf39",
+						"32217cf8-07a6-eb77-354f-d9ace1e33c28",
+						"46286a68-1d02-91af-5a76-35d2c7118b29",
+						"c45c551b-8805-3ca1-76f7-25441d20930f",
+						"c6fdbcb0-ff7e-5240-887e-44c805695618"
+					]
+				},
+				{
+					"uuid": "d98c955b-d801-09ac-871b-a8d164507d66",
+					"isOpen": true,
+					"children": [
+						"5a802ba0-8058-ac04-6db7-c306d67ea022",
+						"aa74a428-c6ef-a2f1-3cfe-1cbf046c4609",
+						"ebacd16c-9d1e-a0da-a952-8301b4068529",
+						"e81f8450-d0df-844a-d1e3-e70607c09880",
+						"fd8f561c-500d-5a0c-859f-5e72641f7a3b"
+					]
+				},
+				{
+					"uuid": "525b5b7d-f2f0-84a3-15be-be9a4d2d02ce",
+					"isOpen": true,
+					"children": [
+						"a59dac48-0750-3301-abb1-09381d3ad76b",
+						"8b7d78a7-b072-be2a-c304-efac7cb67d23",
+						"399d99ef-c31f-b972-f95c-09b89bfa87c0",
+						"9b4d0c29-e035-7a74-1f44-9936755a0dad"
+					]
+				},
+				{
+					"uuid": "c16a0bc4-5ce6-1536-dcc9-f0932be199a6",
+					"isOpen": true,
+					"children": ["23f19973-7834-0f82-0dca-4d549c9fcc69", "df2ab2b0-a0d4-c99d-2799-c97fa48336ac"]
+				}
+			]
+		}
+	]
+}

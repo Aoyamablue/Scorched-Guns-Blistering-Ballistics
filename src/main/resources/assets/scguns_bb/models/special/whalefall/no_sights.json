@@ -1,0 +1,156 @@
+{
+	"credit": "Made with Blockbench",
+	"loader": "framework:open_model",
+	"texture_size": [64, 64],
+	"textures": {
+		"whalefall": "scguns_bb:item/whalefall"
+	},
+	"components": [
+		{
+			"from": [6.125, 7.2, 9.05],
+			"to": [6.625, 7.45, 9.8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.625, 3.7, -0.1]},
+			"faces": {
+				"north": {"uv": [4.25, 8.75, 4.375, 8.875], "texture": "#whalefall"},
+				"east": {"uv": [8.5, 5.25, 8.75, 5.375], "texture": "#whalefall"},
+				"south": {"uv": [4.5, 8.75, 4.625, 8.875], "texture": "#whalefall", "cullface": "south"},
+				"west": {"uv": [5.5, 8.5, 5.75, 8.625], "texture": "#whalefall"},
+				"up": {"uv": [8.625, 5.75, 8.5, 5.5], "texture": "#whalefall"},
+				"down": {"uv": [8.625, 5.75, 8.5, 6], "texture": "#whalefall"}
+			}
+		},
+		{
+			"from": [5.125, 7.2, 9.05],
+			"to": [5.625, 7.45, 9.8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1.625, 3.7, -0.1]},
+			"faces": {
+				"north": {"uv": [5, 8.75, 5.125, 8.875], "texture": "#whalefall"},
+				"east": {"uv": [6, 8.5, 6.25, 8.625], "texture": "#whalefall"},
+				"south": {"uv": [8.75, 5, 8.875, 5.125], "texture": "#whalefall", "cullface": "south"},
+				"west": {"uv": [6.25, 8.5, 6.5, 8.625], "texture": "#whalefall"},
+				"up": {"uv": [6.625, 8.75, 6.5, 8.5], "texture": "#whalefall"},
+				"down": {"uv": [8.625, 6.5, 8.5, 6.75], "texture": "#whalefall"}
+			}
+		},
+		{
+			"from": [6.125, 7.2, 6.55],
+			"to": [6.625, 7.45, 7.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-0.625, 3.7, -2.6]},
+			"faces": {
+				"north": {"uv": [5.25, 8.75, 5.375, 8.875], "texture": "#whalefall"},
+				"east": {"uv": [8.75, 5.25, 8.875, 5.375], "texture": "#whalefall"},
+				"south": {"uv": [5.5, 8.75, 5.625, 8.875], "texture": "#whalefall", "cullface": "south"},
+				"west": {"uv": [8.75, 5.5, 8.875, 5.625], "texture": "#whalefall"},
+				"up": {"uv": [5.875, 8.875, 5.75, 8.75], "texture": "#whalefall"},
+				"down": {"uv": [8.875, 5.75, 8.75, 5.875], "texture": "#whalefall"}
+			}
+		},
+		{
+			"from": [5.125, 7.2, 6.55],
+			"to": [5.625, 7.45, 7.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [-1.625, 3.7, -2.6]},
+			"faces": {
+				"north": {"uv": [6, 8.75, 6.125, 8.875], "texture": "#whalefall"},
+				"east": {"uv": [8.75, 6, 8.875, 6.125], "texture": "#whalefall"},
+				"south": {"uv": [6.25, 8.75, 6.375, 8.875], "texture": "#whalefall", "cullface": "south"},
+				"west": {"uv": [8.75, 6.25, 8.875, 6.375], "texture": "#whalefall"},
+				"up": {"uv": [6.625, 8.875, 6.5, 8.75], "texture": "#whalefall"},
+				"down": {"uv": [8.875, 6.5, 8.75, 6.625], "texture": "#whalefall"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 4.5, 9],
+			"scale": [1.1, 1.1, 1.1]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 4.5, 9],
+			"scale": [1.1, 1.1, 1.1]
+		},
+		"firstperson_righthand": {
+			"translation": [-4.25, 7.75, 9.75]
+		},
+		"firstperson_lefthand": {
+			"translation": [-4.25, 7.75, 9.75]
+		},
+		"ground": {
+			"translation": [0, 9.5, -3.75],
+			"scale": [1.3, 1.3, 1.3]
+		},
+		"gui": {
+			"rotation": [74.02, -53.34, 70.48],
+			"translation": [0.5, 7.75, 0],
+			"scale": [1.3, 1.3, 1.3]
+		},
+		"fixed": {
+			"rotation": [90, 55, -90],
+			"translation": [10.25, -0.5, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	},
+	"groups": [
+		"c71ca78c-5621-2d79-ca6e-f1d9a510aa8e",
+		"da5d7be7-92bf-ab25-44f2-8c0b73f75bd6",
+		"da2b3803-aba1-82a5-2a94-9389f47166b3",
+		"e50c1e28-a49d-e4b7-4e05-242713844190",
+		"1f3dddd7-6569-c560-98ec-8a554e188ae6",
+		"f1df8cd3-fab0-674f-056c-64f10bae728f",
+		"3fc97493-e189-8af8-bd5c-eb8fc1cc5fb4",
+		"46abbfde-4ff3-4371-6f66-2f69df40c0a3",
+		"48099d9a-a5cd-a68d-14be-e3234a66a7be",
+		"3e82962e-6e41-3abd-d195-d98856080013",
+		"aa7be977-1696-b186-28f5-e8b33ae00968",
+		"4253f989-1d52-fcd4-177a-c08b5406bc94",
+		"1a4cbd7e-74b7-0542-e0d5-3476a221b14c",
+		"cc704bf4-e333-4953-da94-a7b87c27d9a8",
+		"c99117f4-8848-a14e-d050-41e857639c5e",
+		"0b885d1a-48e2-b425-9943-9e1dac605a4b",
+		"73a5036c-d8f2-464c-2b7c-a45ab2c981c8",
+		"89020edf-55fd-f26c-d2d4-36ae34be33f7",
+		"e32aa163-dcc7-a031-3d95-8042951f2179",
+		"1786c470-2c1e-b1ac-7ecb-62800276e9dd",
+		"fda24f0f-ed00-6745-1ae1-cb89c418415d",
+		"9afd26f1-6c4b-9fc2-5013-0f2d7fd1d225",
+		"9d4792c5-8cbd-10d7-e915-166f91509286",
+		"4b5afcae-0374-1d07-b0a7-8a5575c995f4",
+		"5c1d4cc4-9f57-01bc-f1aa-1ac38bec659a",
+		"20d37305-07c1-6bd2-7d85-14c0f6446a78",
+		"fc72e2ac-45f5-6226-2e0c-f6b3459987ce",
+		"2db8bc60-aada-6fa2-db69-ecf7336475f8",
+		"a14f7806-41c4-3231-321a-b9252685519a",
+		"fa70eb03-4373-8737-8a8b-4e0dc3ba2746",
+		"da468ddf-8758-dfa0-2505-85ab04fe3c28",
+		"3467ea5e-43b1-2047-032b-447ea0262839",
+		"72f00f88-e83e-8856-54dd-91632d9be038",
+		"fed06520-f6a0-4b3f-f4fd-23c765cba9b3",
+		"8f5ec17e-ee56-feea-190d-5a62ef5c6627",
+		"6083245c-08f6-fa2f-d5ac-60241f05c442",
+		"16ab8637-d98f-5b08-0087-2574de527868",
+		"ddf54998-ca46-d0cb-42d2-5f684a9768db",
+		"a978fb5c-40ec-8bd7-5371-92ab90cd3430",
+		"eeb7694e-b14c-1f24-3640-eeae6ec0e64f",
+		"7807a1c6-7ee0-5335-6329-25ab4a37c2b7",
+		{
+			"uuid": "41bd6a87-abc7-c1e4-79d7-64454b60ed29",
+			"isOpen": true,
+			"children": [
+				"4561ec8b-b28d-00a6-8869-541b78ee50fd",
+				"961c0d5d-f54d-49f9-10b0-cfd9d049f32e",
+				"19948e78-c924-874c-33be-2d73aac1a325",
+				"06da0c42-c19f-ae28-091b-84583879cb73"
+			]
+		},
+		{
+			"uuid": "bc820777-8bab-9dff-a32e-32931f29a546",
+			"isOpen": true,
+			"children": [
+				"d18e5fe8-ad3b-536e-6d1d-f301f00c312c",
+				"3c4a831a-9e12-12e0-8f31-4c8b6ef8d73b",
+				"858d7db3-1f70-945f-94ae-42c98185bd04",
+				"a3085138-46a3-62f9-1d36-b63e38f615c5",
+				"3ac32b3f-d2fb-c462-a912-e3f11a5cc506"
+			]
+		}
+	]
+}

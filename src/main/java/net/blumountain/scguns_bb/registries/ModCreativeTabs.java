@@ -57,6 +57,50 @@ public class ModCreativeTabs {
         addItemWithFullAmmo(pOutput, ModItems.TIDE_WALKER.get());
         addItemWithFullAmmo(pOutput, ModItems.WHALEFALL.get());
 
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.COPPER_LIGHT_ARMOR_HELMET.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.COPPER_LIGHT_ARMOR_CHESTPLATE.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.COPPER_LIGHT_ARMOR_LEGGINGS.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.COPPER_LIGHT_ARMOR_BOOTS.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.COPPER_HEAVY_ARMOR_HELMET.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.COPPER_HEAVY_ARMOR_CHESTPLATE.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.COPPER_HEAVY_ARMOR_LEGGINGS.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.COPPER_HEAVY_ARMOR_BOOTS.get());
+
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.IRON_LIGHT_ARMOR_HELMET.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.IRON_LIGHT_ARMOR_CHESTPLATE.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.IRON_LIGHT_ARMOR_LEGGINGS.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.IRON_LIGHT_ARMOR_BOOTS.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.IRON_HEAVY_ARMOR_HELMET.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.IRON_HEAVY_ARMOR_CHESTPLATE.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.IRON_HEAVY_ARMOR_LEGGINGS.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.IRON_HEAVY_ARMOR_BOOTS.get());
+
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.DIAMOND_LIGHT_ARMOR_HELMET.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.DIAMOND_LIGHT_ARMOR_CHESTPLATE.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.DIAMOND_LIGHT_ARMOR_LEGGINGS.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.DIAMOND_LIGHT_ARMOR_BOOTS.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.DIAMOND_HEAVY_ARMOR_HELMET.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.DIAMOND_HEAVY_ARMOR_CHESTPLATE.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.DIAMOND_HEAVY_ARMOR_LEGGINGS.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.DIAMOND_HEAVY_ARMOR_BOOTS.get());
+
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.NETHER_LIGHT_ARMOR_HELMET.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.NETHER_LIGHT_ARMOR_CHESTPLATE.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.NETHER_LIGHT_ARMOR_LEGGINGS.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.NETHER_LIGHT_ARMOR_BOOTS.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.NETHER_MEDIUM_ARMOR_HELMET.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.NETHER_MEDIUM_ARMOR_CHESTPLATE.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.NETHER_MEDIUM_ARMOR_BOOTS.get());
+
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.OCEAN_LIGHT_ARMOR_HELMET.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.OCEAN_LIGHT_ARMOR_CHESTPLATE.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.OCEAN_LIGHT_ARMOR_LEGGINGS.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.OCEAN_LIGHT_ARMOR_BOOTS.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.OCEAN_MEDIUM_ARMOR_HELMET.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.OCEAN_MEDIUM_ARMOR_CHESTPLATE.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.OCEAN_MEDIUM_ARMOR_LEGGINGS.get());
+        pOutput.accept(net.blumountain.scguns_bb.registries.ModItems.OCEAN_MEDIUM_ARMOR_BOOTS.get());
+
 
 
     }).build());

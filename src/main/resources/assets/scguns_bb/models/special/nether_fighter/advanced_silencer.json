@@ -1,0 +1,197 @@
+{
+	"credit": "Made with Blockbench",
+	"loader": "framework:open_model",
+	"texture_size": [32, 32],
+	"textures": {
+		"nether_fighter": "scguns_bb:item/nether_fighter"
+	},
+	"components": [
+		{
+			"from": [7.35303, 3.95, 1.8375],
+			"to": [8.85303, 5.45, 6.4125],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8.05303, 4.575, 3.35]},
+			"faces": {
+				"north": {"uv": [7, 6, 7.75, 6.75], "texture": "#nether_fighter"},
+				"east": {"uv": [2, 0.5, 4.25, 1.25], "texture": "#nether_fighter"},
+				"south": {"uv": [7, 7, 7.75, 7.75], "texture": "#nether_fighter", "cullface": "south"},
+				"west": {"uv": [1, 2.5, 3.25, 3.25], "texture": "#nether_fighter"},
+				"up": {"uv": [1.75, 5.75, 1, 3.5], "texture": "#nether_fighter"},
+				"down": {"uv": [2.75, 3.5, 2, 5.75], "texture": "#nether_fighter"}
+			}
+		},
+		{
+			"from": [7.52981, 4.3, 6.4125],
+			"to": [8.67981, 5.45, 6.9125],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8.22981, 4.675, 3.85]},
+			"faces": {
+				"north": {"uv": [6, 11, 6.5, 11.5], "texture": "#nether_fighter"},
+				"east": {"uv": [12.5, 3.5, 12.75, 4], "texture": "#nether_fighter"},
+				"south": {"uv": [11, 6, 11.5, 6.5], "texture": "#nether_fighter", "cullface": "south"},
+				"west": {"uv": [4, 12.5, 4.25, 13], "texture": "#nether_fighter"},
+				"up": {"uv": [13, 4.25, 12.5, 4], "texture": "#nether_fighter"},
+				"down": {"uv": [5, 12.5, 4.5, 12.75], "texture": "#nether_fighter"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 5, -5.5]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 5, -5.5]
+		},
+		"firstperson_righthand": {
+			"translation": [-4.75, 9, -1.75]
+		},
+		"firstperson_lefthand": {
+			"translation": [-4.75, 9, -1.75]
+		},
+		"ground": {
+			"translation": [0, 9.5, -3.75],
+			"scale": [1.3, 1.3, 1.3]
+		},
+		"gui": {
+			"rotation": [74.02, -53.34, 70.48],
+			"translation": [0, 6.75, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"fixed": {
+			"rotation": [90, 55, -90],
+			"translation": [0.25, 8.75, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	},
+	"groups": [
+		{
+			"uuid": "c3bbb870-56c1-8736-9963-87225f070baa",
+			"isOpen": true,
+			"children": [
+				"97ec734e-e3e5-39eb-deb6-ac5c1f27556f",
+				"ccfb7ace-5ff1-38cf-3e0a-1e55d78a4625",
+				"0fa6de73-52d0-e89c-9a44-07286dd4bd1a",
+				"0b2e083d-a16a-f27f-f9b5-f91e96690c58",
+				"e1e9a333-c851-4071-e82d-366c3376e56f",
+				"1ba24694-2444-59b7-bc2d-e5b2357d3379",
+				"87eb3447-0c5a-4ed0-fdfb-3ad88d808650",
+				"9a6fbb58-ec64-dbc7-f07a-a3cd3008e53d",
+				"024a940a-fe9b-0536-f80f-e2ae7a9e564b",
+				"9e56501d-0795-ce70-9bd3-76af605785d2",
+				"360754fa-3b3e-b4a7-8e72-5cfbf31adf5d",
+				"d364674a-7cc7-6a4c-9751-98be3769d87e",
+				"fffade36-6685-2d84-8738-b3a95673387e",
+				"9c155f3d-4115-8fe8-2793-ad0a7506e3ee",
+				"f8f2ca78-de1d-bc24-d065-705793c438e4",
+				"319e0768-1100-41f0-54c7-48623a964a42",
+				"396844fb-94c4-b9c4-feb8-747a3724ce05",
+				"063bc94e-1b47-f49f-21cf-4c2dffc55643",
+				"2292ff9d-481b-33c0-ccc4-6ab18fd0d072",
+				"2ca8334a-b1a0-02b5-6b0e-0445651afc61",
+				"bafa4475-5447-0cb1-9a61-fe04e8851c34",
+				"4cd3cea7-12bc-ce25-d561-41667bbc06e6",
+				"1dbba046-047d-ab5a-18c8-951b3a648609",
+				"a94ce68a-8559-dd99-4705-9f688e0befa3",
+				{
+					"uuid": "031988d0-60fc-cbb9-1d29-002bc700fdc2",
+					"isOpen": true,
+					"children": [
+						{
+							"uuid": "c40daaa8-ba30-2e45-d294-061afca05639",
+							"isOpen": true,
+							"children": [
+								"70bf4add-6c92-5de4-615a-e0f40f1b829a",
+								"f1783999-8e29-b6c8-fc19-edec69c3383d",
+								"0ebe4a01-c627-8f54-4970-deea0c7aa523",
+								"226abe6a-7b3e-37ec-f7d2-ca9eeb60ac73",
+								"23c45c0e-525d-dd81-3e4f-3dec09f4fdb2",
+								"711cae05-6c60-bf78-e667-36d1630f7aeb",
+								"87754e89-2c16-060c-42a3-810f8b3228df",
+								"301ff85e-580d-c355-8a0c-1e989faf8f48",
+								"559872f7-3bf5-2adc-ba65-9da22e28a406",
+								"4971aaac-556a-80c3-1712-773e2038e88b",
+								"7ac08c24-263d-8360-e852-3765216faa3d",
+								"c855edee-ac7f-64a0-df95-69da93cad40b",
+								"237b30ba-df30-b799-bdaa-84fdd468510b",
+								"c9fd75b9-a5ce-0a10-3e32-7890eac084de",
+								"6cb2eac0-e287-0803-c7f6-18d78f6202d9"
+							]
+						}
+					]
+				},
+				{
+					"uuid": "06b7d0a0-77fd-b688-057d-3bdfee80c958",
+					"isOpen": true,
+					"children": ["fbf275f8-f10b-d4fc-647f-9e60a7969788", "11384acb-3e4b-f651-fbe4-44c42aa3eb3b", "dcf9c201-a4b9-e659-756a-c54a7ec6f63c"]
+				},
+				{
+					"uuid": "f901ae61-9621-5b8b-afc6-1e21916e52c9",
+					"isOpen": true,
+					"children": [
+						"648bdc8f-7582-027b-01f5-7bbe22e9cd38",
+						"5a75f301-1dca-56f3-3b95-341c1944a098",
+						"9de92b68-6489-e412-1489-4bbd60560c21",
+						"c9e0d788-421a-8188-25da-8e9dd542f0c3",
+						"fe8ab344-7622-cd68-2a66-6dc026554f92"
+					]
+				},
+				{
+					"uuid": "ca951da8-b3c5-00aa-4e49-aab7f5ff602b",
+					"isOpen": true,
+					"children": ["434e2506-8533-f6ff-b69a-16e61da6225f"]
+				},
+				{
+					"uuid": "1fcbc988-7e2b-1c3b-683d-1fcab00b81af",
+					"isOpen": true,
+					"children": ["2b85929b-e1d8-8428-9629-90b1a3b539cc", "256a710d-e0a4-b288-98d0-7d283744c812"]
+				},
+				{
+					"uuid": "3433eac8-045c-43b5-6267-a6fa90ab610d",
+					"isOpen": true,
+					"children": ["8fee76ec-0fbe-2d38-2e31-488dbb8dd652", "b49aa3a9-f636-931c-0187-eda291e6f93c"]
+				},
+				{
+					"uuid": "6d576361-7c75-112b-0973-1c3f60bdf334",
+					"isOpen": true,
+					"children": [
+						"85c5d9f2-d0fa-e1a5-b0ac-29d233d03b3d",
+						"0478b8e5-0a43-1265-69ac-11d529ca4dd0",
+						"6c06c094-5a47-0c30-6bd0-95ea9108a7bf",
+						"0270b299-345f-c77e-9537-f7141590ac50",
+						"4a74bb4b-ccc4-0cf9-4e05-9f66010ab2d1",
+						"7043923c-eed2-66b1-196a-ab2a3258214c",
+						"fb79958a-c8c3-91ba-d8db-dfb243d6bf39",
+						"32217cf8-07a6-eb77-354f-d9ace1e33c28",
+						"46286a68-1d02-91af-5a76-35d2c7118b29",
+						"c45c551b-8805-3ca1-76f7-25441d20930f",
+						"c6fdbcb0-ff7e-5240-887e-44c805695618"
+					]
+				},
+				{
+					"uuid": "d98c955b-d801-09ac-871b-a8d164507d66",
+					"isOpen": true,
+					"children": [
+						"5a802ba0-8058-ac04-6db7-c306d67ea022",
+						"aa74a428-c6ef-a2f1-3cfe-1cbf046c4609",
+						"ebacd16c-9d1e-a0da-a952-8301b4068529",
+						"e81f8450-d0df-844a-d1e3-e70607c09880",
+						"fd8f561c-500d-5a0c-859f-5e72641f7a3b"
+					]
+				},
+				{
+					"uuid": "525b5b7d-f2f0-84a3-15be-be9a4d2d02ce",
+					"isOpen": true,
+					"children": [
+						"a59dac48-0750-3301-abb1-09381d3ad76b",
+						"8b7d78a7-b072-be2a-c304-efac7cb67d23",
+						"399d99ef-c31f-b972-f95c-09b89bfa87c0",
+						"9b4d0c29-e035-7a74-1f44-9936755a0dad"
+					]
+				},
+				{
+					"uuid": "c16a0bc4-5ce6-1536-dcc9-f0932be199a6",
+					"isOpen": true,
+					"children": ["23f19973-7834-0f82-0dca-4d549c9fcc69", "df2ab2b0-a0d4-c99d-2799-c97fa48336ac"]
+				}
+			]
+		}
+	]
+}

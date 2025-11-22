@@ -1,0 +1,237 @@
+{
+	"credit": "Made with Blockbench",
+	"loader": "framework:open_model",
+	"texture_size": [64, 64],
+	"textures": {
+		"particle": "scguns_bb:item/lamp_smg",
+		"lamp_smg": "scguns_bb:item/lamp_smg"
+	},
+	"components": [
+		{
+			"from": [7.35303, 5.2, -1.1625],
+			"to": [8.35303, 6.2, -0.5875],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8.05303, 5.825, -0.125]},
+			"faces": {
+				"north": {"uv": [8.25, 7.5, 8.5, 7.75], "texture": "#lamp_smg"},
+				"east": {"uv": [0, 9.25, 0.125, 9.5], "texture": "#lamp_smg"},
+				"south": {"uv": [8, 8.25, 8.25, 8.5], "texture": "#lamp_smg", "cullface": "south"},
+				"west": {"uv": [0.25, 9.25, 0.375, 9.5], "texture": "#lamp_smg"},
+				"up": {"uv": [9.5, 0.375, 9.25, 0.25], "texture": "#lamp_smg"},
+				"down": {"uv": [9.5, 0.5, 9.25, 0.625], "texture": "#lamp_smg"}
+			}
+		},
+		{
+			"from": [7.10303, 4.95, -0.5875],
+			"to": [8.60303, 6.45, 5.4875],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8.05303, 5.825, 0.95]},
+			"faces": {
+				"north": {"uv": [2, 7.75, 2.375, 8.125], "texture": "#lamp_smg"},
+				"east": {"uv": [1.75, 0, 3.25, 0.375], "texture": "#lamp_smg"},
+				"south": {"uv": [7.75, 2.25, 8.125, 2.625], "texture": "#lamp_smg", "cullface": "south"},
+				"west": {"uv": [1.75, 0.5, 3.25, 0.875], "texture": "#lamp_smg"},
+				"up": {"uv": [2.375, 3.5, 2, 2], "texture": "#lamp_smg"},
+				"down": {"uv": [2.875, 2, 2.5, 3.5], "texture": "#lamp_smg"}
+			}
+		},
+		{
+			"from": [6.93934, 3.64519, 2.4875],
+			"to": [6.93934, 5.54519, 2.9875],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.86434, 4.52019, 1.475]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0.5], "texture": "#lamp_smg"},
+				"east": {"uv": [8.25, 8.25, 8.375, 8.75], "texture": "#lamp_smg"},
+				"south": {"uv": [0, 0, 0, 0.5], "texture": "#lamp_smg", "cullface": "south"},
+				"west": {"uv": [8.5, 0, 8.625, 0.5], "texture": "#lamp_smg"},
+				"up": {"uv": [0, 0.125, 0, 0], "texture": "#lamp_smg"},
+				"down": {"uv": [0, 0, 0, 0.125], "texture": "#lamp_smg"}
+			}
+		},
+		{
+			"from": [9.06066, 4.14519, 1.9125],
+			"to": [9.06066, 5.54519, 2.4125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.98566, 4.52019, 0.9]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0.375], "texture": "#lamp_smg"},
+				"east": {"uv": [0.5, 9, 0.625, 9.375], "texture": "#lamp_smg"},
+				"south": {"uv": [0, 0, 0, 0.375], "texture": "#lamp_smg", "cullface": "south"},
+				"west": {"uv": [9, 0.5, 9.125, 0.875], "texture": "#lamp_smg"},
+				"up": {"uv": [0, 0.125, 0, 0], "texture": "#lamp_smg"},
+				"down": {"uv": [0, 0, 0, 0.125], "texture": "#lamp_smg"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 5, -4.25]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 5, -4.25]
+		},
+		"firstperson_righthand": {
+			"translation": [-4.25, 8.75, -1.5]
+		},
+		"firstperson_lefthand": {
+			"translation": [-4.25, 8.75, -1.5]
+		},
+		"ground": {
+			"translation": [0, 9.5, -3.75],
+			"scale": [1.3, 1.3, 1.3]
+		},
+		"gui": {
+			"rotation": [74.02, -53.34, 70.48],
+			"translation": [-0.75, 4.25, 0]
+		},
+		"fixed": {
+			"rotation": [90, 55, -90],
+			"translation": [0.75, 8.25, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	},
+	"groups": [
+		"416d5766-0d59-5e30-3b78-bb984fe232ab",
+		"24172bbe-714d-75d2-120f-091a2a4695be",
+		"ed52c281-f237-0f18-1eef-be66caf2bf1c",
+		"d08e7e7b-65cc-63ae-b5c5-2668c293cd93",
+		"e7c4d95c-ca1b-6986-92a6-1fec52d28ba2",
+		"2921c713-c558-45de-2dc3-b6ca10909a17",
+		"e86586a9-526b-f47e-85cd-ba7718da5d58",
+		"6d09a6d3-a6f6-e955-f192-0e3a91d17a6c",
+		"8f635d42-7dcf-adfa-63fb-2b425ecdd46a",
+		"0944afcb-4883-1450-3f4f-6f568d2f848b",
+		"53c25014-c0b2-90bb-64ef-67e078c53022",
+		"90fa289a-dc77-2e57-79b9-294f76f364c6",
+		"20e3d418-e7ee-500b-d87b-0732c6a9e7eb",
+		"7a50a865-ff27-4377-99b1-f2122d93fd91",
+		"2e53181c-386c-9a4a-809d-e02b800322de",
+		"59b5e8bf-884f-52f1-f0fa-569b7600a52b",
+		"8381f8fb-cf40-2e9d-e881-66c3a2ae1ee9",
+		"41e56dd6-2bba-941c-83e0-f8ac02eebcc9",
+		"1635fe9e-498c-2e19-90f8-919cd8d90185",
+		"130b1ca4-e48e-9fa2-0c32-4cbafeda1bbc",
+		"fcc7a910-d74a-9200-516b-c65514844c6c",
+		"701f1152-3935-3dec-06f3-21a8af767020",
+		"4982549b-94e2-ebc4-951c-f2c0df449a4c",
+		"98e8ffb4-6185-ab94-7c7e-bde27c35c63a",
+		"1c7f8e93-abe2-12d3-ac93-71c6cf058b51",
+		"4a7e1213-c3ed-bc9e-933a-723dbb47c06b",
+		"2b24b49d-a8e7-4ff5-add7-0855b3db7e7d",
+		"3584a4a8-4af3-3bd4-a45c-421a34be75b7",
+		"bd612e93-3a4c-d279-c8bb-e84b0123bf14",
+		"bbfcddd0-d6e9-e2ac-b01b-c0da984791fa",
+		"bbaccd40-d018-c05a-0b5b-5279f9f12512",
+		"665c5fab-f4d9-3070-5066-3d5de92ac8a8",
+		"5fec15e7-5d78-aead-e587-48449cdab168",
+		"72e805a3-3965-a20f-d8aa-04bace2da3f7",
+		"87e4856b-dab4-08a3-cb10-5514dda9bcc7",
+		"f93a3428-cb23-cecf-d75c-f87dc852f857",
+		"56419724-8dcb-cb9f-f959-9332dc01aaeb",
+		"66ee0ef3-3df4-02d4-d8bf-034286dd88a5",
+		"3b300b75-ed95-8e81-8d88-1813dc3c4a1a",
+		"17b9ead7-b245-873d-44ee-64792f1a7892",
+		"078c537c-ef7c-ef88-04c8-146607908cd9",
+		"7dc58c1f-a337-4688-5f76-0a7971330666",
+		"a3c4ae1e-ff31-c81b-4d5c-f62e89f4951f",
+		"e48998f9-8522-2eae-1031-8b490d534f82",
+		"b049dd4b-9b7e-17c4-c27c-4e10cdd88e26",
+		"a462438e-fb24-ac6d-19ff-a01451812050",
+		"a801fb8a-be4e-0461-be0a-97870ad9af63",
+		"efa0e7ee-0443-3d89-d7ef-72a7110afcce",
+		"c09d518d-e9ab-f21b-9bd2-aa1734e2c3ff",
+		"c6d0e739-8a2c-ae93-c217-ee9e073be207",
+		{
+			"uuid": "1b64ec91-8359-3ae4-8850-9e17ba2ad136",
+			"isOpen": true,
+			"children": ["5f20c739-1349-6631-4f2c-67e7907e966d", "e1e5ed7d-6f33-18e2-c5f8-504e239ebc0f"]
+		},
+		{
+			"uuid": "0be2ce56-0416-d0e5-afb8-e442380a1302",
+			"isOpen": true,
+			"children": ["972abdfc-e10e-4790-ee27-a067426af8a6"]
+		},
+		{
+			"uuid": "c863eac4-61d8-3095-3e75-296998e05003",
+			"isOpen": true,
+			"children": ["e2ff4302-6ed1-30bd-372e-27fc2b55b4a4", "210905ce-3d3f-b922-57be-0d3726171d89", "e6fa8ef1-6332-5b27-0502-129d66ac4567"]
+		},
+		{
+			"uuid": "c0613801-d315-8d48-1b37-4f77e8195793",
+			"isOpen": true,
+			"children": [
+				"cf77b6f9-f109-b3bc-351d-a3c20f4a21b6",
+				"3672b706-ea93-23ce-8632-14bf61e2033c",
+				"96664d72-9140-eab6-7ec3-0162ca56b371",
+				"80706d65-00e2-5e86-d2f7-9b1d37762208",
+				"8b7777bc-6073-5ff3-af56-2d2b10230fc5"
+			]
+		},
+		{
+			"uuid": "1648af51-c669-e5d5-d96d-bc0679b669d7",
+			"isOpen": true,
+			"children": [
+				"a37e288e-9476-18ce-ab5d-e740701ff2e3",
+				"a75934b2-9cfc-11aa-2ce7-aa00cf423f23",
+				"035fd879-2ae3-66ab-43c7-2e7161966129",
+				"01e8eb15-3093-63d1-8f7e-96e710b558a9",
+				"ddcc15de-f1a6-2590-4112-7b7aa46b5dab",
+				"4f7e857e-e940-7db5-3b22-f8e3d00bcb1f",
+				"2922516e-2638-026c-35af-3323f2094690",
+				"1e4d8d04-e4f5-db35-067f-3b58f8907818",
+				"500ef7c7-989a-31d3-9d29-219771b01e87",
+				"83405568-e1e2-7337-96c7-7809d7827701",
+				"ff28ec80-fdb4-f038-ea9c-2923f8f692fa"
+			]
+		},
+		{
+			"uuid": "4585c0e5-615f-5ec3-c597-b27209888b80",
+			"isOpen": true,
+			"children": ["a86286a8-51c2-5613-3bba-71b3f9e9b315"]
+		},
+		{
+			"uuid": "c9624850-aa3b-b54f-e795-ef0f6622a8ce",
+			"isOpen": true,
+			"children": [
+				"c787fa59-3067-bd0f-be77-4903a7409c47",
+				"2a2926c7-8b61-a76b-c526-875abcb0138f",
+				"bc54e9af-1409-11cc-bc55-ac798691f6eb",
+				"4f35116e-7b6e-b8b2-2558-e2fa9e37bdde",
+				"a9e1dec2-c461-5071-b76e-a318bee6c069",
+				"c6cff724-2b6a-7f39-cda6-2ac85d3d54a8",
+				"25e8514b-90f0-126a-65ef-df03829ce9ff",
+				"206479a1-7c9b-86c8-8c8b-0c93feffad15"
+			]
+		},
+		{
+			"uuid": "d0bd8519-3a59-ff70-00e5-2d9c9021997d",
+			"isOpen": true,
+			"children": [
+				"5e17b0e5-5a54-0a35-de75-dc7065b562a8",
+				"a4a0f9a8-5301-23ed-a919-fe7fdca20f29",
+				"5902bfb8-e7aa-c345-ae64-a89a26a9112b",
+				"2a9f3e01-ff65-dafb-bbc6-b2366467e604"
+			]
+		},
+		{
+			"uuid": "bf8355e4-22c0-5a5d-8faa-0c632ae9a8f4",
+			"isOpen": true,
+			"children": [
+				"00f5eb4b-9e58-1f0a-ea91-ff9e6c38563d",
+				"5db16617-2535-2f2e-4f46-265b940ae32c",
+				"a4efd02e-8e0e-bc88-3195-a9c582b625ab",
+				"cde32e21-1d66-fe9c-d8b4-f505b0604e9c",
+				"d8bde645-d2c7-a9b3-c84e-59f9dfd79388",
+				"6bec0da1-c3ef-caeb-9fc2-687937426735",
+				"9f231167-fe73-75a4-3fe2-9fda197314b6"
+			]
+		},
+		{
+			"uuid": "ed410c06-0c24-54e8-21b6-ec929c063ff7",
+			"isOpen": true,
+			"children": ["0b5c2238-3452-0e2f-04a7-64a9c70bc2ce"]
+		},
+		{
+			"uuid": "353b1d5f-9e63-6981-cf69-b66f20f34674",
+			"isOpen": true,
+			"children": ["d025876e-7c1b-1de1-810b-9a42755fb593", "58b6d2b3-9b4f-d111-3199-a535f03b4f61"]
+		}
+	]
+}

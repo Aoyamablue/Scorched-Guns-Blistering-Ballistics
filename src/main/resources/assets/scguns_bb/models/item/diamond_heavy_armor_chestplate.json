@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "scguns_bb:item/diamond_heavy_chestplate"
+  }
+}

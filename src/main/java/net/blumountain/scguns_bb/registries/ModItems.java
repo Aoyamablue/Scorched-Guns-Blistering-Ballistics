@@ -1,16 +1,18 @@
 package net.blumountain.scguns_bb.registries;
 
+import net.blumountain.scguns_bb.item.animated.Copper_Light_ArmorItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-import top.ribs.scguns.init.ModArmorMaterials;
 import top.ribs.scguns.init.ModSounds;
-import top.ribs.scguns.item.BlueprintItem;
 import top.ribs.scguns.item.TooltipItem;
 import top.ribs.scguns.item.animated.AnimatedDiamondSteelGunItem;
 import top.ribs.scguns.item.animated.AnimatedGunItem;
-//import top.ribs.scguns.item.animated.AnthraliteArmorItem;
+import net.blumountain.scguns_bb.item.animated.*;
+//import net.blumountain.scguns_bb.item.*;
+import net.blumountain.scguns_bb.init.ModArmorMaterials;
+
 
 import static net.blumountain.scguns_bb.SCGunsBB.MOD_ID;
 import static net.blumountain.scguns_bb.CompatManager.CREATE_ENABLED;
@@ -479,11 +481,49 @@ public class ModItems {
 
 
     //ARMOR
+    public static final RegistryObject<Item> COPPER_LIGHT_ARMOR_HELMET = REGISTER.register("copper_light_armor_helmet", () -> new Copper_Light_ArmorItem(ModArmorMaterials.COPPER_LIGHT, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> COPPER_LIGHT_ARMOR_CHESTPLATE = REGISTER.register("copper_light_armor_chestplate", () -> new Copper_Light_ArmorItem(ModArmorMaterials.COPPER_LIGHT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> COPPER_LIGHT_ARMOR_LEGGINGS = REGISTER.register("copper_light_armor_leggings", () -> new Copper_Light_ArmorItem(ModArmorMaterials.COPPER_LIGHT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> COPPER_LIGHT_ARMOR_BOOTS = REGISTER.register("copper_light_armor_boots", () -> new Copper_Light_ArmorItem(ModArmorMaterials.COPPER_LIGHT, ArmorItem.Type.BOOTS, new Item.Properties()));
+    public static final RegistryObject<Item> COPPER_HEAVY_ARMOR_HELMET = REGISTER.register("copper_heavy_armor_helmet", () -> new Copper_Heavy_ArmorItem(ModArmorMaterials.COPPER_HEAVY, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> COPPER_HEAVY_ARMOR_CHESTPLATE = REGISTER.register("copper_heavy_armor_chestplate", () -> new Copper_Heavy_ArmorItem(ModArmorMaterials.COPPER_HEAVY, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> COPPER_HEAVY_ARMOR_LEGGINGS = REGISTER.register("copper_heavy_armor_leggings", () -> new Copper_Heavy_ArmorItem(ModArmorMaterials.COPPER_HEAVY, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> COPPER_HEAVY_ARMOR_BOOTS = REGISTER.register("copper_heavy_armor_boots", () -> new Copper_Heavy_ArmorItem(ModArmorMaterials.COPPER_HEAVY, ArmorItem.Type.BOOTS, new Item.Properties()));
 
-    //public static final RegistryObject<Item> ANTHRALITE_HELMET = REGISTER.register("anthralite_helmet", () -> new AnthraliteArmorItem(ModArmorMaterials.ANTHRALITE, ArmorItem.Type.HELMET, new Item.Properties()));
-    //public static final RegistryObject<Item> ANTHRALITE_CHESTPLATE = REGISTER.register("anthralite_chestplate", () -> new AnthraliteArmorItem(ModArmorMaterials.ANTHRALITE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
-    //public static final RegistryObject<Item> ANTHRALITE_LEGGINGS = REGISTER.register("anthralite_leggings", () -> new AnthraliteArmorItem(ModArmorMaterials.ANTHRALITE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
-    //public static final RegistryObject<Item> ANTHRALITE_BOOTS = REGISTER.register("anthralite_boots", () -> new AnthraliteArmorItem(ModArmorMaterials.ANTHRALITE, ArmorItem.Type.BOOTS, new Item.Properties()));
+    public static final RegistryObject<Item> IRON_LIGHT_ARMOR_HELMET = REGISTER.register("iron_light_armor_helmet", () -> new Iron_Light_ArmorItem(ModArmorMaterials.IRON_LIGHT, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> IRON_LIGHT_ARMOR_CHESTPLATE = REGISTER.register("iron_light_armor_chestplate", () -> new Iron_Light_ArmorItem(ModArmorMaterials.IRON_LIGHT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> IRON_LIGHT_ARMOR_LEGGINGS = REGISTER.register("iron_light_armor_leggings", () -> new Iron_Light_ArmorItem(ModArmorMaterials.IRON_LIGHT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> IRON_LIGHT_ARMOR_BOOTS = REGISTER.register("iron_light_armor_boots", () -> new Iron_Light_ArmorItem(ModArmorMaterials.IRON_LIGHT, ArmorItem.Type.BOOTS, new Item.Properties()));
+    public static final RegistryObject<Item> IRON_HEAVY_ARMOR_HELMET = REGISTER.register("iron_heavy_armor_helmet", () -> new Iron_Heavy_ArmorItem(ModArmorMaterials.IRON_HEAVY, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> IRON_HEAVY_ARMOR_CHESTPLATE = REGISTER.register("iron_heavy_armor_chestplate", () -> new Iron_Heavy_ArmorItem(ModArmorMaterials.IRON_HEAVY, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> IRON_HEAVY_ARMOR_LEGGINGS = REGISTER.register("iron_heavy_armor_leggings", () -> new Iron_Heavy_ArmorItem(ModArmorMaterials.IRON_HEAVY, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> IRON_HEAVY_ARMOR_BOOTS = REGISTER.register("iron_heavy_armor_boots", () -> new Iron_Heavy_ArmorItem(ModArmorMaterials.IRON_HEAVY, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> DIAMOND_LIGHT_ARMOR_HELMET = REGISTER.register("diamond_light_armor_helmet", () -> new Diamond_Light_ArmorItem(ModArmorMaterials.DIAMOND_LIGHT, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_LIGHT_ARMOR_CHESTPLATE = REGISTER.register("diamond_light_armor_chestplate", () -> new Diamond_Light_ArmorItem(ModArmorMaterials.DIAMOND_LIGHT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_LIGHT_ARMOR_LEGGINGS = REGISTER.register("diamond_light_armor_leggings", () -> new Diamond_Light_ArmorItem(ModArmorMaterials.DIAMOND_LIGHT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_LIGHT_ARMOR_BOOTS = REGISTER.register("diamond_light_armor_boots", () -> new Diamond_Light_ArmorItem(ModArmorMaterials.DIAMOND_LIGHT, ArmorItem.Type.BOOTS, new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_HEAVY_ARMOR_HELMET = REGISTER.register("diamond_heavy_armor_helmet", () -> new Diamond_Heavy_ArmorItem(ModArmorMaterials.DIAMOND_HEAVY, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_HEAVY_ARMOR_CHESTPLATE = REGISTER.register("diamond_heavy_armor_chestplate", () -> new Diamond_Heavy_ArmorItem(ModArmorMaterials.DIAMOND_HEAVY, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_HEAVY_ARMOR_LEGGINGS = REGISTER.register("diamond_heavy_armor_leggings", () -> new Diamond_Heavy_ArmorItem(ModArmorMaterials.DIAMOND_HEAVY, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> DIAMOND_HEAVY_ARMOR_BOOTS = REGISTER.register("diamond_heavy_armor_boots", () -> new Diamond_Heavy_ArmorItem(ModArmorMaterials.DIAMOND_HEAVY, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> NETHER_LIGHT_ARMOR_HELMET = REGISTER.register("nether_light_armor_helmet", () -> new Nether_Light_ArmorItem(ModArmorMaterials.NETHER_LIGHT, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> NETHER_LIGHT_ARMOR_CHESTPLATE = REGISTER.register("nether_light_armor_chestplate", () -> new Nether_Light_ArmorItem(ModArmorMaterials.NETHER_LIGHT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> NETHER_LIGHT_ARMOR_LEGGINGS = REGISTER.register("nether_light_armor_leggings", () -> new Nether_Light_ArmorItem(ModArmorMaterials.NETHER_LIGHT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> NETHER_LIGHT_ARMOR_BOOTS = REGISTER.register("nether_light_armor_boots", () -> new Nether_Light_ArmorItem(ModArmorMaterials.NETHER_LIGHT, ArmorItem.Type.BOOTS, new Item.Properties()));
+    public static final RegistryObject<Item> NETHER_MEDIUM_ARMOR_HELMET = REGISTER.register("nether_medium_armor_helmet", () -> new  Nether_Medium_ArmorItem(ModArmorMaterials.NETHER_MEDIUM, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> NETHER_MEDIUM_ARMOR_CHESTPLATE = REGISTER.register("nether_medium_armor_chestplate", () -> new  Nether_Medium_ArmorItem(ModArmorMaterials.NETHER_MEDIUM, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> NETHER_MEDIUM_ARMOR_BOOTS = REGISTER.register("nether_medium_armor_boots", () -> new Nether_Medium_ArmorItem(ModArmorMaterials.NETHER_MEDIUM, ArmorItem.Type.BOOTS, new Item.Properties()));
+
+    public static final RegistryObject<Item> OCEAN_LIGHT_ARMOR_HELMET = REGISTER.register("ocean_light_armor_helmet", () -> new Ocean_Light_ArmorItem(ModArmorMaterials.OCEAN_LIGHT, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> OCEAN_LIGHT_ARMOR_CHESTPLATE = REGISTER.register("ocean_light_armor_chestplate", () -> new Ocean_Light_ArmorItem(ModArmorMaterials.OCEAN_LIGHT, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> OCEAN_LIGHT_ARMOR_LEGGINGS = REGISTER.register("ocean_light_armor_leggings", () -> new Ocean_Light_ArmorItem(ModArmorMaterials.OCEAN_LIGHT, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> OCEAN_LIGHT_ARMOR_BOOTS = REGISTER.register("ocean_light_armor_boots", () -> new Ocean_Light_ArmorItem(ModArmorMaterials.OCEAN_LIGHT, ArmorItem.Type.BOOTS, new Item.Properties()));
+    public static final RegistryObject<Item> OCEAN_MEDIUM_ARMOR_HELMET = REGISTER.register("ocean_medium_armor_helmet", () -> new Ocean_Medium_ArmorItem(ModArmorMaterials.OCEAN_MEDIUM, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> OCEAN_MEDIUM_ARMOR_CHESTPLATE = REGISTER.register("ocean_medium_armor_chestplate", () -> new Ocean_Medium_ArmorItem(ModArmorMaterials.OCEAN_MEDIUM, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> OCEAN_MEDIUM_ARMOR_LEGGINGS = REGISTER.register("ocean_medium_armor_leggings", () -> new Ocean_Medium_ArmorItem(ModArmorMaterials.OCEAN_MEDIUM, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> OCEAN_MEDIUM_ARMOR_BOOTS = REGISTER.register("ocean_medium_armor_boots", () -> new Ocean_Medium_ArmorItem(ModArmorMaterials.OCEAN_MEDIUM, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     //blueprint
     //public static final RegistryObject<Item> ADVANCED_COPPER_BLUPRINT = REGISTER.register("gravekeeper_blueprint", () -> new BlueprintItem(new Item.Properties().stacksTo(1)));
@@ -491,9 +531,8 @@ public class ModItems {
     //public static final RegistryObject<Item> ADVANCED_DIAMOND_BLUPRINT = REGISTER.register("gravekeeper_blueprint", () -> new BlueprintItem(new Item.Properties().stacksTo(1)));
     //public static final RegistryObject<Item> ADVANCED_NETHER_BLUPRINT = REGISTER.register("gravekeeper_blueprint", () -> new BlueprintItem(new Item.Properties().stacksTo(1)));
     //public static final RegistryObject<Item> ADVANCED_OCEAN_BLUPRINT = REGISTER.register("gravekeeper_blueprint", () -> new BlueprintItem(new Item.Properties().stacksTo(1)));
-    //arounds
 
-    //public static final RegistryObject<Item> THE_HUNGER = REGISTER.register("hunger", () -> new AmmoItem(new Item.Properties()));
+
 
     //other items
     public static final RegistryObject<Item> LESSER_STRAWMAN = REGISTER.register("lesser_strawman",

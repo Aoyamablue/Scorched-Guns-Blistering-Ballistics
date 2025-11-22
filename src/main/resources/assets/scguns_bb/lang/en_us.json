@@ -40,6 +40,54 @@
 "item.scguns_bb.whalefall": "Whalefall",
 "item.scguns_bb.woodpecker": "Woodpecker",
 
+  //armor
+
+  "item.scguns_bb.copper_light_armor_helmet": "Trench Trooper Helmet",
+  "item.scguns_bb.copper_light_armor_chestplate": "Trench Trooper Chestplate",
+  "item.scguns_bb.copper_light_armor_leggings": "Trench Trooper Leggings",
+  "item.scguns_bb.copper_light_armor_boots": "Trench Trooper Boots",
+  "item.scguns_bb.copper_heavy_armor_helmet": "Trench Raider Helmet",
+  "item.scguns_bb.copper_heavy_armor_chestplate": "Trench Raider Chestplate",
+  "item.scguns_bb.copper_heavy_armor_leggings": "Trench Raider Leggings",
+  "item.scguns_bb.copper_heavy_armor_boots": "Trench Raider Boots",
+
+  "item.scguns_bb.iron_light_armor_helmet": "Iron Standard Helmet",
+  "item.scguns_bb.iron_light_armor_chestplate": "Iron Standard Chestplate",
+  "item.scguns_bb.iron_light_armor_leggings": "Iron Standard Leggings",
+  "item.scguns_bb.iron_light_armor_boots": "Iron Standard Boots",
+  "item.scguns_bb.iron_heavy_armor_helmet": "Iron Battle Helmet",
+  "item.scguns_bb.iron_heavy_armor_chestplate": "Iron Battle Chestplate",
+  "item.scguns_bb.iron_heavy_armor_leggings": "Iron Battle Leggings",
+  "item.scguns_bb.iron_heavy_armor_boots": "Iron Battle Boots",
+
+  "item.scguns_bb.diamond_light_armor_helmet": "Diamond Steel Police Helmet",
+  "item.scguns_bb.diamond_light_armor_chestplate": "Diamond Steel Police Chestplate",
+  "item.scguns_bb.diamond_light_armor_leggings": "Diamond Steel Police Leggings",
+  "item.scguns_bb.diamond_light_armor_boots": "Diamond Steel Police Leggings",
+  "item.scguns_bb.diamond_heavy_armor_helmet": "Diamond Steel Riot Helmet",
+  "item.scguns_bb.diamond_heavy_armor_chestplate": "Diamond Steel Riot Chestplate",
+  "item.scguns_bb.diamond_heavy_armor_leggings": "Diamond Steel Riot Leggings",
+  "item.scguns_bb.diamond_heavy_armor_boots": "Diamond Steel Riot Boots",
+
+  "item.scguns_bb.nether_light_armor_helmet": "Nether Recon Boonie",
+  "item.scguns_bb.nether_light_armor_chestplate": "Nether Recon Chestplate",
+  "item.scguns_bb.nether_light_armor_leggings": "Nether Trooper Leggings",
+  "item.scguns_bb.nether_light_armor_boots": "Nether Recon Boots",
+  "item.scguns_bb.nether_medium_armor_helmet": "Nether GI Helmet",
+  "item.scguns_bb.nether_medium_armor_chestplate": "Nether GI Chestplate",
+  "item.scguns_bb.nether_medium_armor_boots": "Nether GI Boots",
+
+  "item.scguns_bb.ocean_light_armor_helmet": "Ocean Spec Ops Helmet",
+  "item.scguns_bb.ocean_light_armor_chestplate": "Ocean Spec Ops Chestplate",
+  "item.scguns_bb.ocean_light_armor_leggings": "Ocean Spec Ops Leggings",
+  "item.scguns_bb.ocean_light_armor_boots": "Ocean Spec Ops Boots",
+  "item.scguns_bb.ocean_medium_armor_helmet": "Ocean Marine Helmet",
+  "item.scguns_bb.ocean_medium_armor_chestplate": "Ocean Marine Chestplate",
+  "item.scguns_bb.ocean_medium_armor_leggings": "Ocean Marine Leggings",
+  "item.scguns_bb.ocean_medium_armor_boots": "Ocean Marine Boots",
+
+
+
   "item.scguns_bb.copper_craftingtool": "Emergency Manual",
   "item.scguns_bb.iron_craftingtool": "Republic Equipment Usage Agreement",
   "item.scguns_bb.diamond_craftingtool": "Memory recording device with Seal",

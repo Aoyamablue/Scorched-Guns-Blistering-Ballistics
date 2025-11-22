@@ -1,0 +1,376 @@
+{
+	"credit": "Made with Blockbench",
+	"loader": "framework:open_model",
+	"texture_size": [64, 64],
+	"textures": {
+		"neptune_spear": "scguns_bb:item/neptune_spear"
+	},
+	"components": [
+		{
+			"from": [7.43787, 4.52267, 15.60233],
+			"to": [8.43787, 5.52267, 16.10233],
+			"rotation": {"angle": -45, "axis": "z", "origin": [7.78787, 4.87267, 7.30233]},
+			"faces": {
+				"north": {"uv": [7.75, 2.25, 8, 2.5], "texture": "#neptune_spear"},
+				"east": {"uv": [0.5, 8.75, 0.625, 9], "texture": "#neptune_spear"},
+				"south": {"uv": [2.5, 7.75, 2.75, 8], "texture": "#neptune_spear"},
+				"west": {"uv": [8.75, 0.5, 8.875, 0.75], "texture": "#neptune_spear"},
+				"up": {"uv": [1, 8.875, 0.75, 8.75], "texture": "#neptune_spear"},
+				"down": {"uv": [9, 0.75, 8.75, 0.875], "texture": "#neptune_spear"}
+			}
+		},
+		{
+			"from": [8.45, 4.7, 10.6],
+			"to": [8.8, 5.25, 11.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.55, 4.7, 2.55]},
+			"faces": {
+				"north": {"uv": [9, 1, 9.125, 1.125], "texture": "#neptune_spear"},
+				"east": {"uv": [1.25, 9, 1.375, 9.125], "texture": "#neptune_spear"},
+				"south": {"uv": [9, 1.25, 9.125, 1.375], "texture": "#neptune_spear"},
+				"west": {"uv": [1.5, 9, 1.625, 9.125], "texture": "#neptune_spear"},
+				"up": {"uv": [9.125, 1.625, 9, 1.5], "texture": "#neptune_spear"},
+				"down": {"uv": [1.875, 9, 1.75, 9.125], "texture": "#neptune_spear"}
+			}
+		},
+		{
+			"from": [7.25, 2.46651, 16.06587],
+			"to": [8.75, 5.66651, 16.56587],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, 4.83651, 11.29087]},
+			"faces": {
+				"north": {"uv": [4.75, 2.25, 5.125, 3], "texture": "#neptune_spear"},
+				"east": {"uv": [7.25, 4.75, 7.375, 5.5], "texture": "#neptune_spear"},
+				"south": {"uv": [4.5, 4.75, 4.875, 5.5], "texture": "#neptune_spear"},
+				"west": {"uv": [7.25, 7, 7.375, 7.75], "texture": "#neptune_spear"},
+				"up": {"uv": [8.625, 0.375, 8.25, 0.25], "texture": "#neptune_spear"},
+				"down": {"uv": [0.875, 8.25, 0.5, 8.375], "texture": "#neptune_spear"}
+			}
+		},
+		{
+			"from": [7.375, 1.81651, 16.56587],
+			"to": [8.625, 5.66651, 17.06587],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.875, 5.08651, 11.39087]},
+			"faces": {
+				"north": {"uv": [3.5, 2.5, 3.875, 3.5], "texture": "#neptune_spear"},
+				"east": {"uv": [1.5, 6.75, 1.625, 7.75], "texture": "#neptune_spear"},
+				"south": {"uv": [3.5, 3.5, 3.875, 4.5], "texture": "#neptune_spear"},
+				"west": {"uv": [2.5, 6.75, 2.625, 7.75], "texture": "#neptune_spear"},
+				"up": {"uv": [8.625, 0.625, 8.25, 0.5], "texture": "#neptune_spear"},
+				"down": {"uv": [8.625, 1, 8.25, 1.125], "texture": "#neptune_spear"}
+			}
+		},
+		{
+			"from": [7.2, 4.7, 10.6],
+			"to": [7.55, 5.25, 11.3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.2, 4.7, 2.55]},
+			"faces": {
+				"north": {"uv": [9, 1.75, 9.125, 1.875], "texture": "#neptune_spear"},
+				"east": {"uv": [2, 9, 2.125, 9.125], "texture": "#neptune_spear"},
+				"south": {"uv": [9, 2, 9.125, 2.125], "texture": "#neptune_spear"},
+				"west": {"uv": [2.25, 9, 2.375, 9.125], "texture": "#neptune_spear"},
+				"up": {"uv": [9.125, 2.375, 9, 2.25], "texture": "#neptune_spear"},
+				"down": {"uv": [2.625, 9, 2.5, 9.125], "texture": "#neptune_spear"}
+			}
+		},
+		{
+			"from": [8.5, 4.75, 11.3],
+			"to": [8.75, 5.2, 16.1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 4.65, 3.25]},
+			"faces": {
+				"north": {"uv": [9, 2.5, 9.125, 2.625], "texture": "#neptune_spear"},
+				"east": {"uv": [5.75, 1.25, 7, 1.375], "texture": "#neptune_spear"},
+				"south": {"uv": [2.75, 9, 2.875, 9.125], "texture": "#neptune_spear"},
+				"west": {"uv": [5.75, 4.25, 7, 4.375], "texture": "#neptune_spear"},
+				"up": {"uv": [4.125, 7, 4, 5.75], "texture": "#neptune_spear"},
+				"down": {"uv": [4.375, 5.75, 4.25, 7], "texture": "#neptune_spear"}
+			}
+		},
+		{
+			"from": [7.25, 4.75, 11.3],
+			"to": [7.5, 5.2, 16.1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.25, 4.65, 3.25]},
+			"faces": {
+				"north": {"uv": [9, 2.75, 9.125, 2.875], "texture": "#neptune_spear"},
+				"east": {"uv": [5.75, 4.5, 7, 4.625], "texture": "#neptune_spear"},
+				"south": {"uv": [3, 9, 3.125, 9.125], "texture": "#neptune_spear"},
+				"west": {"uv": [5.75, 4.75, 7, 4.875], "texture": "#neptune_spear"},
+				"up": {"uv": [5.875, 6.25, 5.75, 5], "texture": "#neptune_spear"},
+				"down": {"uv": [5.375, 5.75, 5.25, 7], "texture": "#neptune_spear"}
+			}
+		},
+		{
+			"from": [6.68053, 4.89456, 13.04375],
+			"to": [7.28053, 5.49456, 15.24375],
+			"rotation": {"angle": 45, "axis": "z", "origin": [7.44053, 5.59456, 14.22375]},
+			"faces": {
+				"north": {"uv": [9, 3, 9.125, 3.125], "texture": "#neptune_spear"},
+				"east": {"uv": [3, 7.75, 3.5, 7.875], "texture": "#neptune_spear"},
+				"south": {"uv": [3.25, 9, 3.375, 9.125], "texture": "#neptune_spear", "cullface": "south"},
+				"west": {"uv": [7.75, 3.25, 8.25, 3.375], "texture": "#neptune_spear"},
+				"up": {"uv": [3.625, 8.25, 3.5, 7.75], "texture": "#neptune_spear"},
+				"down": {"uv": [3.875, 7.75, 3.75, 8.25], "texture": "#neptune_spear"}
+			}
+		},
+		{
+			"from": [6.97384, 3.46645, 14.84375],
+			"to": [6.97384, 4.98645, 15.24375],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.71384, 4.16645, 14.03375]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0.375], "texture": "#neptune_spear"},
+				"south": {"uv": [0, 0, 0, 0.375], "texture": "#neptune_spear", "cullface": "south"},
+				"west": {"uv": [1, 8.25, 1.125, 8.625], "texture": "#neptune_spear"},
+				"up": {"uv": [0, 0, 0, 0.125], "texture": "#neptune_spear"},
+				"down": {"uv": [0, 0, 0, 0.125], "texture": "#neptune_spear"}
+			}
+		},
+		{
+			"from": [8.17384, 3.86645, 13.04375],
+			"to": [8.17384, 4.98645, 13.44375],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.91384, 4.16645, 12.23375]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0.25], "texture": "#neptune_spear"},
+				"east": {"uv": [1, 8.75, 1.125, 9], "texture": "#neptune_spear"},
+				"south": {"uv": [0, 0, 0, 0.25], "texture": "#neptune_spear", "cullface": "south"},
+				"up": {"uv": [0, 0, 0, 0.125], "texture": "#neptune_spear"},
+				"down": {"uv": [0, 0, 0, 0.125], "texture": "#neptune_spear"}
+			}
+		},
+		{
+			"from": [7.88053, 4.89456, 13.04375],
+			"to": [8.48053, 5.49456, 15.24375],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8.64053, 5.59456, 14.22375]},
+			"faces": {
+				"north": {"uv": [9, 3.25, 9.125, 3.375], "texture": "#neptune_spear"},
+				"east": {"uv": [7.75, 3.5, 8.25, 3.625], "texture": "#neptune_spear"},
+				"south": {"uv": [3.5, 9, 3.625, 9.125], "texture": "#neptune_spear", "cullface": "south"},
+				"west": {"uv": [4, 7.75, 4.5, 7.875], "texture": "#neptune_spear"},
+				"up": {"uv": [7.875, 4.75, 7.75, 4.25], "texture": "#neptune_spear"},
+				"down": {"uv": [4.625, 7.75, 4.5, 8.25], "texture": "#neptune_spear"}
+			}
+		},
+		{
+			"from": [7.82137, 3.46645, 13.84375],
+			"to": [7.82137, 4.98645, 14.24375],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.56137, 4.16645, 13.03375]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0.375], "texture": "#neptune_spear"},
+				"south": {"uv": [0, 0, 0, 0.375], "texture": "#neptune_spear", "cullface": "south"},
+				"west": {"uv": [1.5, 8.25, 1.625, 8.625], "texture": "#neptune_spear"},
+				"up": {"uv": [0, 0, 0, 0.125], "texture": "#neptune_spear"},
+				"down": {"uv": [0, 0, 0, 0.125], "texture": "#neptune_spear"}
+			}
+		},
+		{
+			"from": [9.02137, 3.86645, 14.84375],
+			"to": [9.02137, 4.98645, 15.24375],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.76137, 4.16645, 14.03375]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 0.25], "texture": "#neptune_spear"},
+				"east": {"uv": [8.75, 1, 8.875, 1.25], "texture": "#neptune_spear"},
+				"south": {"uv": [0, 0, 0, 0.25], "texture": "#neptune_spear", "cullface": "south"},
+				"up": {"uv": [0, 0, 0, 0.125], "texture": "#neptune_spear"},
+				"down": {"uv": [0, 0, 0, 0.125], "texture": "#neptune_spear"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 6.75, -7],
+			"scale": [1.3, 1.3, 1.3]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 6.75, -7],
+			"scale": [1.3, 1.3, 1.3]
+		},
+		"firstperson_righthand": {
+			"translation": [-4.5, 9.5, -1]
+		},
+		"firstperson_lefthand": {
+			"translation": [-4.5, 9.5, -1]
+		},
+		"ground": {
+			"translation": [0, 9.5, -3.75],
+			"scale": [1.3, 1.3, 1.3]
+		},
+		"gui": {
+			"rotation": [74.02, -53.34, 70.48],
+			"translation": [-1, 6.25, 0],
+			"scale": [1.1, 1.1, 1.1]
+		},
+		"fixed": {
+			"rotation": [90, 55, -90],
+			"translation": [1.5, 8.5, 0],
+			"scale": [1.5, 1.5, 1.5]
+		}
+	},
+	"groups": [
+		{
+			"uuid": "30632de2-3306-8a2a-5730-09a8367a4d51",
+			"isOpen": true,
+			"children": [
+				"22044dc2-40c1-7dfa-64f5-dcec57d6e0ff",
+				"c72981ad-eeda-98e7-03ba-f40287749a2f",
+				"1d42e865-c5c3-d3d8-c698-7cf4b03a7824",
+				"f6205faa-4ac5-5456-8483-354fc5ec4219",
+				"9ad698b3-ae9b-1469-a387-2cad9f34e647",
+				"e0ef36f9-4859-fda8-593a-2b3cfcb4530a",
+				"cea497ea-9071-1bb1-4bd9-4084b95be846",
+				"82ac9f37-fdec-2213-a20f-57317041e41b",
+				"9007923d-4bc5-8295-ca83-89a8deed8a86",
+				"462b6297-bcd5-9743-46d7-b299d0f5e59c",
+				"2497ae36-c15b-c4d4-b1fe-ef2c92a18336",
+				"3b0b67b9-8652-2dfd-6f7e-9106a516e820",
+				"2e6683bb-3822-8bc4-cf26-507238bd7a34",
+				"2b38d343-5e37-dc22-96e0-80c7de6ce704",
+				"405075ec-7e5b-73e5-e8a9-4585a12cd435",
+				"c8bfc974-0625-53f7-7764-c9e5a4880601",
+				"60de04a2-3e12-07fe-2327-0d6f07221897",
+				"8a1694a2-76ce-6c62-3a63-2d2996e081d9",
+				"93e402c5-cf2d-5af4-57e4-d827ef05a808",
+				"9d366fdc-cc9d-88a7-3cbc-c17328706289",
+				"afa7d7ca-024c-cc4d-8252-34d2ae806fde",
+				"246d3acb-bac5-55b4-86ee-7665b7dba92e",
+				"7f3ba099-e42d-841f-c24b-06050bb6cd22",
+				"5e32eef3-512f-fc85-92e2-c35ef75c4685",
+				"dbea5047-70da-6452-817d-b84d336c9788",
+				"e2334f6b-674c-f1f7-92a5-33500d8ad9b3",
+				"3a873855-0a17-789f-53e5-9c93cd538f1f",
+				"bfd4e882-eca0-c62e-8f69-a83ac1a202fc",
+				"d06f933c-5084-9aed-a715-2b1fb1bfe6e6",
+				"c014822a-ead3-c395-68fc-0e73c985852f"
+			]
+		},
+		{
+			"uuid": "697db619-4df2-a0f8-9328-c0fa55121f26",
+			"isOpen": true,
+			"children": ["48d8264d-c57a-ab40-667f-b26e7c78d8a5", "864b13c4-2968-6883-b036-7951135abc76"]
+		},
+		{
+			"uuid": "974fcb70-951d-ba41-0f78-c7e2e708045e",
+			"isOpen": true,
+			"children": ["84c81bac-5bd1-c9fd-4092-b1193fa0b232", "c4a202af-484f-71b2-5b58-3a9b218ad55b"]
+		},
+		{
+			"uuid": "cf673db1-1c8a-9e60-882e-5665f91aacbe",
+			"isOpen": true,
+			"children": ["2b0cf78b-7cfe-18ed-f449-835104c8bed4", "c72bdba5-8ae7-e7b8-6b57-dab3106877ad", "4da87542-aba0-5eb1-2325-abfcddcc5ac1"]
+		},
+		{
+			"uuid": "a7a91ee9-26a8-0796-78ae-a1dd4f61d8e3",
+			"isOpen": true,
+			"children": [
+				"7a3580be-6e6a-4d20-1a94-950dd9998c8d",
+				"912e5e9b-6f9e-26a8-1674-508671327454",
+				"f25077e2-4b9b-e8de-9ac1-f3236295e88e",
+				"ca90a7e4-4e5e-0a40-90fe-0f1075e6e5e0",
+				"8dd70b1a-946b-202c-9428-cda4872bc8a7",
+				"843b7cb7-3a0e-7b92-9376-c2f1c97bb782",
+				"fd44a51f-4921-ec9f-0acc-951ca0cb9b40",
+				"8000f448-4542-00d3-ecb6-6788f0dd3b48",
+				"5a65d32f-4d84-e772-0e5c-8dd805f67719",
+				"4b5900b1-121a-83d7-50c8-bd356be7532d",
+				"830c5d78-1b58-2bf2-1743-07361b26ff72"
+			]
+		},
+		{
+			"uuid": "15f4f287-59ac-3aba-3306-3624fd886918",
+			"isOpen": true,
+			"children": [
+				"8b4dcfde-fa01-141b-c574-cd14470425a3",
+				"7e42edf2-874d-c95d-2c7a-eb76c2e12741",
+				"a0061da9-f71d-32cd-728c-9853cf4c1a99",
+				"5b131086-e5cd-5909-6d94-8232a413ab9c"
+			]
+		},
+		{
+			"uuid": "488a4e00-82f0-d54a-af74-f7916f3eab09",
+			"isOpen": true,
+			"children": ["5f8693bb-8468-2770-c582-bbd4014a1ab5", "2298d22c-a616-ae9e-cb9c-f2d70f23a9d8", "bd4bb5ec-a2ba-f990-a611-d5392b3bec72"]
+		},
+		{
+			"uuid": "346a4102-01c6-7f49-80bd-352e86a61db8",
+			"isOpen": true,
+			"children": ["c53bc0d6-30fe-6b87-7189-f207a3a57b94", "f7ce2631-0bae-1abc-2893-ef9441abf8b0"]
+		},
+		{
+			"uuid": "2d734750-c49c-247a-1408-9e3c8233476a",
+			"isOpen": true,
+			"children": ["44992774-410d-81a2-56b2-c63904586c8d", "ca75ef5c-0b70-c1df-48be-2f9f45216253"]
+		},
+		{
+			"uuid": "1bf53d08-ea6c-bdb6-87bb-a2b928de6aa2",
+			"isOpen": true,
+			"children": [
+				"83325ab4-ec64-e54f-18ef-b81e957dec4f",
+				"78497807-f294-fdc6-821b-d04605babdfe",
+				"f47a2645-6bde-1804-6d01-15e469dc29a5",
+				"6ad4e68b-5bb7-5446-0b7e-b92ece9f9063",
+				"c642ea7e-fce9-1146-294d-b81fa4cae771",
+				"6584e8d8-feac-16ff-7ddd-12373d875e0d",
+				"2ea70b16-ef51-0098-9105-3963dc9ed721"
+			]
+		},
+		{
+			"uuid": "b3d6e94f-c037-e585-2da7-09b761b11168",
+			"isOpen": true,
+			"children": ["715a50e4-1df7-9eee-2b8c-16cc3f9173ff", "80ca29e7-08dc-3f1a-e5a5-61b71942cf43", "47a0d6ba-3690-9305-72a2-408c29ad611a"]
+		},
+		{
+			"uuid": "5e66062b-4319-a2a2-96d5-8939b1fcf238",
+			"isOpen": true,
+			"children": ["f219fa15-ac2d-c4df-69fd-3a214fdcb68e", "51a8cbc9-9bc8-43a8-9a8f-b86bebc912cf", "207f4729-b1c5-851e-cb01-6fed38a437ac"]
+		},
+		{
+			"uuid": "a1d367a8-2483-fd8b-1599-e1b37e3c2294",
+			"isOpen": true,
+			"children": [
+				"c81eb761-b732-426d-3432-7e8d49940c4a",
+				"2194de47-1674-aeb3-7e7a-93fad429f691",
+				"4c453d89-2ce0-a5bc-db41-7e13aec6f35b",
+				"2e19ee7a-cb6c-ad51-f5e6-feb261ecd649",
+				"71a34f0d-82a3-cdcd-508d-03ab69575340",
+				"bd4e775c-4cf1-df64-afcf-3641718c9d8c",
+				"aa35a98a-987b-b163-e4ad-717388d42d9c",
+				"8f4004a4-3e1e-b8b5-a266-6198fba6ac10"
+			]
+		},
+		{
+			"uuid": "bf1c98de-fa03-93cc-a054-277c4f22b62c",
+			"isOpen": true,
+			"children": [
+				"40a98191-b3ea-5a2a-fc04-da4c7dc6f4c2",
+				"8cc30407-9176-d4f5-8e89-9a873dad8c2e",
+				"898664d5-2e18-b848-1922-cbe33030df69",
+				"b7d67b70-6398-6860-7b95-325787e35846",
+				"982bbbc9-ed0d-e77b-57c6-ee4fa0f2dfd7",
+				"d4662acf-0150-99d5-1d8e-3096bdf4e27d",
+				"e066f400-dfcd-172d-6403-f0e7f4e5f83c",
+				"2ab0900e-f0b1-e50e-2a48-680cbaf1582b",
+				"bd9bfc3e-44c6-6a93-2eab-6fbee459e1d9",
+				"e232dbf5-c035-e0e9-24b8-a5665f8a529a",
+				"006d1037-420f-0bf2-7069-654ceda955bb",
+				"406e75ae-fc3e-a9d4-70c0-7576cd51cab1",
+				"335560bf-0d12-ecf7-1da4-5755059756c2"
+			]
+		},
+		{
+			"uuid": "ddcf5cb5-8768-2540-3a1f-50d4873321c4",
+			"isOpen": true,
+			"children": ["7483afb2-53ee-9a2f-5f1b-f07ec5ed51e0", "207e3cf6-f0d3-e55e-530d-cf82db910254", "6f1a6243-12ec-9749-ad00-6f4648e16306"]
+		},
+		{
+			"uuid": "2530daf4-ce08-f614-79b3-7170d6359194",
+			"isOpen": true,
+			"children": ["9c7ea033-7458-598f-e528-84d736b04679", "8d47832e-7db8-f9d5-5878-65583c8b6045", "1184fa18-c1b9-c8e9-f0ea-0632d4c41ca0"]
+		},
+		{
+			"uuid": "c5873902-6695-d618-cdbb-ea49e2302dc5",
+			"isOpen": true,
+			"children": ["3da471cf-5a87-88cf-1107-2db985fe6d76", "91b719b0-cb7c-c179-7ad5-cda8947cbe8d", "d510384b-a1b3-ea7f-0b3d-42977b139df1"]
+		},
+		{
+			"uuid": "1ed3ff3a-b791-19bf-b968-182c6bc8308b",
+			"isOpen": true,
+			"children": ["f6152e61-d36e-4264-7822-94646f00ff69", "db6ee70f-cef4-756e-c086-892cc3e92031", "992351eb-1398-7bdb-e6d5-b511e6e97201"]
+		}
+	]
+}
