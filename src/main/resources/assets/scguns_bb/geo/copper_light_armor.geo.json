@@ -1,5 +1,5 @@
 {
-	"format_version": "1.12.0",
+	"format_version": "1.21.20",
 	"minecraft:geometry": [
 		{
 			"description": {
@@ -18,7 +18,7 @@
 				{
 					"name": "armorHead",
 					"parent": "bipedHead",
-					"pivot": [0, 24.1, 0.5],
+					"pivot": [0, 24, 0.5],
 					"cubes": [
 						{
 							"origin": [2.50112, 30.22711, -7.18467],
